@@ -45,9 +45,18 @@ else
 fi
 
 echo
-if ! gh auth status >/dev/null 2>&1; then
-  echo "== 2/4 登录 GitHub（会打开浏览器）=="
-  echo "   如果没自动打开，终端会显示一个网址和一次性代码。"
+if [ -n "${GH_TOKEN:-}" ]; then
+  echo "== 2/4 用环境变量中的令牌登录（不走浏览器，最稳）=="
+  printf '%s' "$GH_TOKEN" | gh auth login --with-token
+elif [ -f "$HOME/.config/gh/token.txt" ]; then
+  echo "== 2/4 用本地令牌文件登录（不走浏览器）=="
+  gh auth login --with-token < "$HOME/.config/gh/token.txt"
+elif ! gh auth status >/dev/null 2>&1; then
+  echo "== 2/4 登录 GitHub =="
+  echo "   浏览器设备码流程在部分代理环境下点提交会断连。"
+  echo "   更稳的办法：先在本机粘贴令牌到 $HOME/.config/gh/token.txt，"
+  echo "   然后重新双击本脚本——它会直接读文件登录，不再走浏览器。"
+  echo "   现在先尝试标准浏览器流程："
   gh auth login --web --git-protocol https --scopes repo,workflow
 else
   echo "== 2/4 已登录，跳过 =="
