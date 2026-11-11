@@ -1,0 +1,6 @@
+{
+  "name": "doctoral-toolbox-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-dependency Azure Functions v4 (v3 programming model) prototype"
+}

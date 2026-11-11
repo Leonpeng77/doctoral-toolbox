@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Doctoral Toolbox</title>
+<meta name="description" content="Why Doctoral Toolbox exists, what the tools do, how they are built, and where their limits are.">
+<link rel="canonical" href="https://doctoral-toolbox.app.workbuddy.host/about.html">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Doctoral <span>Toolbox</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="tools/apa7-citation.html">APA 7 generator</a>
+      <a href="tools/reference-check.html">Reference checker</a>
+      <a href="guides/apa7-reference-list.html">Guides</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap narrow">
+      <p class="eyebrow">About</p>
+      <h1>A small site for the mechanical parts of doctoral writing</h1>
+      <p class="lede">I built this site while writing my own doctorate, because I was losing hours to reference formatting that should have taken minutes. These are the tools I wished existed: small, transparent, and honest about what they cannot do.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap narrow">
+      <h2>Why this exists</h2>
+      <p>Reference styles, dissertation templates and reference managers each implement a slightly different version of the same rules. The result is that doctoral candidates spend hours on punctuation while supervisors spend hours marking it. The problem is not intellectual difficulty; it is that the rules are numerous, mostly mechanical, and badly served by tools that hide what they did.</p>
+      <p>This site takes the opposite approach. Each tool is small, does one job, shows its output in both formatted and plain text, and explains the rule being applied on the same page. Where a rule cannot be applied reliably — automatic sentence-case conversion is the clearest example — the tool declines to guess and tells you what to check instead.</p>
+
+      <h2>Send me one reference</h2>
+      <p>If one entry in your list is still wrong and you cannot see why, email it to me. I will check it against APA 7 and tell you exactly what to change — free, no sign-up, no mailing list. I do this because a broken citation is usually a symptom of a rule nobody explained properly, and fixing it with you tells me which rule needs a better tool or a clearer guide.</p>
+      <p><a class="btn" href="mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check">Send one reference</a></p>
+      <p class="small">One entry, pasted into an email. Please do not send drafts, chapters or participant data. If it helps, I will also send you the submission checklist I use on my own manuscript.</p>
+
+      <h2>Who this is for</h2>
+      <p>Doctoral candidates, especially in business and the social sciences, writing in APA 7 under a institutional template that is not quite the same as the manual. If you are supervising, a free reference audit for one of your students is also welcome.</p>
+
+      <h2>How the tools are built</h2>
+      <p>The tools are plain HTML, CSS and JavaScript with no framework, no build step, no third-party runtime library and no network calls. They run entirely in your browser. Nothing you type into a tool is transmitted anywhere, stored in a cookie, or written to local storage. You can open the JavaScript files in your browser's developer tools and read every formatting and checking rule.</p>
+      <p>This is a deliberate design decision, not just a privacy feature. A tool with no dependencies has no licence obligations to audit, no supply-chain updates to track, and no risk of a CDN going down the night before a submission deadline.</p>
+
+      <h2>What this site is not</h2>
+      <ul>
+        <li>It is not a style authority. The <em>Publication Manual of the American Psychological Association</em> (7th ed.), your institution's dissertation template, and your target journal's author guidelines all take precedence.</li>
+        <li>It is not a reference manager, a plagiarism checker, or a writing service.</li>
+        <li>It does not check whether a DOI resolves, whether a source exists, or whether a citation supports the claim attached to it.</li>
+        <li>It does not offer academic writing, ghostwriting or assignment preparation services.</li>
+      </ul>
+
+      <h2>Accuracy and corrections</h2>
+      <p>Style guidance evolves, and heuristics have edge cases. If a tool produces something you believe is wrong, please <a href="contact.html">get in touch</a> with the input you used, the output you received, and the rule or source you believe applies. Corrections to the published rules are made openly. Do not send unpublished manuscript text; a single synthetic example is enough.</p>
+
+      <h2>Supporting the site</h2>
+      <p>The tools are free and will stay free. To keep the site running I am also preparing a small set of paid templates for people who would rather start from a checked structure than build one: an APA 7 submission checklist, a literature synthesis matrix and a dissertation formatting kit. They are optional, and the free tools will never be gated behind them. If advertising is ever added, this page and the <a href="privacy.html">privacy policy</a> will be updated first, and ads will never sit inside a tool's input or output area. What you type is never tracked.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>&copy; <span class="year">2026</span> Doctoral Toolbox. Formatting aids, not style authority.</span>
+    <span><a href="about.html">About</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="privacy.html">Privacy</a></span>
+  </div>
+</footer>
+<script>
+var years = document.querySelectorAll('.year');
+for (var y = 0; y < years.length; y++) { years[y].textContent = new Date().getFullYear(); }
+</script>
+</body>
+</html>

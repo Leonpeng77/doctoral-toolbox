@@ -1,0 +1,20 @@
+# Local / generated
+.DS_Store
+*.log
+*.pyc
+__pycache__/
+.venv/
+venv/
+
+# Deployment output
+azure/function-app.zip
+azure/deploy-output.json
+azure/LAST-DEPLOY.txt
+azure/function-app/shared/vendor/
+
+# Published-app marker
+.wbapp_*.genie
+
+# Editors
+.vscode/
+.idea/

@@ -1,0 +1,41 @@
+Third-party notices for Doctoral Toolbox
+========================================
+
+Runtime dependencies: none.
+
+As of 10 November 2026 the site ships no third-party JavaScript, CSS,
+web fonts, icon sets, images or analytics code. All HTML, CSS and
+JavaScript in /assets, /tools and /guides was written for this project,
+including the APA 7 formatter, the fourteen-rule auditor and the
+messy-reference parser. Typefaces are the visitor's own system fonts.
+There are no CDN requests.
+
+The same three first-party modules in /assets/js are copied verbatim into
+the Azure development prototype at ../azure/function-app/shared/vendor/
+by ../azure/deploy.sh. They remain first-party code; vendoring is a
+packaging step, not a third-party dependency. The Azure prototype is a
+separate, non-commercial development/research service. This website does
+not call it and sends no visitor text to it.
+
+This means there are currently no copyright notices, licence texts or
+attribution obligations to satisfy for embedded third-party code.
+
+If a third-party component is added later, record the following here
+BEFORE it ships, and add the required notice text and licence file:
+
+  component name | version | upstream URL | SPDX identifier |
+  commercial use allowed (yes/no) | attribution requirement |
+  files modified (yes/no) | date checked
+
+Do not add a component whose repository has no LICENSE file, whose
+licence contains a non-commercial restriction, or whose licence is
+AGPL/GPL, without reviewing the obligations described in
+../LICENSE-AUDIT.md.
+
+Reference to APA style
+----------------------
+"APA" and "Publication Manual of the American Psychological Association"
+are referenced for descriptive purposes only. This site is not affiliated
+with, endorsed by, or sponsored by the American Psychological Association.
+The tools implement commonly described formatting patterns; they do not
+reproduce the manual's text.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://doctoral-toolbox.app.workbuddy.host/sitemap.xml

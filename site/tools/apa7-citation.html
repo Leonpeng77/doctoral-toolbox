@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APA 7 reference builder - free browser tool | Doctoral Toolbox</title>
+<meta name="description" content="Build an APA 7 reference for a journal article, book, chapter, web page, thesis or conference paper. Free, runs locally in your browser, no sign-up.">
+<link rel="canonical" href="https://doctoral-toolbox.app.workbuddy.host/tools/apa7-citation.html">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Doctoral <span>Toolbox</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="apa7-citation.html" aria-current="page">APA 7 generator</a>
+      <a href="reference-check.html">Reference checker</a>
+      <a href="../guides/apa7-reference-list.html">Guides</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Free tool</p>
+      <h1>APA 7 reference builder</h1>
+      <p class="lede">Enter the metadata once and get a structured APA 7 reference entry. The tool handles author initials, the serial comma, the 21-author ellipsis rule, sentence-case warnings and DOI normalisation. It does not silently rewrite your title.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:36px">
+    <div class="wrap">
+      <div class="tool-layout">
+        <div class="panel">
+          <h2>Source details</h2>
+          <form id="ref-form" autocomplete="off">
+            <label for="type">Source type</label>
+            <select id="type" name="type">
+              <option value="journal">Journal article</option>
+              <option value="book">Book</option>
+              <option value="chapter">Book chapter</option>
+              <option value="web">Web page</option>
+              <option value="thesis">Doctoral dissertation / thesis</option>
+              <option value="conference">Conference presentation</option>
+            </select>
+
+            <label for="authors">Authors <span class="hint">- one per line; pasted APA author strings also work</span></label>
+            <textarea id="authors" rows="4" placeholder="Smith, John A.&#10;Lee, B.&#10;Chen, C."></textarea>
+
+            <div class="row2">
+              <div>
+                <label for="year">Year</label>
+                <input id="year" type="text" placeholder="2024">
+              </div>
+              <div>
+                <label for="date">Date <span class="hint">- optional</span></label>
+                <input id="date" type="text" placeholder="2024, May 4">
+              </div>
+            </div>
+
+            <label for="title">Title <span class="hint">- use sentence case</span></label>
+            <input id="title" type="text" placeholder="Dynamic capabilities and firm performance">
+
+            <div data-only="journal">
+              <div class="row2">
+                <div>
+                  <label for="journal">Journal name</label>
+                  <input id="journal" type="text" placeholder="Journal of Business Research">
+                </div>
+                <div>
+                  <label for="volume">Volume</label>
+                  <input id="volume" type="text" placeholder="142">
+                </div>
+              </div>
+              <div class="row2">
+                <div>
+                  <label for="issue">Issue <span class="hint">- optional</span></label>
+                  <input id="issue" type="text" placeholder="3">
+                </div>
+                <div>
+                  <label for="pages">Pages <span class="hint">- optional</span></label>
+                  <input id="pages" type="text" placeholder="45-67">
+                </div>
+              </div>
+              <label for="doi">DOI <span class="hint">- bare, "doi:" or full URL</span></label>
+              <input id="doi" type="text" placeholder="10.1016/j.jbusres.2023.114321">
+            </div>
+
+            <div data-only="book">
+              <label for="edition">Edition <span class="hint">- e.g. 2nd ed.</span></label>
+              <input id="edition" type="text" placeholder="2nd ed.">
+              <label for="publisher">Publisher</label>
+              <input id="publisher" type="text" placeholder="Sage">
+            </div>
+
+            <div data-only="chapter">
+              <label for="editors">Editor(s) <span class="hint">- e.g. E. E. Editor (Ed.)</span></label>
+              <input id="editors" type="text" placeholder="E. E. Editor (Ed.)">
+              <label for="bookTitle">Book title</label>
+              <input id="bookTitle" type="text" placeholder="Handbook of research methods">
+              <label for="chapterPages">Chapter pages <span class="hint">- e.g. 15-30</span></label>
+              <input id="chapterPages" type="text" placeholder="15-30">
+              <label for="chapterPublisher">Publisher</label>
+              <input id="chapterPublisher" type="text" placeholder="Routledge">
+            </div>
+
+            <div data-only="web">
+              <label for="site">Site name <span class="hint">- omit if same as author</span></label>
+              <input id="site" type="text" placeholder="American Psychological Association">
+              <label for="url">URL</label>
+              <input id="url" type="text" placeholder="https://www.example.org/page">
+            </div>
+
+            <div data-only="thesis">
+              <label for="workType">Work type</label>
+              <input id="workType" type="text" placeholder="Doctoral dissertation">
+              <label for="institution">Institution</label>
+              <input id="institution" type="text" placeholder="Golden Gate University">
+              <label for="database">Database / repository</label>
+              <input id="database" type="text" placeholder="ProQuest Dissertations and Theses Global">
+            </div>
+
+            <div data-only="conference">
+              <label for="conference">Conference name</label>
+              <input id="conference" type="text" placeholder="Academy of Management Annual Meeting">
+              <label for="location">Location</label>
+              <input id="location" type="text" placeholder="Chicago, IL, United States">
+            </div>
+
+            <div class="btn-row">
+              <button class="btn" type="submit">Build reference</button>
+              <button class="btn secondary" type="button" id="fill-example">Load example</button>
+              <button class="btn secondary" type="button" id="clear-form">Clear</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="panel">
+          <h2>Your reference</h2>
+          <p class="small">Italic type is shown as it should appear in a manuscript. Copy the plain-text version into your reference manager.</p>
+          <div class="output" id="output-html" aria-live="polite">Fill in the form and choose "Build reference".</div>
+          <div class="output-actions">
+            <button class="btn" type="button" id="copy-btn">Copy plain text</button>
+            <span class="small" id="copy-status" role="status"></span>
+          </div>
+          <h3>Plain text</h3>
+          <div class="example" id="output-text">-</div>
+          <h3>Points to check</h3>
+          <ul class="notice-list" id="warnings"><li>Nothing to check yet.</li></ul>
+          <div class="callout" style="margin-top:22px">
+            <p><strong>Still not sure about an entry?</strong> Paste one reference into an email and I'll check it against APA 7 for free — and send you the 60-point submission checklist I use on my own manuscript.</p>
+            <p style="margin-bottom:0"><a href="mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check">Send one reference &rarr;</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap narrow">
+      <p class="eyebrow">How it works</p>
+      <h2>What the builder does, and what it deliberately refuses to do</h2>
+      <p>APA 7 reference entries follow a four-element structure: <strong>author</strong>, <strong>date</strong>, <strong>title</strong>, and <strong>source</strong>. The builder assembles those four elements in the right order for the source type you select, because the fourth element is the one that changes most: a journal article needs an italic journal title and volume, a book needs a publisher, a chapter needs an "In" clause with editors and page range, and a dissertation needs a bracketed description plus its repository.</p>
+
+      <h3>Author handling</h3>
+      <p>Names entered as "Smith, John A." are reduced to "Smith, J. A."; names entered as "John A. Smith" are inverted first. Hyphenated given names such as "Jean-Luc" become "J.-L." For a compound surname or a suffix such as "Jr.", use the <code>Surname, Given</code> form so the tool does not split the surname. The tool does not attempt to detect nobility particles, particles such as "van der", or organisation names with internal commas — enter those carefully and proofread the result.</p>
+      <p>The number of authors changes the punctuation. One author ends with a period. Two authors are joined with <code>, &amp; </code>. Three to twenty authors use a serial comma before the ampersand. With twenty-one or more, APA 7 lists the first nineteen, inserts an ellipsis, and then gives the final author with no ampersand; the builder implements that rule and tells you when it fires.</p>
+
+      <h3>Sentence case is your decision</h3>
+      <p>Reference titles take sentence case: capitalise the first word, the first word after a colon, and proper nouns. Converting Title Case automatically sounds easy but fails on acronyms, chemical names, proper nouns and discipline-specific capitalisation (for example "Dynamic Capabilities" may be a named theoretical construct in your field). The builder therefore preserves the title exactly as you type it and raises a warning when it detects three or more capitalised words that look like Title Case or ALL CAPS. Export tools and bibliographic databases commonly deliver Title Case; this is the single most common thing to fix after an import.</p>
+
+      <h3>Italics, DOIs and URLs</h3>
+      <p>For journal articles, the journal name and the volume number are italicised; the issue number in parentheses is not. For books and dissertations the title is italicised, and for web pages the site name is italicised unless it is identical to the author. A DOI is normalised to <code>https://doi.org/...</code> whether you paste the bare identifier, a <code>doi:</code> prefix, a <code>dx.doi.org</code> link or the final URL. No terminal period is added after a DOI or URL because it tends to be copied as part of the link.</p>
+      <p>If a journal article genuinely has no DOI, APA 7 says to end the entry at the page range when the article came from an academic database; do not add the database URL. Add a URL only for a webpage-style source or where your institution explicitly requires it.</p>
+
+      <h3>Privacy and verification</h3>
+      <p>The builder is a short JavaScript file with no dependencies and no network calls. You can read it, you can use it offline, and you can test the formatting rules yourself against the manual. If your institution uses a modified house style, treat the output as a starting point rather than a final answer.</p>
+
+      <h3>Worked example</h3>
+      <p>Given two authors (<code>Smith, John A.</code> and <code>Lee, B.</code>), year 2024, title <code>Dynamic capabilities and firm performance</code>, journal <code>Journal of Business Research</code>, volume 142, issue 3, pages 45-67, and DOI <code>10.1016/j.jbusres.2023.114321</code>, the expected output is:</p>
+      <div class="example">Smith, J. A., &amp; Lee, B. (2024). Dynamic capabilities and firm performance. Journal of Business Research, 142(3), 45-67. https://doi.org/10.1016/j.jbusres.2023.114321</div>
+      <p>In a manuscript the journal name and the "142" are italicised, and the DOI is a live link. Use "Load example" above to reproduce this directly in the tool.</p>
+
+      <div class="callout">
+        <p>Next step: once your list is assembled, run it through the <a href="reference-check.html">reference list auditor</a> to catch the mechanical mistakes that survive a formatting pass. The two tools are designed to be used together, and the <a href="../guides/apa7-reference-list.html">APA 7 reference list guide</a> explains each rule in full.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Related reading</p>
+      <h2>Understand the rules behind the output</h2>
+      <div class="grid">
+        <a class="card" href="../guides/apa7-reference-list.html">
+          <span class="tag">Guide</span>
+          <h3>The APA 7 reference list, checked line by line</h3>
+          <p>The four-element model, author rules from one to twenty-plus authors, sentence case, italics and DOI formatting, with a worked example and a pre-submission checklist.</p>
+        </a>
+        <a class="card" href="../guides/dba-literature-review-workflow.html">
+          <span class="tag">Guide</span>
+          <h3>A reproducible literature review workflow</h3>
+          <p>Seven stages from search string to synthesis matrix, including the search log, exclusion reason codes and version decisions that hold up in a methods chapter.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <span>&copy; <span class="year">2026</span> Doctoral Toolbox. Formatting aids, not style authority.</span>
+    <span><a href="../about.html">About</a> &middot; <a href="../contact.html">Contact</a> &middot; <a href="../privacy.html">Privacy</a></span>
+  </div>
+</footer>
+
+<script src="../assets/js/apa7.js"></script>
+<script>
+(function () {
+  'use strict';
+  var form = document.getElementById('ref-form');
+  var typeSelect = document.getElementById('type');
+  var outHtml = document.getElementById('output-html');
+  var outText = document.getElementById('output-text');
+  var warningList = document.getElementById('warnings');
+  var copyStatus = document.getElementById('copy-status');
+  var current = { text: '', html: '' };
+
+  function val(id) { var el = document.getElementById(id); return el ? el.value : ''; }
+
+  function showFields() {
+    var t = typeSelect.value;
+    var groups = document.querySelectorAll('[data-only]');
+    for (var i = 0; i < groups.length; i++) {
+      groups[i].style.display = groups[i].getAttribute('data-only') === t ? '' : 'none';
+    }
+  }
+
+  function collect() {
+    return {
+      type: typeSelect.value,
+      authors: val('authors'),
+      year: val('year'),
+      date: val('date'),
+      title: val('title'),
+      journal: val('journal'),
+      volume: val('volume'),
+      issue: val('issue'),
+      pages: typeSelect.value === 'chapter' ? val('chapterPages') : val('pages'),
+      doi: val('doi'),
+      edition: val('edition'),
+      publisher: typeSelect.value === 'chapter' ? val('chapterPublisher') : val('publisher'),
+      editors: val('editors'),
+      bookTitle: val('bookTitle'),
+      site: val('site'),
+      url: val('url'),
+      workType: val('workType'),
+      institution: val('institution'),
+      database: val('database'),
+      conference: val('conference'),
+      location: val('location')
+    };
+  }
+
+  function render() {
+    var result = window.APA7.formatReference(collect());
+    current = result;
+    outHtml.innerHTML = result.html || 'Fill in the form and choose "Build reference".';
+    outText.textContent = result.text || '-';
+    warningList.innerHTML = '';
+    if (!result.warnings.length) {
+      warningList.innerHTML = '<li>No warnings. Still proofread against the manual.</li>';
+    } else {
+      result.warnings.forEach(function (w) {
+        var li = document.createElement('li');
+        li.textContent = w;
+        warningList.appendChild(li);
+      });
+    }
+    copyStatus.textContent = '';
+  }
+
+  form.addEventListener('submit', function (e) { e.preventDefault(); render(); });
+  typeSelect.addEventListener('change', function () {
+    showFields();
+    if (current.text) render();
+  });
+
+  document.getElementById('fill-example').addEventListener('click', function () {
+    typeSelect.value = 'journal';
+    showFields();
+    document.getElementById('authors').value = 'Smith, John A.\nLee, B.';
+    document.getElementById('year').value = '2024';
+    document.getElementById('title').value = 'Dynamic capabilities and firm performance';
+    document.getElementById('journal').value = 'Journal of Business Research';
+    document.getElementById('volume').value = '142';
+    document.getElementById('issue').value = '3';
+    document.getElementById('pages').value = '45-67';
+    document.getElementById('doi').value = '10.1016/j.jbusres.2023.114321';
+    render();
+  });
+
+  document.getElementById('clear-form').addEventListener('click', function () {
+    form.reset();
+    showFields();
+    outHtml.textContent = 'Fill in the form and choose "Build reference".';
+    outText.textContent = '-';
+    warningList.innerHTML = '<li>Nothing to check yet.</li>';
+    current = { text: '', html: '' };
+  });
+
+  document.getElementById('copy-btn').addEventListener('click', function () {
+    if (!current.text) { copyStatus.textContent = 'Build a reference first.'; return; }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(current.text).then(function () {
+        copyStatus.textContent = 'Copied.';
+      }, function () { copyStatus.textContent = 'Clipboard blocked - select the text below.'; });
+    } else {
+      copyStatus.textContent = 'Clipboard unavailable - select the text below.';
+    }
+  });
+
+  var years = document.querySelectorAll('.year');
+  for (var y = 0; y < years.length; y++) { years[y].textContent = new Date().getFullYear(); }
+  showFields();
+})();
+</script>
+</body>
+</html>
