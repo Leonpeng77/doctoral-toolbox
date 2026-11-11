@@ -357,6 +357,39 @@ def seo_checks():
            + (": " + "; ".join(problems[:4]) if problems else ""))
 
 
+def deliverable_check():
+    """The lead-magnet PDF must be buildable and contain every checklist item."""
+    md = ROOT / "products" / "apa7-submission-checklist.md"
+    build = ROOT / "build_pdf.py"
+    if not md.exists() or not build.exists():
+        record("Lead-magnet PDF build", False, "source Markdown or build script missing")
+        return
+    expected = len(re.findall(r"^- \[ \] ", md.read_text(encoding="utf-8"), re.M))
+    venv_py = ROOT / ".buildenv" / "bin" / "python"
+    if not venv_py.exists():
+        record("Lead-magnet PDF build", False, ".buildenv missing - run build_pdf.py setup")
+        return
+    proc = subprocess.run([str(venv_py), str(build)], capture_output=True, text=True)
+    if proc.returncode != 0:
+        record("Lead-magnet PDF build", False, proc.stderr.strip().splitlines()[-1][:160])
+        return
+    pdf = ROOT / "products" / "dist" / "apa7-submission-checklist.pdf"
+    try:
+        from pypdf import PdfReader  # available inside .buildenv, not system python
+        sys.path.insert(0, str(ROOT / ".buildenv" / "lib" / "python3.13" / "site-packages"))
+        from pypdf import PdfReader as Reader
+        reader = Reader(str(pdf))
+        text = "".join(p.extract_text() for p in reader.pages)
+        boxes = text.count("[ ]")
+        ok = boxes == expected and len(reader.pages) >= 2
+        record("Lead-magnet PDF build", ok,
+               f"{len(reader.pages)} pages, {boxes}/{expected} checks, " +
+               f"{pdf.stat().st_size:,} bytes")
+    except Exception as exc:
+        record("Lead-magnet PDF build", pdf.exists(),
+               f"built but text check unavailable ({type(exc).__name__})")
+
+
 def prelaunch_check():
     hits = []
     for path in SITE.rglob("*"):
@@ -386,6 +419,7 @@ def main():
     runtime_dependency_check()
     content_checks()
     seo_checks()
+    deliverable_check()
     azure_checks()
     placeholder_report()
     if "--prelaunch" in sys.argv:
