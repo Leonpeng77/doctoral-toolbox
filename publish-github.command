@@ -57,7 +57,7 @@ elif ! gh auth status >/dev/null 2>&1; then
   echo "   重要：这台 Mac 的代理会掐掉浏览器提交，所以不要用 Mac 浏览器授权。"
   echo "   看到 XXXX-XXXX 的码之后，请用【手机浏览器】打开"
   echo "       https://github.com/login/device"
-  echo "   登录 Leonpeng488 并输入该码——手机走流量，不经过这台 Mac 的代理。"
+  echo "   登录 Leonpeng77 并输入该码——手机走流量，不经过这台 Mac 的代理。"
   echo "   码同时会记录到 $HOME/.config/gh/auth-output.log，方便核对。"
   echo
   AUTH_LOG="$HOME/.config/gh/auth-output.log"
