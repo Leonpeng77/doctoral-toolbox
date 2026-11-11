@@ -53,11 +53,23 @@ elif [ -f "$HOME/.config/gh/token.txt" ]; then
   gh auth login --with-token < "$HOME/.config/gh/token.txt"
 elif ! gh auth status >/dev/null 2>&1; then
   echo "== 2/4 登录 GitHub =="
-  echo "   浏览器设备码流程在部分代理环境下点提交会断连。"
-  echo "   更稳的办法：先在本机粘贴令牌到 $HOME/.config/gh/token.txt，"
-  echo "   然后重新双击本脚本——它会直接读文件登录，不再走浏览器。"
-  echo "   现在先尝试标准浏览器流程："
-  gh auth login --web --git-protocol https --scopes repo,workflow
+  echo
+  echo "   重要：这台 Mac 的代理会掐掉浏览器提交，所以不要用 Mac 浏览器授权。"
+  echo "   看到 XXXX-XXXX 的码之后，请用【手机浏览器】打开"
+  echo "       https://github.com/login/device"
+  echo "   登录 Leonpeng488 并输入该码——手机走流量，不经过这台 Mac 的代理。"
+  echo "   码同时会记录到 $HOME/.config/gh/auth-output.log，方便核对。"
+  echo
+  AUTH_LOG="$HOME/.config/gh/auth-output.log"
+  rm -f "$AUTH_LOG"
+  script -q "$AUTH_LOG" "$LOCAL_BIN/gh" auth login --web --git-protocol https --scopes repo,workflow
+  if ! gh auth status >/dev/null 2>&1; then
+    echo
+    echo "   登录尚未完成。两个选择："
+    echo "   1) 若已拿到码，用手机浏览器访问 github.com/login/device 完成授权；"
+    echo "   2) 或把 ghp_ 开头的令牌写入 $HOME/.config/gh/token.txt，重新双击本脚本。"
+    exit 1
+  fi
 else
   echo "== 2/4 已登录，跳过 =="
   gh auth status 2>&1 | head -4
