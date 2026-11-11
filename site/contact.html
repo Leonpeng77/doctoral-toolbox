@@ -28,31 +28,31 @@
 <main id="main">
   <section class="hero">
     <div class="wrap narrow">
-      <p class="eyebrow">Contact</p>
-      <h1>Report an error or suggest a rule</h1>
-      <p class="lede">Corrections are welcome. The most useful report includes the input you used, the output you received, and the rule or source you believe should apply.</p>
+      <p class="eyebrow" data-i18n="i1">Contact</p>
+      <h1 data-i18n="i2">Report an error or suggest a rule</h1>
+      <p class="lede" data-i18n="i3">Corrections are welcome. The most useful report includes the input you used, the output you received, and the rule or source you believe should apply.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap narrow">
-      <h2>Email</h2>
-      <p><a href="mailto:qpengking@gmail.com">qpengking@gmail.com</a></p>
-      <p>There is no contact form on this site because that would require sending your message through a third-party form service. A plain email keeps the site dependency-free.</p>
+      <h2 data-i18n="i4">Email</h2>
+      <p data-i18n="i5"><a href="mailto:qpengking@gmail.com">qpengking@gmail.com</a></p>
+      <p data-i18n="i6">There is no contact form on this site because that would require sending your message through a third-party form service. A plain email keeps the site dependency-free.</p>
 
-      <h2>What helps</h2>
+      <h2 data-i18n="i7">What helps</h2>
       <ul>
-        <li>The name of the tool and the source type selected.</li>
-        <li>A short, synthetic example that reproduces the problem.</li>
-        <li>The output you expected, and the manual section, institutional template or journal guideline that supports it.</li>
-        <li>For the auditor, the exact line that was flagged correctly or incorrectly.</li>
+        <li data-i18n="i8">The name of the tool and the source type selected.</li>
+        <li data-i18n="i9">A short, synthetic example that reproduces the problem.</li>
+        <li data-i18n="i10">The output you expected, and the manual section, institutional template or journal guideline that supports it.</li>
+        <li data-i18n="i11">For the auditor, the exact line that was flagged correctly or incorrectly.</li>
       </ul>
 
-      <h2>What to leave out</h2>
-      <p>Please do not send unpublished manuscript text, supervisor feedback, participant data, or anything covered by an ethics approval or a confidentiality agreement. A made-up example with the same structure is always enough to diagnose a formatting rule. This site has no server-side storage, but email is not an appropriate channel for research data.</p>
+      <h2 data-i18n="i12">What to leave out</h2>
+      <p data-i18n="i13">Please do not send unpublished manuscript text, supervisor feedback, participant data, or anything covered by an ethics approval or a confidentiality agreement. A made-up example with the same structure is always enough to diagnose a formatting rule. This site has no server-side storage, but email is not an appropriate channel for research data.</p>
 
-      <h2>What this address cannot help with</h2>
-      <p>We cannot check a whole reference list for you, advise on a specific university's template, write or edit academic work, or provide an official interpretation of APA style. For an authoritative answer, consult the <em>Publication Manual</em> (7th ed.), your graduate school's formatting guide, or your target journal's author instructions. For questions about how the site handles data, see the <a href="privacy.html">privacy policy</a>.</p>
+      <h2 data-i18n="i14">What this address cannot help with</h2>
+      <p data-i18n="i15">We cannot check a whole reference list for you, advise on a specific university's template, write or edit academic work, or provide an official interpretation of APA style. For an authoritative answer, consult the <em>Publication Manual</em> (7th ed.), your graduate school's formatting guide, or your target journal's author instructions. For questions about how the site handles data, see the <a href="privacy.html">privacy policy</a>.</p>
     </div>
   </section>
 </main>
@@ -67,5 +67,7 @@
 var years = document.querySelectorAll('.year');
 for (var y = 0; y < years.length; y++) { years[y].textContent = new Date().getFullYear(); }
 </script>
+<script src="assets/js/i18n-data.js"></script>
+<script src="assets/js/i18n.js"></script>
 </body>
 </html>

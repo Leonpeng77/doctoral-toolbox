@@ -1,0 +1,2688 @@
+{
+  "pages": {
+    "about.html": {
+      "i1": {
+        "en": "About",
+        "html": null
+      },
+      "i2": {
+        "en": "A small site for the mechanical parts of doctoral writing",
+        "html": null
+      },
+      "i3": {
+        "en": "I built this site while writing my own doctorate, because I was losing hours to reference formatting that should have taken minutes. These are the tools I wished existed: small, transparent, and honest about what they cannot do.",
+        "html": null
+      },
+      "i4": {
+        "en": "Why this exists",
+        "html": null
+      },
+      "i5": {
+        "en": "Reference styles, dissertation templates and reference managers each implement a slightly different version of the same rules. The result is that doctoral candidates spend hours on punctuation while supervisors spend hours marking it. The problem is not intellectual difficulty; it is that the rules are numerous, mostly mechanical, and badly served by tools that hide what they did.",
+        "html": null
+      },
+      "i6": {
+        "en": "This site takes the opposite approach. Each tool is small, does one job, shows its output in both formatted and plain text, and explains the rule being applied on the same page. Where a rule cannot be applied reliably — automatic sentence-case conversion is the clearest example — the tool declines to guess and tells you what to check instead.",
+        "html": null
+      },
+      "i7": {
+        "en": "Send me one reference",
+        "html": null
+      },
+      "i8": {
+        "en": "If one entry in your list is still wrong and you cannot see why, email it to me. I will check it against APA 7 and tell you exactly what to change — free, no sign-up, no mailing list. I do this because a broken citation is usually a symptom of a rule nobody explained properly, and fixing it with you tells me which rule needs a better tool or a clearer guide.",
+        "html": null
+      },
+      "i9": {
+        "en": "Send one reference",
+        "html": "<a class=\"btn\" href=\"mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check\">Send one reference</a>"
+      },
+      "i10": {
+        "en": "One entry, pasted into an email. Please do not send drafts, chapters or participant data. If it helps, I will also send you the submission checklist I use on my own manuscript.",
+        "html": null
+      },
+      "i11": {
+        "en": "Who this is for",
+        "html": null
+      },
+      "i12": {
+        "en": "Doctoral candidates, especially in business and the social sciences, writing in APA 7 under a institutional template that is not quite the same as the manual. If you are supervising, a free reference audit for one of your students is also welcome.",
+        "html": null
+      },
+      "i13": {
+        "en": "How the tools are built",
+        "html": null
+      },
+      "i14": {
+        "en": "The tools are plain HTML, CSS and JavaScript with no framework, no build step, no third-party runtime library and no network calls. They run entirely in your browser. Nothing you type into a tool is transmitted anywhere, stored in a cookie, or written to local storage. You can open the JavaScript files in your browser's developer tools and read every formatting and checking rule.",
+        "html": null
+      },
+      "i15": {
+        "en": "This is a deliberate design decision, not just a privacy feature. A tool with no dependencies has no licence obligations to audit, no supply-chain updates to track, and no risk of a CDN going down the night before a submission deadline.",
+        "html": null
+      },
+      "i16": {
+        "en": "What this site is not",
+        "html": null
+      },
+      "i17": {
+        "en": "It is not a style authority. The Publication Manual of the American Psychological Association (7th ed.), your institution's dissertation template, and your target journal's author guidelines all take precedence.",
+        "html": "It is not a style authority. The <em>Publication Manual of the American Psychological Association</em> (7th ed.), your institution's dissertation template, and your target journal's author guidelines all take precedence."
+      },
+      "i18": {
+        "en": "It is not a reference manager, a plagiarism checker, or a writing service.",
+        "html": null
+      },
+      "i19": {
+        "en": "It does not check whether a DOI resolves, whether a source exists, or whether a citation supports the claim attached to it.",
+        "html": null
+      },
+      "i20": {
+        "en": "It does not offer academic writing, ghostwriting or assignment preparation services.",
+        "html": null
+      },
+      "i21": {
+        "en": "Accuracy and corrections",
+        "html": null
+      },
+      "i22": {
+        "en": "Style guidance evolves, and heuristics have edge cases. If a tool produces something you believe is wrong, please get in touch with the input you used, the output you received, and the rule or source you believe applies. Corrections to the published rules are made openly. Do not send unpublished manuscript text; a single synthetic example is enough.",
+        "html": "Style guidance evolves, and heuristics have edge cases. If a tool produces something you believe is wrong, please <a href=\"contact.html\">get in touch</a> with the input you used, the output you received, and the rule or source you believe applies. Corrections to the published rules are made openly. Do not send unpublished manuscript text; a single synthetic example is enough."
+      },
+      "i23": {
+        "en": "Supporting the site",
+        "html": null
+      },
+      "i24": {
+        "en": "The tools are free and will stay free. To keep the site running I am also preparing a small set of paid templates for people who would rather start from a checked structure than build one: an APA 7 submission checklist, a literature synthesis matrix and a dissertation formatting kit. They are optional, and the free tools will never be gated behind them. If advertising is ever added, this page and the privacy policy will be updated first, and ads will never sit inside a tool's input or output area. What you type is never tracked.",
+        "html": "The tools are free and will stay free. To keep the site running I am also preparing a small set of paid templates for people who would rather start from a checked structure than build one: an APA 7 submission checklist, a literature synthesis matrix and a dissertation formatting kit. They are optional, and the free tools will never be gated behind them. If advertising is ever added, this page and the <a href=\"privacy.html\">privacy policy</a> will be updated first, and ads will never sit inside a tool's input or output area. What you type is never tracked."
+      }
+    },
+    "contact.html": {
+      "i1": {
+        "en": "Contact",
+        "html": null
+      },
+      "i2": {
+        "en": "Report an error or suggest a rule",
+        "html": null
+      },
+      "i3": {
+        "en": "Corrections are welcome. The most useful report includes the input you used, the output you received, and the rule or source you believe should apply.",
+        "html": null
+      },
+      "i4": {
+        "en": "Email",
+        "html": null
+      },
+      "i5": {
+        "en": "qpengking@gmail.com",
+        "html": "<a href=\"mailto:qpengking@gmail.com\">qpengking@gmail.com</a>"
+      },
+      "i6": {
+        "en": "There is no contact form on this site because that would require sending your message through a third-party form service. A plain email keeps the site dependency-free.",
+        "html": null
+      },
+      "i7": {
+        "en": "What helps",
+        "html": null
+      },
+      "i8": {
+        "en": "The name of the tool and the source type selected.",
+        "html": null
+      },
+      "i9": {
+        "en": "A short, synthetic example that reproduces the problem.",
+        "html": null
+      },
+      "i10": {
+        "en": "The output you expected, and the manual section, institutional template or journal guideline that supports it.",
+        "html": null
+      },
+      "i11": {
+        "en": "For the auditor, the exact line that was flagged correctly or incorrectly.",
+        "html": null
+      },
+      "i12": {
+        "en": "What to leave out",
+        "html": null
+      },
+      "i13": {
+        "en": "Please do not send unpublished manuscript text, supervisor feedback, participant data, or anything covered by an ethics approval or a confidentiality agreement. A made-up example with the same structure is always enough to diagnose a formatting rule. This site has no server-side storage, but email is not an appropriate channel for research data.",
+        "html": null
+      },
+      "i14": {
+        "en": "What this address cannot help with",
+        "html": null
+      },
+      "i15": {
+        "en": "We cannot check a whole reference list for you, advise on a specific university's template, write or edit academic work, or provide an official interpretation of APA style. For an authoritative answer, consult the Publication Manual (7th ed.), your graduate school's formatting guide, or your target journal's author instructions. For questions about how the site handles data, see the privacy policy.",
+        "html": "We cannot check a whole reference list for you, advise on a specific university's template, write or edit academic work, or provide an official interpretation of APA style. For an authoritative answer, consult the <em>Publication Manual</em> (7th ed.), your graduate school's formatting guide, or your target journal's author instructions. For questions about how the site handles data, see the <a href=\"privacy.html\">privacy policy</a>."
+      }
+    },
+    "free/apa7-checklist.html": {
+      "i1": {
+        "en": "Free download",
+        "html": null
+      },
+      "i2": {
+        "en": "The 67-point APA 7 submission checklist",
+        "html": null
+      },
+      "i3": {
+        "en": "The list I run before I submit anything. Not a style authority — a memory aid for the small things that examiners and copy-editors catch and the rest of us forget.",
+        "html": null
+      },
+      "i4": {
+        "en": "Free, no sign-up, no mailing list. I'll send the three-page PDF the same day.",
+        "html": null
+      },
+      "i5": {
+        "en": "What's in it",
+        "html": null
+      },
+      "i6": {
+        "en": "Seven groups, ordered by when you should do them: [7d] while the draft is still open, [24h] once the text is locked, [1h] immediately before upload. Here are twelve of the 67 checks so you can see whether it is worth asking for.",
+        "html": "Seven groups, ordered by when you should do them: <strong>[7d]</strong> while the draft is still open, <strong>[24h]</strong> once the text is locked, <strong>[1h]</strong> immediately before upload. Here are twelve of the 67 checks so you can see whether it is worth asking for."
+      },
+      "i7": {
+        "en": "A. In-text citations [7d]",
+        "html": "A. In-text citations <span class=\"small\">[7d]</span>"
+      },
+      "i8": {
+        "en": "Every in-text citation has a matching reference-list entry.",
+        "html": null
+      },
+      "i9": {
+        "en": "Three or more authors use et al. from the first citation.",
+        "html": "Three or more authors use <code>et al.</code> from the first citation."
+      },
+      "i10": {
+        "en": "Direct quotations include a page number, paragraph number or timestamp.",
+        "html": null
+      },
+      "i11": {
+        "en": "B. Reference list structure [7d]",
+        "html": "B. Reference list structure <span class=\"small\">[7d]</span>"
+      },
+      "i12": {
+        "en": "A 0.5-inch hanging indent is applied to every entry, not typed with spaces.",
+        "html": null
+      },
+      "i13": {
+        "en": "All punctuation is half-width ASCII, not full-width ，。（）.",
+        "html": "All punctuation is half-width ASCII, not full-width <code>，。（）</code>."
+      },
+      "i14": {
+        "en": "No entry ends with a period after a DOI or URL.",
+        "html": null
+      },
+      "i15": {
+        "en": "C. Reference list content [7d]",
+        "html": "C. Reference list content <span class=\"small\">[7d]</span>"
+      },
+      "i16": {
+        "en": "Corporate authors are spelled out in full, not inverted into initials.",
+        "html": null
+      },
+      "i17": {
+        "en": "Journal names are in Title Case and italicised, together with the volume number.",
+        "html": null
+      },
+      "i18": {
+        "en": "G. File and submission [1h]",
+        "html": "G. File and submission <span class=\"small\">[1h]</span>"
+      },
+      "i19": {
+        "en": "Fonts are embedded; no missing-glyph boxes appear in the PDF.",
+        "html": null
+      },
+      "i20": {
+        "en": "Click every DOI and hyperlink in the final PDF — they must resolve.",
+        "html": null
+      },
+      "i21": {
+        "en": "File name follows the required convention, with no final_v2 version words.",
+        "html": "File name follows the required convention, with no <code>final_v2</code> version words."
+      },
+      "i22": {
+        "en": "Want all 67 in a printable three-page PDF? Email me and I'll send it over. If one reference is still giving you trouble, paste it in the same message and I'll check it for free first.",
+        "html": "<strong>Want all 67 in a printable three-page PDF?</strong> Email me and I'll send it over. If one reference is still giving you trouble, paste it in the same message and I'll check it for free first."
+      },
+      "i23": {
+        "en": "Send me the checklist →",
+        "html": "<a href=\"mailto:qpengking@gmail.com?subject=67-point%20APA%207%20checklist%20please\">Send me the checklist &rarr;</a>"
+      },
+      "i24": {
+        "en": "A note on what this is",
+        "html": null
+      },
+      "i25": {
+        "en": "It is a formatting memory aid, not a substitute for the Publication Manual of the American Psychological Association (7th ed.), your institution's dissertation template or your journal's author guidelines. Where those conflict with a general rule, they win. The full list says the same thing at the top, because a checklist that overstates its authority is worse than no checklist.",
+        "html": "It is a formatting memory aid, not a substitute for the <em>Publication Manual of the American Psychological Association</em> (7th ed.), your institution's dissertation template or your journal's author guidelines. Where those conflict with a general rule, they win. The full list says the same thing at the top, because a checklist that overstates its authority is worse than no checklist."
+      },
+      "i26": {
+        "en": "— Qi, doctoral researcher",
+        "html": null
+      },
+      "i27": {
+        "en": "Related: the APA 7 reference list, checked line by line · run the mechanical audit · the literature review workflow",
+        "html": "Related: <a href=\"../guides/apa7-reference-list.html\">the APA 7 reference list, checked line by line</a> · <a href=\"../tools/reference-check.html\">run the mechanical audit</a> · <a href=\"../guides/dba-literature-review-workflow.html\">the literature review workflow</a>"
+      }
+    },
+    "guides/apa6-to-apa7.html": {
+      "i1": {
+        "en": "Guide · Migration",
+        "html": null
+      },
+      "i2": {
+        "en": "APA 6 to APA 7: what actually changed",
+        "html": null
+      },
+      "i3": {
+        "en": "If your reference manager still thinks it is 2009, this is the list of things that will be wrong. Most of them are mechanical, all of them are findable, and none of them require re-reading the manual.",
+        "html": null
+      },
+      "i4": {
+        "en": "Why a migration guide is worth more than a style summary",
+        "html": null
+      },
+      "i5": {
+        "en": "A thesis written under APA 6 does not become APA 7 by changing the heading. The differences are small, numerous and invisible unless you know to look for them. Worse, reference managers keep the style they were given when the database record was created, so a 2016 export can silently carry 2009 punctuation into a 2026 submission. The reliable approach is to migrate once, deliberately, and then check with a tool that flags the old patterns.",
+        "html": null
+      },
+      "i6": {
+        "en": "Below is every change that affects the average dissertation or journal manuscript, grouped by where you will meet it. Each item gives the old form and the new one.",
+        "html": null
+      },
+      "i7": {
+        "en": "1. Publisher location is gone",
+        "html": null
+      },
+      "i8": {
+        "en": "APA 7 removed the city of publication from book and report references. This is the most visible change in a reference list and the easiest to fix in bulk.",
+        "html": null
+      },
+      "i9": {
+        "en": "Keep the publisher name exactly as it appears on the copyright page, but drop \"New York:\", \"London:\" and any state abbreviation. Do not replace the location with a URL unless you are citing a work you accessed online and your institution asks for the link.",
+        "html": null
+      },
+      "i10": {
+        "en": "2. \"Retrieved from\" is gone",
+        "html": null
+      },
+      "i11": {
+        "en": "APA 6 prefaced web addresses with Retrieved from as a matter of course. APA 7 uses the bare URL. The exception is narrow: when a page is designed to change over time and you need to show when you saw it, give a retrieval date.",
+        "html": "APA 6 prefaced web addresses with <code>Retrieved from</code> as a matter of course. APA 7 uses the bare URL. The exception is narrow: when a page is designed to change over time and you need to show when you saw it, give a retrieval date."
+      },
+      "i12": {
+        "en": "A journal article from a database is not a dynamic source. If it has no DOI, end the entry at the page range and add nothing. The automatic \"Retrieved from\" in older BibTeX records is one of the highest-yield search-and-replace operations in a migration.",
+        "html": "A journal article from a database is <em>not</em> a dynamic source. If it has no DOI, end the entry at the page range and add nothing. The automatic \"Retrieved from\" in older BibTeX records is one of the highest-yield search-and-replace operations in a migration."
+      },
+      "i13": {
+        "en": "3. Every DOI is a link",
+        "html": null
+      },
+      "i14": {
+        "en": "APA 7 presents DOIs uniformly as https://doi.org/10.xxxx/.... The label doi:, the bare identifier and the old dx.doi.org redirect are all retired. Do not add a period after the link, because readers will copy the period with the URL.",
+        "html": "APA 7 presents DOIs uniformly as <code>https://doi.org/10.xxxx/...</code>. The label <code>doi:</code>, the bare identifier and the old <code>dx.doi.org</code> redirect are all retired. Do not add a period after the link, because readers will copy the period with the URL."
+      },
+      "i15": {
+        "en": "If your reference manager exports doi:10...., change the output style rather than editing 200 entries by hand. Run the finished list through the reference list auditor, which flags the old prefix specifically.",
+        "html": "If your reference manager exports <code>doi:10....</code>, change the output style rather than editing 200 entries by hand. Run the finished list through the <a href=\"../tools/reference-check.html\">reference list auditor</a>, which flags the old prefix specifically."
+      },
+      "i16": {
+        "en": "4. Three or more authors: et al. from the start",
+        "html": null
+      },
+      "i17": {
+        "en": "This is the change people notice first in the text. APA 6 asked you to list up to five authors on first citation and switch to et al. from the sixth. APA 7 uses et al. from the first citation whenever a work has three or more authors.",
+        "html": "This is the change people notice first in the text. APA 6 asked you to list up to five authors on first citation and switch to <code>et al.</code> from the sixth. APA 7 uses <code>et al.</code> from the <strong>first</strong> citation whenever a work has three or more authors."
+      },
+      "i18": {
+        "en": "The reference list moved in the opposite direction: it now enumerates up to twenty authors in full, and only with twenty-one or more do you list the first nineteen, an ellipsis, and the final author. A six-author paper under APA 7 has a short in-text citation and a long reference entry. That asymmetry is intentional and catches people who assume the two lists should mirror each other.",
+        "html": null
+      },
+      "i19": {
+        "en": "5. Bracketed descriptions for non-routine works",
+        "html": null
+      },
+      "i20": {
+        "en": "APA 7 added square-bracketed labels after the title when the source type is not obvious from the entry. Dissertations, theses, datasets, software, maps and conference presentations are the common cases.",
+        "html": null
+      },
+      "i21": {
+        "en": "The bracketed element is not italicised and sits inside the title's sentence, followed by a period. The repository or database name comes after the bracket, not before it. For the full set of dissertation patterns, see citing dissertations and theses in APA 7.",
+        "html": "The bracketed element is not italicised and sits inside the title's sentence, followed by a period. The repository or database name comes after the bracket, not before it. For the full set of dissertation patterns, see <a href=\"apa7-dissertations.html\">citing dissertations and theses in APA 7</a>."
+      },
+      "i22": {
+        "en": "6. Websites, social media and webinars",
+        "html": null
+      },
+      "i23": {
+        "en": "APA 7 gives online sources their own patterns, which APA 6 handled loosely. A webpage with a named author uses that author; a page with no date gets (n.d.); the site name is italicised unless it is identical to the author. Social-media posts include the platform and the full date, and the URL ends the entry.",
+        "html": "APA 7 gives online sources their own patterns, which APA 6 handled loosely. A webpage with a named author uses that author; a page with no date gets <code>(n.d.)</code>; the site name is italicised unless it is identical to the author. Social-media posts include the platform and the full date, and the URL ends the entry."
+      },
+      "i24": {
+        "en": "The practical migration task is to check every web entry for three things: a site name that is currently missing, a date that is currently guessed, and a full-width punctuation mark that came from a Chinese-language source.",
+        "html": null
+      },
+      "i25": {
+        "en": "7. Tables and figures",
+        "html": null
+      },
+      "i26": {
+        "en": "APA 7 changed the layout of table and figure components. Both now use a bold number on its own line, followed by an italic title on the next line. Notes come below the body in a specific order: general note, specific note, probability note. Statistical and mathematical copy follows a tighter set of rules too, including no leading zero before values that cannot exceed one.",
+        "html": null
+      },
+      "i27": {
+        "en": "8. A few smaller ones worth catching",
+        "html": null
+      },
+      "i28": {
+        "en": "Sentence case is stated explicitly. Reference titles — article, book, chapter — take sentence case. Database exports in Title Case are the most common surviving APA 6 artefact.",
+        "html": "<strong>Sentence case is stated explicitly.</strong> Reference titles — article, book, chapter — take sentence case. Database exports in Title Case are the most common surviving APA 6 artefact."
+      },
+      "i29": {
+        "en": "Ordinal editions are abbreviated. Write 2nd ed., not Second Edition.",
+        "html": "<strong>Ordinal editions are abbreviated.</strong> Write <code>2nd ed.</code>, not <code>Second Edition</code>."
+      },
+      "i30": {
+        "en": "URLs no longer need \"Accessed\". Bare link, no retrieval date, for anything stable.",
+        "html": "<strong>URLs no longer need \"Accessed\".</strong> Bare link, no retrieval date, for anything stable."
+      },
+      "i31": {
+        "en": "Bias-free language is now a formal expectation, not a courtesy. Person-first or identity-first phrasing should be deliberate and consistent.",
+        "html": "<strong>Bias-free language is now a formal expectation</strong>, not a courtesy. Person-first or identity-first phrasing should be deliberate and consistent."
+      },
+      "i32": {
+        "en": "Level headings are standardised. Level 1 is centred bold title case; level 2 is flush left bold title case; level 3 is flush left bold italic title case.",
+        "html": "<strong>Level headings are standardised.</strong> Level 1 is centred bold title case; level 2 is flush left bold title case; level 3 is flush left bold italic title case."
+      },
+      "i33": {
+        "en": "The migration checklist",
+        "html": null
+      },
+      "i34": {
+        "en": "Find",
+        "html": null
+      },
+      "i35": {
+        "en": "Replace with",
+        "html": null
+      },
+      "i36": {
+        "en": "Where",
+        "html": null
+      },
+      "i37": {
+        "en": "New York: Sage",
+        "html": "<code>New York: Sage</code>"
+      },
+      "i38": {
+        "en": "Sage",
+        "html": "<code>Sage</code>"
+      },
+      "i39": {
+        "en": "Book and report entries",
+        "html": null
+      },
+      "i40": {
+        "en": "Retrieved from https://",
+        "html": "<code>Retrieved from https://</code>"
+      },
+      "i41": {
+        "en": "https://",
+        "html": "<code>https://</code>"
+      },
+      "i42": {
+        "en": "Web entries",
+        "html": null
+      },
+      "i43": {
+        "en": "doi:10.xxxx",
+        "html": "<code>doi:10.xxxx</code>"
+      },
+      "i44": {
+        "en": "https://doi.org/10.xxxx",
+        "html": "<code>https://doi.org/10.xxxx</code>"
+      },
+      "i45": {
+        "en": "Journal articles",
+        "html": null
+      },
+      "i46": {
+        "en": "Five authors listed on first citation",
+        "html": null
+      },
+      "i47": {
+        "en": "First author + et al.",
+        "html": "First author + <code>et al.</code>"
+      },
+      "i48": {
+        "en": "In-text citations",
+        "html": null
+      },
+      "i49": {
+        "en": "[Unpublished doctoral dissertation]",
+        "html": "<code>[Unpublished doctoral dissertation]</code>"
+      },
+      "i50": {
+        "en": "[Doctoral dissertation, University]",
+        "html": "<code>[Doctoral dissertation, University]</code>"
+      },
+      "i51": {
+        "en": "Dissertation entries",
+        "html": null
+      },
+      "i52": {
+        "en": "Title Case in article titles",
+        "html": null
+      },
+      "i53": {
+        "en": "sentence case",
+        "html": null
+      },
+      "i54": {
+        "en": "Whole reference list",
+        "html": null
+      },
+      "i55": {
+        "en": "Table 3. Descriptive statistics on one line",
+        "html": "<code>Table 3. Descriptive statistics</code> on one line"
+      },
+      "i56": {
+        "en": "Number line, then italic title line",
+        "html": null
+      },
+      "i57": {
+        "en": "Tables and figures",
+        "html": null
+      },
+      "i58": {
+        "en": "Full-width ，。（）",
+        "html": "Full-width <code>，。（）</code>"
+      },
+      "i59": {
+        "en": "Half-width ASCII",
+        "html": null
+      },
+      "i60": {
+        "en": "Any bilingual entry",
+        "html": null
+      },
+      "i61": {
+        "en": "Do the global replacements in your reference manager's output style first, then paste the result into the reference list auditor. It flags the surviving doi: prefixes, \"Retrieved from\", \"Vol.\", \"pp.\" on journal articles, and full-width punctuation — the exact artefacts an APA 6 export leaves behind. For the rules behind each flag, read the reference list guide.",
+        "html": "Do the global replacements in your reference manager's output style first, then paste the result into the <a href=\"../tools/reference-check.html\">reference list auditor</a>. It flags the surviving <code>doi:</code> prefixes, \"Retrieved from\", \"Vol.\", \"pp.\" on journal articles, and full-width punctuation — the exact artefacts an APA 6 export leaves behind. For the rules behind each flag, read <a href=\"apa7-reference-list.html\">the reference list guide</a>."
+      },
+      "i62": {
+        "en": "Related guides",
+        "html": null
+      },
+      "i63": {
+        "en": "The APA 7 reference list, checked line by line.",
+        "html": "<a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a>."
+      },
+      "i64": {
+        "en": "APA 7 in-text citations, decided in one page.",
+        "html": "<a href=\"apa7-in-text-citations.html\">APA 7 in-text citations, decided in one page</a>."
+      },
+      "i65": {
+        "en": "Citing a dissertation or thesis in APA 7.",
+        "html": "<a href=\"apa7-dissertations.html\">Citing a dissertation or thesis in APA 7</a>."
+      },
+      "i66": {
+        "en": "One caution: your institution's dissertation template may still be written against APA 6, and where it differs from the manual, the template usually wins for formatting while the manual governs citation style. Check both before doing a global replace across a finished thesis.",
+        "html": null
+      }
+    },
+    "guides/apa7-dissertations.html": {
+      "i1": {
+        "en": "Guide · APA 7",
+        "html": null
+      },
+      "i2": {
+        "en": "Citing a dissertation or thesis in APA 7",
+        "html": null
+      },
+      "i3": {
+        "en": "Dissertation entries are where the manual and the institutional template most often disagree. Here is how to build one, what the square brackets actually do, and the six patterns that cover almost every case.",
+        "html": null
+      },
+      "i4": {
+        "en": "Start with one question: published or not?",
+        "html": null
+      },
+      "i5": {
+        "en": "APA 7 treats a dissertation that has been made available in a database or institutional repository differently from one that exists only as a bound copy on a shelf. The distinction decides whether your entry ends with a repository name or with an availability phrase.",
+        "html": null
+      },
+      "i6": {
+        "en": "A published dissertation means it is retrievable by a reader — through ProQuest, an institutional repository, a library catalogue with a stable link, or the university's own archive. It does not mean it went to a commercial press. An unpublished dissertation is one a reader cannot obtain; you cite it with an availability statement and no URL.",
+        "html": "A <strong>published</strong> dissertation means it is retrievable by a reader — through ProQuest, an institutional repository, a library catalogue with a stable link, or the university's own archive. It does not mean it went to a commercial press. An <strong>unpublished</strong> dissertation is one a reader cannot obtain; you cite it with an availability statement and no URL."
+      },
+      "i7": {
+        "en": "The four-element structure",
+        "html": null
+      },
+      "i8": {
+        "en": "Every dissertation reference is still author, date, title, source. What changes is the source element and the bracketed label attached to the title.",
+        "html": null
+      },
+      "i9": {
+        "en": "Three rules govern this line. First, the title is italicised but the bracketed description is not. Second, the bracket sits immediately after the title, before the period. Third, the institution goes inside the brackets, not after them — a detail carried over from APA 6 that still appears in a lot of thesis templates.",
+        "html": "Three rules govern this line. First, the title is italicised but the bracketed description is not. Second, the bracket sits immediately after the title, before the period. Third, the institution goes <em>inside</em> the brackets, not after them — a detail carried over from APA 6 that still appears in a lot of thesis templates."
+      },
+      "i10": {
+        "en": "The bracketed description, precisely",
+        "html": null
+      },
+      "i11": {
+        "en": "The label identifies the type of work when the title alone would not. For a doctorate write [Doctoral dissertation, Institution Name]. For a master's write [Master's thesis, Institution Name]. For a professional doctorate use the degree actually awarded: [Doctor of Business Administration dissertation, Institution Name] is more accurate than the generic form, and accuracy beats brevity in a viva.",
+        "html": "The label identifies the type of work when the title alone would not. For a doctorate write <code>[Doctoral dissertation, Institution Name]</code>. For a master's write <code>[Master's thesis, Institution Name]</code>. For a professional doctorate use the degree actually awarded: <code>[Doctor of Business Administration dissertation, Institution Name]</code> is more accurate than the generic form, and accuracy beats brevity in a viva."
+      },
+      "i12": {
+        "en": "Do not italicise the brackets, and do not add the word \"Unpublished\" if the work is in a database. \"Unpublished\" belongs to the second pattern below, and using it on a ProQuest record is a straightforward factual error.",
+        "html": null
+      },
+      "i13": {
+        "en": "Six templates that cover nearly everything",
+        "html": null
+      },
+      "i14": {
+        "en": "1. Published dissertation in a commercial database",
+        "html": null
+      },
+      "i15": {
+        "en": "The database name is not italicised. Include the publication number only if the database supplies one and your institution asks for it; it is useful for retrieval but not required by APA 7.",
+        "html": null
+      },
+      "i16": {
+        "en": "2. Published dissertation in an institutional repository",
+        "html": null
+      },
+      "i17": {
+        "en": "Here the repository name is the source element, followed by the stable link. If the repository itself is the institution, name it once in the brackets and give the link without repeating the name.",
+        "html": null
+      },
+      "i18": {
+        "en": "3. Unpublished dissertation, reader cannot retrieve it",
+        "html": null
+      },
+      "i19": {
+        "en": "No repository, no URL, and no database. The bracket carries both the status and the institution. Use this only when it is true — if the thesis is in a catalogue with a record, it is retrievable and belongs under pattern 1 or 2.",
+        "html": null
+      },
+      "i20": {
+        "en": "4. Master's thesis",
+        "html": null
+      },
+      "i21": {
+        "en": "Identical structure, with Master's thesis in the bracket. The apostrophe matters: Master's, not Masters.",
+        "html": "Identical structure, with <code>Master's thesis</code> in the bracket. The apostrophe matters: <code>Master's</code>, not <code>Masters</code>."
+      },
+      "i22": {
+        "en": "5. Dissertation cited from another source",
+        "html": null
+      },
+      "i23": {
+        "en": "Only Chen appears in your reference list. Use this when the original is genuinely inaccessible, then try to obtain it — a chain of dissertations citing dissertations is a common examination question.",
+        "html": null
+      },
+      "i24": {
+        "en": "6. Citing your own dissertation",
+        "html": null
+      },
+      "i25": {
+        "en": "You cite your own work exactly as you would anyone else's, in third person, with your full name. Do not write \"my dissertation\" in the text of a paper derived from it. If the dissertation is still in progress and not yet deposited, cite the individual papers already published from it rather than the thesis itself.",
+        "html": null
+      },
+      "i26": {
+        "en": "Doctoral dissertation or professional doctorate?",
+        "html": null
+      },
+      "i27": {
+        "en": "The label should reflect the qualification. If the award is a DBA, EdD or DProf, name it. This matters more than it looks: examiners in professional doctorates often check whether the candidate understands the distinction between a research doctorate and a professional one, and the reference entry is one of the places that shows it.",
+        "html": null
+      },
+      "i28": {
+        "en": "Award",
+        "html": null
+      },
+      "i29": {
+        "en": "Bracketed description",
+        "html": null
+      },
+      "i30": {
+        "en": "PhD",
+        "html": null
+      },
+      "i31": {
+        "en": "[Doctoral dissertation, Institution]",
+        "html": "<code>[Doctoral dissertation, Institution]</code>"
+      },
+      "i32": {
+        "en": "DBA",
+        "html": null
+      },
+      "i33": {
+        "en": "[Doctor of Business Administration dissertation, Institution]",
+        "html": "<code>[Doctor of Business Administration dissertation, Institution]</code>"
+      },
+      "i34": {
+        "en": "EdD",
+        "html": null
+      },
+      "i35": {
+        "en": "[Doctor of Education dissertation, Institution]",
+        "html": "<code>[Doctor of Education dissertation, Institution]</code>"
+      },
+      "i36": {
+        "en": "MA / MSc by research",
+        "html": null
+      },
+      "i37": {
+        "en": "[Master's thesis, Institution]",
+        "html": "<code>[Master's thesis, Institution]</code>"
+      },
+      "i38": {
+        "en": "The errors that get noticed",
+        "html": null
+      },
+      "i39": {
+        "en": "Institution outside the brackets. APA 7 puts it inside, separated from the degree type by a comma.",
+        "html": "<strong>Institution outside the brackets.</strong> APA 7 puts it inside, separated from the degree type by a comma."
+      },
+      "i40": {
+        "en": "\"Unpublished\" on a retrievable thesis. If there is a record, it is published in the APA sense.",
+        "html": "<strong>\"Unpublished\" on a retrievable thesis.</strong> If there is a record, it is published in the APA sense."
+      },
+      "i41": {
+        "en": "Title Case in the title. Dissertation titles take sentence case like every other reference title.",
+        "html": "<strong>Title Case in the title.</strong> Dissertation titles take sentence case like every other reference title."
+      },
+      "i42": {
+        "en": "Italicised brackets. Only the title is italic. The bracket and everything in it is roman type.",
+        "html": "<strong>Italicised brackets.</strong> Only the title is italic. The bracket and everything in it is roman type."
+      },
+      "i43": {
+        "en": "Database name in italics. It is plain text, unlike a journal name.",
+        "html": "<strong>Database name in italics.</strong> It is plain text, unlike a journal name."
+      },
+      "i44": {
+        "en": "Missing year or missing institution. Both are mandatory elements.",
+        "html": "<strong>Missing year or missing institution.</strong> Both are mandatory elements."
+      },
+      "i45": {
+        "en": "URL pasted after a period. The link ends the entry; adding a full stop after it can break the address.",
+        "html": "<strong>URL pasted after a period.</strong> The link ends the entry; adding a full stop after it can break the address."
+      },
+      "i46": {
+        "en": "Building one in the tool",
+        "html": null
+      },
+      "i47": {
+        "en": "The APA 7 reference builder has a dissertation type with separate fields for the work type, institution and database. Fill the title in sentence case, choose \"Doctoral dissertation\" (or type the full professional degree), and the tool assembles the bracket and the source element in the right order. It will not rewrite the title's capitalisation for you — that decision stays yours, because named constructs and proper nouns are too easy to damage automatically.",
+        "html": "The <a href=\"../tools/apa7-citation.html\">APA 7 reference builder</a> has a dissertation type with separate fields for the work type, institution and database. Fill the title in sentence case, choose \"Doctoral dissertation\" (or type the full professional degree), and the tool assembles the bracket and the source element in the right order. It will not rewrite the title's capitalisation for you — that decision stays yours, because named constructs and proper nouns are too easy to damage automatically."
+      },
+      "i48": {
+        "en": "For the broader rules on author counts, italics and DOIs, read the APA 7 reference list, checked line by line. And if your institution's template disagrees with the manual on the bracket format, follow the template for the submitted thesis and the manual for any journal article you derive from it.",
+        "html": "For the broader rules on author counts, italics and DOIs, read <a href=\"apa7-reference-list.html\">the APA 7 reference list, checked line by line</a>. And if your institution's template disagrees with the manual on the bracket format, follow the template for the submitted thesis and the manual for any journal article you derive from it."
+      },
+      "i49": {
+        "en": "Related guides",
+        "html": null
+      },
+      "i50": {
+        "en": "The APA 7 reference list, checked line by line.",
+        "html": "<a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a>."
+      },
+      "i51": {
+        "en": "APA 6 to APA 7: what actually changed.",
+        "html": "<a href=\"apa6-to-apa7.html\">APA 6 to APA 7: what actually changed</a>."
+      },
+      "i52": {
+        "en": "Before submitting, check the final PDF with the 67-point list. It includes a specific pass for bracketed descriptions, repository names and terminal punctuation on links. Preview the checklist or ask for the PDF →",
+        "html": "Before submitting, check the final PDF with the 67-point list. It includes a specific pass for bracketed descriptions, repository names and terminal punctuation on links. <a href=\"../free/apa7-checklist.html\">Preview the checklist or ask for the PDF &rarr;</a>"
+      }
+    },
+    "guides/apa7-in-text-citations.html": {
+      "i1": {
+        "en": "Guide · APA 7",
+        "html": null
+      },
+      "i2": {
+        "en": "APA 7 in-text citations, decided in one page",
+        "html": null
+      },
+      "i3": {
+        "en": "The reference list gets all the attention. In-text citations are where most supervisor comments actually land. Here is every pattern you will need, with the two decisions that cause almost all the errors.",
+        "html": null
+      },
+      "i4": {
+        "en": "The two forms: parenthetical and narrative",
+        "html": null
+      },
+      "i5": {
+        "en": "Every in-text citation is either parenthetical — author and year inside brackets at the end of the sentence — or narrative, where the author is part of your sentence and only the year sits in brackets. The meaning is identical. The choice is about what you want the reader to notice.",
+        "html": "Every in-text citation is either <strong>parenthetical</strong> — author and year inside brackets at the end of the sentence — or <strong>narrative</strong>, where the author is part of your sentence and only the year sits in brackets. The meaning is identical. The choice is about what you want the reader to notice."
+      },
+      "i6": {
+        "en": "Use the narrative form when the researcher is the point of the sentence; use the parenthetical form when the claim is the point. In a literature review, alternating the two keeps the prose from becoming a list of names at the end of every sentence. What you must not do is mix the punctuation: narrative citations take a comma before the year only when the author element ends in a possessive or a suffix; otherwise the year follows the names directly.",
+        "html": null
+      },
+      "i7": {
+        "en": "One rule that surprises people: in the narrative form, two authors are joined with \"and\", not the ampersand. In the parenthetical form they are joined with &. That is the only place in APA 7 where the connector changes.",
+        "html": "One rule that surprises people: in the narrative form, two authors are joined with <strong>\"and\"</strong>, not the ampersand. In the parenthetical form they are joined with <strong>&amp;</strong>. That is the only place in APA 7 where the connector changes."
+      },
+      "i8": {
+        "en": "Author count: the entire decision table",
+        "html": null
+      },
+      "i9": {
+        "en": "Authors",
+        "html": null
+      },
+      "i10": {
+        "en": "First citation",
+        "html": null
+      },
+      "i11": {
+        "en": "Later citations",
+        "html": null
+      },
+      "i13": {
+        "en": "(Smith, 2024)",
+        "html": "<code>(Smith, 2024)</code>"
+      },
+      "i14": {
+        "en": "(Smith, 2024)",
+        "html": "<code>(Smith, 2024)</code>"
+      },
+      "i16": {
+        "en": "(Smith & Lee, 2024)",
+        "html": "<code>(Smith &amp; Lee, 2024)</code>"
+      },
+      "i17": {
+        "en": "(Smith & Lee, 2024)",
+        "html": "<code>(Smith &amp; Lee, 2024)</code>"
+      },
+      "i18": {
+        "en": "3 or more",
+        "html": null
+      },
+      "i19": {
+        "en": "(Smith et al., 2024)",
+        "html": "<code>(Smith et al., 2024)</code>"
+      },
+      "i20": {
+        "en": "(Smith et al., 2024)",
+        "html": "<code>(Smith et al., 2024)</code>"
+      },
+      "i21": {
+        "en": "Group, abbreviation available",
+        "html": null
+      },
+      "i22": {
+        "en": "(APA [APA], 2020)",
+        "html": "<code>(APA [APA], 2020)</code>"
+      },
+      "i23": {
+        "en": "(APA, 2020)",
+        "html": "<code>(APA, 2020)</code>"
+      },
+      "i24": {
+        "en": "Group, no abbreviation",
+        "html": null
+      },
+      "i25": {
+        "en": "(World Health Organization, 2022)",
+        "html": "<code>(World Health Organization, 2022)</code>"
+      },
+      "i26": {
+        "en": "Same in full",
+        "html": null
+      },
+      "i27": {
+        "en": "No author",
+        "html": null
+      },
+      "i28": {
+        "en": "(\"Article Title,\" 2024)",
+        "html": "<code>(\"Article Title,\" 2024)</code>"
+      },
+      "i29": {
+        "en": "Same, shortened if long",
+        "html": null
+      },
+      "i30": {
+        "en": "The et al. rule changed in APA 7",
+        "html": null
+      },
+      "i31": {
+        "en": "This is the single most common carry-over error from APA 6. Under the sixth edition you listed every author up to five, then used et al. from the sixth. APA 7 uses et al. from the first citation whenever there are three or more authors. A 20-author paper is cited as (Smith et al., 2024) on first mention, even though the reference list below enumerates all twenty.",
+        "html": "This is the single most common carry-over error from APA 6. Under the sixth edition you listed every author up to five, then used <code>et al.</code> from the sixth. <strong>APA 7 uses <code>et al.</code> from the first citation whenever there are three or more authors.</strong> A 20-author paper is cited as <code>(Smith et al., 2024)</code> on first mention, even though the reference list below enumerates all twenty."
+      },
+      "i32": {
+        "en": "Two details that get marked: et al. has a period after al. but not after et; and there is a comma between the author element and the year, so (Smith et al., 2024) — not (Smith et al. 2024). In the narrative form the same rule applies: Smith et al. (2024) found...",
+        "html": "Two details that get marked: <code>et al.</code> has a period after <code>al.</code> but not after <code>et</code>; and there is a comma between the author element and the year, so <code>(Smith et al., 2024)</code> — not <code>(Smith et al. 2024)</code>. In the narrative form the same rule applies: <code>Smith et al. (2024) found...</code>"
+      },
+      "i33": {
+        "en": "The reference list behaves differently. There, et al. never appears. Twenty or fewer authors are all named; with 21 or more you list the first nineteen, an ellipsis, then the final author. If your in-text citation says et al. and your reference entry also says et al., one of them is wrong.",
+        "html": "The reference list behaves differently. There, <code>et al.</code> never appears. Twenty or fewer authors are all named; with 21 or more you list the first nineteen, an ellipsis, then the final author. If your in-text citation says <code>et al.</code> and your reference entry also says <code>et al.</code>, one of them is wrong."
+      },
+      "i34": {
+        "en": "Group authors and abbreviations",
+        "html": null
+      },
+      "i35": {
+        "en": "Organisations are authors in their own right. Spell the name in full on first use, and introduce a short form in square brackets if you intend to use it later. After that first citation, the short form alone is enough.",
+        "html": null
+      },
+      "i36": {
+        "en": "Do not invent an abbreviation that could be confused with a person's surname, and do not abbreviate a group name that is already short. \"The World Bank\" is fine as written; turning it into (WB, 2024) makes the reader work harder for no gain. If two of your sources share the same abbreviation, spell both out every time.",
+        "html": null
+      },
+      "i37": {
+        "en": "Same author, same year",
+        "html": null
+      },
+      "i38": {
+        "en": "When one author has two works from the same year, append lowercase letters in alphabetical order of the reference titles: 2020a, 2020b. The letters are assigned by title, not by publication month or by the order you read them. Once assigned, they must match in the text and in the reference list, and the suffixes attach to the year inside the same parentheses.",
+        "html": "When one author has two works from the same year, append lowercase letters in <strong>alphabetical order of the reference titles</strong>: <code>2020a</code>, <code>2020b</code>. The letters are assigned by title, not by publication month or by the order you read them. Once assigned, they must match in the text and in the reference list, and the suffixes attach to the year inside the same parentheses."
+      },
+      "i39": {
+        "en": "Do not add a letter to a single work just because another year is close. 2023 and 2024 need no letter. The letters only disambiguate an exact year collision for the same author or same author team.",
+        "html": "Do not add a letter to a single work just because another year is close. <code>2023</code> and <code>2024</code> need no letter. The letters only disambiguate an exact year collision for the same author or same author team."
+      },
+      "i40": {
+        "en": "No author, no date, in press",
+        "html": null
+      },
+      "i41": {
+        "en": "If a work genuinely has no author, move the title into the author position. In the reference list a title that would normally take sentence case keeps it; in the in-text citation, use a shortened version in double quotation marks with the year. A corporate author is not \"no author\" — an organisation named on the source counts.",
+        "html": null
+      },
+      "i42": {
+        "en": "When no publication date can be found, use (n.d.) — lowercase, with periods, inside the parentheses. Use it only after you have actually looked. (in press) is reserved for a work that has been accepted for publication but not yet assigned a final date; it is not a synonym for \"submitted\".",
+        "html": "When no publication date can be found, use <code>(n.d.)</code> — lowercase, with periods, inside the parentheses. Use it only after you have actually looked. <code>(in press)</code> is reserved for a work that has been accepted for publication but not yet assigned a final date; it is not a synonym for \"submitted\"."
+      },
+      "i43": {
+        "en": "Direct quotations need a location",
+        "html": null
+      },
+      "i44": {
+        "en": "A paraphrase needs only author and year. A direct quotation also needs a precise location, so the reader can find the exact words. For print sources give a page number. For sources without pages, give a paragraph number, a section heading, or a timestamp for audio and video.",
+        "html": null
+      },
+      "i45": {
+        "en": "Use p. for one page and pp. for a range. In narrative form the page number follows the closing parenthesis of the year: Smith (2024, p. 45) describes... A quotation of 40 words or more becomes a block quote: start on a new line, indent the whole block by 0.5 inch, double-space it, omit the surrounding quotation marks, and place the parenthetical citation after the final punctuation.",
+        "html": "Use <code>p.</code> for one page and <code>pp.</code> for a range. In narrative form the page number follows the closing parenthesis of the year: <code>Smith (2024, p. 45) describes...</code> A quotation of <strong>40 words or more</strong> becomes a block quote: start on a new line, indent the whole block by 0.5 inch, double-space it, omit the surrounding quotation marks, and place the parenthetical citation <em>after</em> the final punctuation."
+      },
+      "i46": {
+        "en": "Multiple works in one parenthetical",
+        "html": null
+      },
+      "i47": {
+        "en": "When several sources support a single claim, put them inside one set of parentheses, separated by semicolons, and order them alphabetically by first author's surname — the same order as your reference list. Do not sort by year or by importance.",
+        "html": "When several sources support a single claim, put them inside one set of parentheses, separated by semicolons, and order them <strong>alphabetically by first author's surname</strong> — the same order as your reference list. Do not sort by year or by importance."
+      },
+      "i48": {
+        "en": "If two works by the same author appear in that set, the later years follow the earlier ones and the author name is not repeated: (Smith, 2020, 2024a, 2024b).",
+        "html": "If two works by the same author appear in that set, the later years follow the earlier ones and the author name is not repeated: <code>(Smith, 2020, 2024a, 2024b)</code>."
+      },
+      "i49": {
+        "en": "Personal communications and secondary sources",
+        "html": null
+      },
+      "i50": {
+        "en": "Emails, interviews you conducted, phone calls and private messages are personal communications. They appear in the text only, with the communicator's initial and surname, an exact date, and no entry in the reference list, because the reader cannot retrieve them.",
+        "html": "Emails, interviews you conducted, phone calls and private messages are <strong>personal communications</strong>. They appear in the text only, with the communicator's initial and surname, an exact date, and no entry in the reference list, because the reader cannot retrieve them."
+      },
+      "i51": {
+        "en": "If you read a work quoted inside another work and could not access the original, cite the source you actually read and say so: (as cited in Lee, 2023, p. 112). The reference list contains only Lee. Track these down where you can — a chain of secondary citations is a common examiner question in a doctoral viva.",
+        "html": "If you read a work quoted inside another work and could not access the original, cite the source you actually read and say so: <code>(as cited in Lee, 2023, p. 112)</code>. The reference list contains only Lee. Track these down where you can — a chain of secondary citations is a common examiner question in a doctoral viva."
+      },
+      "i52": {
+        "en": "Common mistakes, and the fix",
+        "html": null
+      },
+      "i53": {
+        "en": "Mistake",
+        "html": null
+      },
+      "i54": {
+        "en": "Fix",
+        "html": null
+      },
+      "i55": {
+        "en": "& in a narrative citation",
+        "html": "<code>&amp;</code> in a narrative citation"
+      },
+      "i56": {
+        "en": "Write \"and\" when the author is in the sentence.",
+        "html": null
+      },
+      "i57": {
+        "en": "Listing all authors on first citation of a 3-author paper",
+        "html": null
+      },
+      "i58": {
+        "en": "Use et al. from the first citation in APA 7.",
+        "html": "Use <code>et al.</code> from the first citation in APA 7."
+      },
+      "i59": {
+        "en": "et al without the period",
+        "html": "<code>et al</code> without the period"
+      },
+      "i60": {
+        "en": "et al. — the period after al is required.",
+        "html": "<code>et al.</code> — the period after <code>al</code> is required."
+      },
+      "i61": {
+        "en": "Missing year, or year outside the parentheses",
+        "html": null
+      },
+      "i62": {
+        "en": "Author and year belong together; the year is always bracketed.",
+        "html": null
+      },
+      "i63": {
+        "en": "Quotation with page number but no author-year",
+        "html": null
+      },
+      "i64": {
+        "en": "Both elements are required: (Smith, 2024, p. 45).",
+        "html": "Both elements are required: <code>(Smith, 2024, p. 45)</code>."
+      },
+      "i65": {
+        "en": "Citation after the full stop",
+        "html": null
+      },
+      "i66": {
+        "en": "Place it before the period, inside the sentence.",
+        "html": null
+      },
+      "i67": {
+        "en": "Related guides",
+        "html": null
+      },
+      "i68": {
+        "en": "The APA 7 reference list, checked line by line — the other half of the style.",
+        "html": "<a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a> — the other half of the style."
+      },
+      "i69": {
+        "en": "Why your reference manager keeps exporting Title Case.",
+        "html": "<a href=\"title-case-problem.html\">Why your reference manager keeps exporting Title Case</a>."
+      },
+      "i70": {
+        "en": "APA 6 to APA 7: what actually changed.",
+        "html": "<a href=\"apa6-to-apa7.html\">APA 6 to APA 7: what actually changed</a>."
+      },
+      "i71": {
+        "en": "Pre-submission check",
+        "html": null
+      },
+      "i72": {
+        "en": "Every claim that is not common knowledge carries a citation.",
+        "html": null
+      },
+      "i73": {
+        "en": "Every in-text citation resolves to exactly one reference-list entry, and vice versa.",
+        "html": null
+      },
+      "i74": {
+        "en": "Three-or-more-author works use et al. from the first mention, with the period.",
+        "html": "Three-or-more-author works use <code>et al.</code> from the first mention, with the period."
+      },
+      "i75": {
+        "en": "Narrative citations say \"and\"; parenthetical citations say &.",
+        "html": "Narrative citations say \"and\"; parenthetical citations say <code>&amp;</code>."
+      },
+      "i76": {
+        "en": "Every direct quotation has a page, paragraph, section or timestamp.",
+        "html": null
+      },
+      "i77": {
+        "en": "Block quotes of 40+ words are indented, unquoted, and cited after the final period.",
+        "html": null
+      },
+      "i78": {
+        "en": "Same-author-same-year suffixes match between text and list.",
+        "html": null
+      },
+      "i79": {
+        "en": "Multiple works share one set of parentheses, alphabetised, semicolon-separated.",
+        "html": null
+      },
+      "i80": {
+        "en": "Personal communications appear in text only, with an exact date.",
+        "html": null
+      },
+      "i81": {
+        "en": "The reference list has its own rule set — sentence case, italics, DOIs, the 21-author ellipsis. Read The APA 7 reference list, checked line by line for that half, or run a pasted list through the reference list auditor for the mechanical errors.",
+        "html": "The reference list has its own rule set — sentence case, italics, DOIs, the 21-author ellipsis. Read <a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a> for that half, or run a pasted list through the <a href=\"../tools/reference-check.html\">reference list auditor</a> for the mechanical errors."
+      },
+      "i82": {
+        "en": "This guide describes common APA 7 patterns. The Publication Manual (7th ed.), your institution's template and your journal's instructions take precedence where they differ.",
+        "html": "This guide describes common APA 7 patterns. The <em>Publication Manual</em> (7th ed.), your institution's template and your journal's instructions take precedence where they differ."
+      }
+    },
+    "guides/apa7-reference-list.html": {
+      "i1": {
+        "en": "Guide · APA 7",
+        "html": null
+      },
+      "i2": {
+        "en": "The APA 7 reference list, checked line by line",
+        "html": null
+      },
+      "i3": {
+        "en": "A reference list is not a decoration added at the end. It is the evidence trail for every claim in your manuscript. Here is how the four-element model works, where doctoral writers most often go wrong, and a checklist to run before submission.",
+        "html": null
+      },
+      "i4": {
+        "en": "Applies to APA 7th edition. Your institution's dissertation template or your target journal's author guidelines take precedence wherever they differ.",
+        "html": null
+      },
+      "i5": {
+        "en": "The four-element model",
+        "html": null
+      },
+      "i6": {
+        "en": "Every APA 7 reference answers four questions in a fixed order: Who created it (author), when (date), what is it called (title), and where can a reader find it (source). Once you internalise this, most formatting puzzles become a question about the fourth element rather than a memorisation exercise.",
+        "html": "Every APA 7 reference answers four questions in a fixed order: <strong>Who</strong> created it (author), <strong>when</strong> (date), <strong>what</strong> is it called (title), and <strong>where</strong> can a reader find it (source). Once you internalise this, most formatting puzzles become a question about the fourth element rather than a memorisation exercise."
+      },
+      "i7": {
+        "en": "The first three elements are nearly identical across source types. Only the source element changes: a journal article needs an italic journal name, italic volume, issue and page range; a book needs an edition and publisher; a chapter needs an editor, book title and chapter pages; a dissertation needs a bracketed description and a repository. That is why a tool organised by source type is more useful than one long template.",
+        "html": "The first three elements are nearly identical across source types. Only the source element changes: a journal article needs an italic journal name, italic volume, issue and page range; a book needs an edition and publisher; a chapter needs an editor, book title and chapter pages; a dissertation needs a bracketed description and a repository. That is why a tool organised by <em>source type</em> is more useful than one long template."
+      },
+      "i8": {
+        "en": "Authors: the rules that change with the count",
+        "html": null
+      },
+      "i9": {
+        "en": "Authors",
+        "html": null
+      },
+      "i10": {
+        "en": "Reference list format",
+        "html": null
+      },
+      "i12": {
+        "en": "Smith, J. A.",
+        "html": "<code>Smith, J. A.</code>"
+      },
+      "i14": {
+        "en": "Smith, J. A., & Lee, B. — comma before the ampersand",
+        "html": "<code>Smith, J. A., &amp; Lee, B.</code> — comma before the ampersand"
+      },
+      "i15": {
+        "en": "3 to 20",
+        "html": null
+      },
+      "i16": {
+        "en": "Smith, J. A., Lee, B., & Chen, C. — serial comma, then ampersand",
+        "html": "<code>Smith, J. A., Lee, B., &amp; Chen, C.</code> — serial comma, then ampersand"
+      },
+      "i17": {
+        "en": "21 or more",
+        "html": null
+      },
+      "i18": {
+        "en": "First 19 authors, an ellipsis, then the final author, with no ampersand",
+        "html": null
+      },
+      "i19": {
+        "en": "Group author",
+        "html": null
+      },
+      "i20": {
+        "en": "Spell out the organisation in full; do not abbreviate in the reference list",
+        "html": null
+      },
+      "i21": {
+        "en": "No author",
+        "html": null
+      },
+      "i22": {
+        "en": "Move the title into the author position, then the date",
+        "html": null
+      },
+      "i23": {
+        "en": "Surnames keep their original particles: \"van der Berg\" stays together, so enter it as van der Berg, J. rather than letting software split it. Suffixes such as \"Jr.\" follow the initials, separated by a comma. A common failure mode in doctoral theses is the 21-author rule applied wrongly: the ellipsis is not \"et al.\", and the last author is still named in full.",
+        "html": "Surnames keep their original particles: \"van der Berg\" stays together, so enter it as <code>van der Berg, J.</code> rather than letting software split it. Suffixes such as \"Jr.\" follow the initials, separated by a comma. A common failure mode in doctoral theses is the 21-author rule applied wrongly: the ellipsis is not \"et al.\", and the last author is still named in full."
+      },
+      "i24": {
+        "en": "Date, title and sentence case",
+        "html": null
+      },
+      "i25": {
+        "en": "Use the year in parentheses. For web content and conference presentations a fuller date such as (2024, May 4) is appropriate when the source supplies one. Use (n.d.) only when no date can be found, not when you did not look. Use (in press) only after the article has been accepted.",
+        "html": "Use the year in parentheses. For web content and conference presentations a fuller date such as <code>(2024, May 4)</code> is appropriate when the source supplies one. Use <code>(n.d.)</code> only when no date can be found, not when you did not look. Use <code>(in press)</code> only after the article has been accepted."
+      },
+      "i26": {
+        "en": "Reference titles take sentence case: capitalise the first word, the first word after a colon, and proper nouns. Journal names, by contrast, keep Title Case and are italicised. This asymmetry is deliberate and trips up almost everyone who exports from a bibliographic database, because databases store article titles in Title Case. A reliable workflow is to export, then convert article titles to sentence case by hand while leaving journal names untouched. Automatic converters will lowercase \"Structural Equation Modeling\" and \"Federal Reserve\" with equal enthusiasm.",
+        "html": null
+      },
+      "i27": {
+        "en": "Bracketed descriptions such as [Doctoral dissertation], [Conference presentation] or [Data set] sit immediately after the title, are not italicised, and identify the type of work when it is not obvious. They are one of the more visible changes between APA 6 and APA 7.",
+        "html": "Bracketed descriptions such as <code>[Doctoral dissertation]</code>, <code>[Conference presentation]</code> or <code>[Data set]</code> sit immediately after the title, are not italicised, and identify the type of work when it is not obvious. They are one of the more visible changes between APA 6 and APA 7."
+      },
+      "i28": {
+        "en": "Italics: what is and is not italicised",
+        "html": null
+      },
+      "i29": {
+        "en": "Italicise: journal name, journal volume number, book title, edited book title in a chapter reference, dissertation title, website name (when different from the author), conference paper title.",
+        "html": "<strong>Italicise:</strong> journal name, journal volume number, book title, edited book title in a chapter reference, dissertation title, website name (when different from the author), conference paper title."
+      },
+      "i30": {
+        "en": "Do not italicise: issue number in parentheses, article title, chapter title, edition statement, publisher name, page range, DOI or URL.",
+        "html": "<strong>Do not italicise:</strong> issue number in parentheses, article title, chapter title, edition statement, publisher name, page range, DOI or URL."
+      },
+      "i31": {
+        "en": "A useful sanity check: the italicised element is the container, not the individual work inside it. The article title is plain while the journal is italic; the chapter title is plain while the book is italic.",
+        "html": "A useful sanity check: the italicised element is the <em>container</em>, not the individual work inside it. The article title is plain while the journal is italic; the chapter title is plain while the book is italic."
+      },
+      "i32": {
+        "en": "DOIs and URLs",
+        "html": null
+      },
+      "i33": {
+        "en": "Every DOI is presented as a link: https://doi.org/10.xxxx/yyyy. No \"doi:\" label, no \"Retrieved from\", no terminal period. If an article has a DOI, include it even when you read a print version. If an article has no DOI and came from an academic database, end the reference at the page range — do not add the database URL. DOI-less articles that exist openly on the web may include a URL.",
+        "html": "Every DOI is presented as a link: <code>https://doi.org/10.xxxx/yyyy</code>. No \"doi:\" label, no \"Retrieved from\", no terminal period. If an article has a DOI, include it even when you read a print version. If an article has no DOI and came from an academic database, end the reference at the page range — do not add the database URL. DOI-less articles that exist openly on the web may include a URL."
+      },
+      "i34": {
+        "en": "APA 7 removed publisher locations from book references, so New York: Wiley becomes simply Wiley. It also dropped \"Retrieved from\" except where a retrieval date is genuinely needed for content designed to change, such as a live statistics dashboard or an archived dataset.",
+        "html": "APA 7 removed publisher locations from book references, so <code>New York: Wiley</code> becomes simply <code>Wiley</code>. It also dropped \"Retrieved from\" except where a retrieval date is genuinely needed for content designed to change, such as a live statistics dashboard or an archived dataset."
+      },
+      "i35": {
+        "en": "Worked example: from metadata to entry",
+        "html": null
+      },
+      "i36": {
+        "en": "Suppose your reference manager gives you this raw record: authors \"Smith, John A.\" and \"Lee, B.\"; year 2024; title \"Dynamic Capabilities and Firm Performance\"; journal \"Journal of Business Research\"; volume 142; issue 3; pages 45-67; DOI \"doi:10.1016/j.jbusres.2023.114321\".",
+        "html": null
+      },
+      "i37": {
+        "en": "Reduce given names to initials and join with the ampersand: Smith, J. A., & Lee, B.",
+        "html": "Reduce given names to initials and join with the ampersand: <code>Smith, J. A., &amp; Lee, B.</code>"
+      },
+      "i38": {
+        "en": "Put the year in parentheses: (2024).",
+        "html": "Put the year in parentheses: <code>(2024).</code>"
+      },
+      "i39": {
+        "en": "Convert the title to sentence case: Dynamic capabilities and firm performance.",
+        "html": "Convert the title to sentence case: <code>Dynamic capabilities and firm performance.</code>"
+      },
+      "i40": {
+        "en": "Build the source element: Journal of Business Research, 142(3), 45-67. with the journal name and \"142\" in italics and \"(3)\" in roman type.",
+        "html": "Build the source element: <code>Journal of Business Research, 142(3), 45-67.</code> with the journal name and \"142\" in italics and \"(3)\" in roman type."
+      },
+      "i41": {
+        "en": "Normalise the DOI and add no final period.",
+        "html": null
+      },
+      "i42": {
+        "en": "You can reproduce this in the APA 7 reference builder using its \"Load example\" button.",
+        "html": "You can reproduce this in the <a href=\"../tools/apa7-citation.html\">APA 7 reference builder</a> using its \"Load example\" button."
+      },
+      "i43": {
+        "en": "Related guides",
+        "html": null
+      },
+      "i44": {
+        "en": "APA 7 in-text citations, decided in one page — the other half of the style.",
+        "html": "<a href=\"apa7-in-text-citations.html\">APA 7 in-text citations, decided in one page</a> — the other half of the style."
+      },
+      "i45": {
+        "en": "Why your reference manager keeps exporting Title Case — the most common import defect.",
+        "html": "<a href=\"title-case-problem.html\">Why your reference manager keeps exporting Title Case</a> — the most common import defect."
+      },
+      "i46": {
+        "en": "Citing a dissertation or thesis in APA 7.",
+        "html": "<a href=\"apa7-dissertations.html\">Citing a dissertation or thesis in APA 7</a>."
+      },
+      "i47": {
+        "en": "APA 6 to APA 7: what actually changed.",
+        "html": "<a href=\"apa6-to-apa7.html\">APA 6 to APA 7: what actually changed</a>."
+      },
+      "i48": {
+        "en": "Pre-submission checklist",
+        "html": null
+      },
+      "i49": {
+        "en": "Every in-text citation has a reference-list entry, and every entry is cited in the text.",
+        "html": null
+      },
+      "i50": {
+        "en": "Entries are alphabetised by the first author's surname, letter by letter.",
+        "html": null
+      },
+      "i51": {
+        "en": "The list is double-spaced with a hanging indent of 0.5 inch, with no extra blank lines between entries.",
+        "html": null
+      },
+      "i52": {
+        "en": "Article titles are in sentence case; journal names are in Title Case and italicised, along with volume numbers.",
+        "html": null
+      },
+      "i53": {
+        "en": "All DOIs are https://doi.org/... links with no trailing period.",
+        "html": "All DOIs are <code>https://doi.org/...</code> links with no trailing period."
+      },
+      "i54": {
+        "en": "No \"Retrieved from\", no \"Vol.\", no \"pp.\" on journal articles, no \"et al.\" in the list.",
+        "html": null
+      },
+      "i55": {
+        "en": "Group authors are spelled out; no unexplained abbreviations.",
+        "html": null
+      },
+      "i56": {
+        "en": "Punctuation is half-width, and there is exactly one space after each punctuation mark.",
+        "html": null
+      },
+      "i57": {
+        "en": "The whole list matches the dissertation template or the journal's author guidelines where they override APA 7.",
+        "html": null
+      },
+      "i58": {
+        "en": "Run the mechanical half of this checklist with the reference list auditor. It will not see italics or hanging indents — those still need your eyes. For the research process behind the list, read A reproducible literature review workflow for doctoral students.",
+        "html": "Run the mechanical half of this checklist with the <a href=\"../tools/reference-check.html\">reference list auditor</a>. It will not see italics or hanging indents — those still need your eyes. For the research process behind the list, read <a href=\"dba-literature-review-workflow.html\">A reproducible literature review workflow for doctoral students</a>."
+      },
+      "i59": {
+        "en": "Want the full 67-point checklist?",
+        "html": null
+      },
+      "i60": {
+        "en": "I keep a longer, printable checklist on my own desk — the seven-day / twenty-four-hour / one-hour version that covers in-text citations, reference structure, tables, ethics statements and the final PDF. Email me and I'll send it over, along with a free check of any one reference you're unsure about.",
+        "html": null
+      },
+      "i61": {
+        "en": "Send me the checklist",
+        "html": "<a class=\"btn\" href=\"mailto:qpengking@gmail.com?subject=APA%207%20checklist%20please\">Send me the checklist</a>"
+      },
+      "i62": {
+        "en": "One email, no list you have to unsubscribe from. Please don't send drafts or unpublished chapters.",
+        "html": null
+      }
+    },
+    "guides/dba-literature-review-workflow.html": {
+      "i1": {
+        "en": "Guide · Research process",
+        "html": null
+      },
+      "i2": {
+        "en": "A reproducible literature review workflow for doctoral students",
+        "html": null
+      },
+      "i3": {
+        "en": "A literature review is judged on the argument, but it is defended on the audit trail. This seven-stage workflow is designed so that any search, exclusion or coding decision can be reconstructed months later, when a supervisor or examiner asks why a particular study is missing.",
+        "html": null
+      },
+      "i4": {
+        "en": "Why reproducibility matters more than volume",
+        "html": null
+      },
+      "i5": {
+        "en": "Doctoral candidates often respond to uncertainty by reading more. Reading more is rarely the problem. The failure mode is losing the ability to explain how the corpus was assembled: which database, which exact string, which date, which inclusion rule, and why the 2008 paper was excluded while the 2009 paper was kept. In a DBA or other professional doctorate, where the review usually supports an applied research question, an examiner is entitled to ask whether the search was systematic enough to support the claims being made. A clean, boring audit trail answers that question better than an impressive reading list.",
+        "html": "Doctoral candidates often respond to uncertainty by reading more. Reading more is rarely the problem. The failure mode is losing the ability to explain <em>how</em> the corpus was assembled: which database, which exact string, which date, which inclusion rule, and why the 2008 paper was excluded while the 2009 paper was kept. In a DBA or other professional doctorate, where the review usually supports an applied research question, an examiner is entitled to ask whether the search was systematic enough to support the claims being made. A clean, boring audit trail answers that question better than an impressive reading list."
+      },
+      "i6": {
+        "en": "The workflow below borrows the discipline of a systematic review without requiring you to register a protocol or produce a PRISMA diagram, unless your institution asks for one. It works in a spreadsheet plus a reference manager, with no specialist software.",
+        "html": null
+      },
+      "i7": {
+        "en": "Stage 1: write the question before the search string",
+        "html": null
+      },
+      "i8": {
+        "en": "Write one sentence stating the construct, the population or context, and the relationship of interest. Then list the synonyms for each concept. Search strings are built from those synonym lists, not from intuition on the day. For a study of dynamic capabilities and financial performance in Chinese firms, the concept buckets might be dynamic capabilities / absorptive capacity / organisational agility, financial performance / firm performance / ROA / Tobin's Q, and China / Chinese firms / emerging markets.",
+        "html": "Write one sentence stating the construct, the population or context, and the relationship of interest. Then list the synonyms for each concept. Search strings are built from those synonym lists, not from intuition on the day. For a study of dynamic capabilities and financial performance in Chinese firms, the concept buckets might be <em>dynamic capabilities / absorptive capacity / organisational agility</em>, <em>financial performance / firm performance / ROA / Tobin's Q</em>, and <em>China / Chinese firms / emerging markets</em>."
+      },
+      "i9": {
+        "en": "Save the question and the synonym list in a file called review-protocol.md inside your project folder. Date it. That single file is what turns a pile of PDFs into a defensible method.",
+        "html": "Save the question and the synonym list in a file called <code>review-protocol.md</code> inside your project folder. Date it. That single file is what turns a pile of PDFs into a defensible method."
+      },
+      "i10": {
+        "en": "Stage 2: log every search exactly as run",
+        "html": null
+      },
+      "i11": {
+        "en": "Create a search log with one row per query: date, database, the full string copied verbatim, field restrictions, date limits, language limits, and the number of hits. Copy-paste the string; do not paraphrase it. Databases change their syntax and their coverage, and \"a search of Web of Science\" is not a method — \"TITLE-ABS-KEY(...) AND ... run on 2026-03-14, restricted to 2010-2026, 1,284 records\" is.",
+        "html": null
+      },
+      "i12": {
+        "en": "Column",
+        "html": null
+      },
+      "i13": {
+        "en": "Why it is there",
+        "html": null
+      },
+      "i14": {
+        "en": "Date",
+        "html": null
+      },
+      "i15": {
+        "en": "Databases are updated; a corpus is a snapshot, not a permanent set.",
+        "html": null
+      },
+      "i16": {
+        "en": "Database + platform",
+        "html": null
+      },
+      "i17": {
+        "en": "Web of Science via one institution's subscription differs from another's.",
+        "html": null
+      },
+      "i18": {
+        "en": "Exact string",
+        "html": null
+      },
+      "i19": {
+        "en": "Allows the search to be rerun for an updated chapter or a resubmission.",
+        "html": null
+      },
+      "i20": {
+        "en": "Filters",
+        "html": null
+      },
+      "i21": {
+        "en": "Language and date restrictions are substantive decisions, not housekeeping.",
+        "html": null
+      },
+      "i22": {
+        "en": "Hits",
+        "html": null
+      },
+      "i23": {
+        "en": "The denominator for any later claim about the size of the literature.",
+        "html": null
+      },
+      "i24": {
+        "en": "Stage 3: deduplicate once, and record the count",
+        "html": null
+      },
+      "i25": {
+        "en": "Export to BibTeX or RIS rather than retyping. Deduplicate in your reference manager, note how many records were removed, and keep the raw exports untouched in a /raw folder. Never edit the raw export. If a later stage reveals a bad merge, you need the original file to recover it.",
+        "html": "Export to BibTeX or RIS rather than retyping. Deduplicate in your reference manager, note how many records were removed, and keep the raw exports untouched in a <code>/raw</code> folder. Never edit the raw export. If a later stage reveals a bad merge, you need the original file to recover it."
+      },
+      "i26": {
+        "en": "Stage 4: screen in two passes with a written rule",
+        "html": null
+      },
+      "i27": {
+        "en": "First pass: title and abstract against inclusion and exclusion criteria written before you start. Second pass: full text. Keep a screening log with one row per record and a reason code for every exclusion. Reason codes should be short and consistent — E1 wrong construct, E2 wrong context, E3 not empirical, E4 inaccessible full text. Free-text explanations feel more thorough but are impossible to summarise in a methods chapter.",
+        "html": "First pass: title and abstract against inclusion and exclusion criteria written before you start. Second pass: full text. Keep a screening log with one row per record and a reason code for every exclusion. Reason codes should be short and consistent — <code>E1 wrong construct</code>, <code>E2 wrong context</code>, <code>E3 not empirical</code>, <code>E4 inaccessible full text</code>. Free-text explanations feel more thorough but are impossible to summarise in a methods chapter."
+      },
+      "i28": {
+        "en": "Record borderline decisions separately rather than silently resolving them. If you are working with a supervisor, this is the list to bring to a meeting, and it is far more productive than asking \"am I reading the right things?\".",
+        "html": null
+      },
+      "i29": {
+        "en": "Stage 5: build a synthesis matrix, not an annotated bibliography",
+        "html": null
+      },
+      "i30": {
+        "en": "An annotated bibliography is a list of summaries arranged by author. A synthesis matrix is a table arranged by concept, which is what a literature review chapter actually needs. Columns typically include: citation, theoretical lens, construct definition, sample and context, method, key finding, measured outcome, limitations, and how it relates to your research question. One row per study; one column per concept you will write about.",
+        "html": "An annotated bibliography is a list of summaries arranged by author. A synthesis matrix is a table arranged by <em>concept</em>, which is what a literature review chapter actually needs. Columns typically include: citation, theoretical lens, construct definition, sample and context, method, key finding, measured outcome, limitations, and how it relates to your research question. One row per study; one column per concept you will write about."
+      },
+      "i31": {
+        "en": "The payoff is structural. When every study's definition of the central construct sits in a single column, the inconsistencies in the literature become visible as a pattern rather than as twelve disconnected paragraphs. That pattern is usually the contribution of your review: not \"researchers have studied X\", but \"researchers mean three different things by X, and the empirical results divide along those definitions\".",
+        "html": null
+      },
+      "i32": {
+        "en": "Stage 6: version everything",
+        "html": null
+      },
+      "i33": {
+        "en": "Keep the protocol, search log, screening log, synthesis matrix and manuscript in one folder under version control, or at minimum in dated snapshots. Use predictable names: 2026-03-14_screening-log_v3.csv. When a supervisor asks you to widen the date range in month eight, you can rerun Stage 2, quantify exactly how many new records entered, and update the methods paragraph with real numbers instead of reconstructing the whole process from memory.",
+        "html": "Keep the protocol, search log, screening log, synthesis matrix and manuscript in one folder under version control, or at minimum in dated snapshots. Use predictable names: <code>2026-03-14_screening-log_v3.csv</code>. When a supervisor asks you to widen the date range in month eight, you can rerun Stage 2, quantify exactly how many new records entered, and update the methods paragraph with real numbers instead of reconstructing the whole process from memory."
+      },
+      "i34": {
+        "en": "Stage 7: make the methods paragraph write itself",
+        "html": null
+      },
+      "i35": {
+        "en": "If the first six stages are logged, the methods section is a transcription: databases searched, date of last search, exact strings or their location in an appendix, inclusion and exclusion criteria, number of records at each stage, and the coding scheme used in the matrix. Attach the search log as an appendix. This is also where you disclose limitations honestly — a single database, an English-only restriction, or a context restricted to one country.",
+        "html": null
+      },
+      "i36": {
+        "en": "Common failure modes",
+        "html": null
+      },
+      "i37": {
+        "en": "Search strings that drift. A slightly different string in week six produces a corpus nobody can reproduce. Always append to the log rather than silently substituting.",
+        "html": "<strong>Search strings that drift.</strong> A slightly different string in week six produces a corpus nobody can reproduce. Always append to the log rather than silently substituting."
+      },
+      "i38": {
+        "en": "Reference-manager fields used as a database. Notes and tags are convenient but hard to export and harder to audit. Keep the structured data in a plain CSV or spreadsheet.",
+        "html": "<strong>Reference-manager fields used as a database.</strong> Notes and tags are convenient but hard to export and harder to audit. Keep the structured data in a plain CSV or spreadsheet."
+      },
+      "i39": {
+        "en": "No exclusion reasons. \"Not relevant\" is not a reason; it is a missing record.",
+        "html": "<strong>No exclusion reasons.</strong> \"Not relevant\" is not a reason; it is a missing record."
+      },
+      "i40": {
+        "en": "Citation formatting left to the end. Reformatting 200 references the week before submission is where silent errors enter. Run a format audit early and again at the end.",
+        "html": "<strong>Citation formatting left to the end.</strong> Reformatting 200 references the week before submission is where silent errors enter. Run a format audit early and again at the end."
+      },
+      "i41": {
+        "en": "AI summaries without the source PDF. A generated summary is not evidence. Every coded cell in the matrix should trace back to a page number in a PDF you have opened.",
+        "html": "<strong>AI summaries without the source PDF.</strong> A generated summary is not evidence. Every coded cell in the matrix should trace back to a page number in a PDF you have opened."
+      },
+      "i42": {
+        "en": "Once the corpus is fixed, the mechanical work begins: check the reference list with the reference list auditor and read the APA 7 reference list guide for the formatting rules behind each flag.",
+        "html": "Once the corpus is fixed, the mechanical work begins: check the reference list with the <a href=\"../tools/reference-check.html\">reference list auditor</a> and read <a href=\"apa7-reference-list.html\">the APA 7 reference list guide</a> for the formatting rules behind each flag."
+      },
+      "i43": {
+        "en": "Related guides",
+        "html": null
+      },
+      "i44": {
+        "en": "The APA 7 reference list, checked line by line.",
+        "html": "<a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a>."
+      },
+      "i45": {
+        "en": "Why your reference manager keeps exporting Title Case — the most common export defect in a review corpus.",
+        "html": "<a href=\"title-case-problem.html\">Why your reference manager keeps exporting Title Case</a> — the most common export defect in a review corpus."
+      },
+      "i46": {
+        "en": "APA 7 in-text citations, decided in one page.",
+        "html": "<a href=\"apa7-in-text-citations.html\">APA 7 in-text citations, decided in one page</a>."
+      },
+      "i47": {
+        "en": "Want the matrix as a fillable file?",
+        "html": null
+      },
+      "i48": {
+        "en": "I use a 14-column version of this matrix on my own review — with a coding-confidence field and a PDF-page pointer so every claim traces back to a source. Email me and I'll send it, along with the 67-point submission checklist. If one reference is holding you up, paste it in the same message and I'll check it for free.",
+        "html": null
+      },
+      "i49": {
+        "en": "Send me the matrix",
+        "html": "<a class=\"btn\" href=\"mailto:qpengking@gmail.com?subject=Literature%20review%20matrix%20please\">Send me the matrix</a>"
+      },
+      "i50": {
+        "en": "No sign-up and no mailing list. Please don't send drafts, chapters or participant data.",
+        "html": null
+      }
+    },
+    "guides/title-case-problem.html": {
+      "i1": {
+        "en": "Guide · Troubleshooting",
+        "html": null
+      },
+      "i2": {
+        "en": "Why your reference manager keeps exporting Title Case",
+        "html": null
+      },
+      "i3": {
+        "en": "You change the style to APA 7, export again, and every article title is still Capitalised Like This. The problem is not the style file. It is the data underneath it — and the fix is not the one most people try.",
+        "html": null
+      },
+      "i4": {
+        "en": "The database stored capitals, not words",
+        "html": null
+      },
+      "i5": {
+        "en": "Most bibliographic records arrive from publisher databases with titles already capitalised. Web of Science, Scopus, Crossref and the publisher's own site typically supply the title in title case, because that is how journal tables of contents are typeset. Your reference manager imports that string and stores it as-is. The output style then decides what to do with it.",
+        "html": null
+      },
+      "i6": {
+        "en": "Here is the crucial distinction: an APA 7 style file changes punctuation, order and italics. It does not reliably change the case of the letters you stored. Some styles apply a case transformation at export; many do not, and those that do are inconsistent across reference types. So the same library can export one article title in sentence case and the next in Title Case, depending on where each record came from.",
+        "html": "Here is the crucial distinction: <strong>an APA 7 style file changes punctuation, order and italics. It does not reliably change the case of the letters you stored.</strong> Some styles apply a case transformation at export; many do not, and those that do are inconsistent across reference types. So the same library can export one article title in sentence case and the next in Title Case, depending on where each record came from."
+      },
+      "i7": {
+        "en": "This is why changing the style again rarely helps. The style is behaving correctly with the data it was given. The capitals are in the record.",
+        "html": null
+      },
+      "i8": {
+        "en": "What APA 7 actually requires",
+        "html": null
+      },
+      "i9": {
+        "en": "Reference-list titles — article titles, book titles, chapter titles, dissertation titles — use sentence case. Capitalise the first word, the first word after a colon, and proper nouns. Everything else is lowercase. Journal names are the exception: they appear in Title Case and are italicised, along with the volume number.",
+        "html": "Reference-list titles — article titles, book titles, chapter titles, dissertation titles — use <strong>sentence case</strong>. Capitalise the first word, the first word after a colon, and proper nouns. Everything else is lowercase. Journal names are the exception: they appear in Title Case and are italicised, along with the volume number."
+      },
+      "i10": {
+        "en": "Note the second example. The word after the colon is capitalised because it begins a new clause, but \"AI\" keeps its capitals because it is an acronym. That interaction is exactly where automatic conversion fails.",
+        "html": null
+      },
+      "i11": {
+        "en": "Why the auto-convert button is dangerous",
+        "html": null
+      },
+      "i12": {
+        "en": "It is tempting to select the whole reference list and apply \"sentence case\". Do not. A case converter is a simple algorithm: lowercase everything except the first word and the word after a colon. It has no idea what a proper noun or a named construct is. The damage is silent, because the result still looks plausible.",
+        "html": null
+      },
+      "i13": {
+        "en": "These are the categories it will break, drawn from real doctoral writing:",
+        "html": null
+      },
+      "i14": {
+        "en": "Category",
+        "html": null
+      },
+      "i15": {
+        "en": "Keep as written",
+        "html": null
+      },
+      "i16": {
+        "en": "Auto-converter output",
+        "html": null
+      },
+      "i17": {
+        "en": "Acronyms and initialisms",
+        "html": null
+      },
+      "i18": {
+        "en": "AI governance, CSR disclosure, ROA, SEM",
+        "html": null
+      },
+      "i19": {
+        "en": "Ai governance, Csr disclosure, Roa, Sem",
+        "html": null
+      },
+      "i20": {
+        "en": "Named theories and constructs",
+        "html": null
+      },
+      "i21": {
+        "en": "Dynamic Capabilities, Resource-Based View",
+        "html": null
+      },
+      "i22": {
+        "en": "Dynamic capabilities, Resource-based view",
+        "html": null
+      },
+      "i23": {
+        "en": "Proper nouns and places",
+        "html": null
+      },
+      "i24": {
+        "en": "Chinese firms, European Union, Tobin's Q",
+        "html": null
+      },
+      "i25": {
+        "en": "Chinese firms (ok), European union, Tobin's q",
+        "html": null
+      },
+      "i26": {
+        "en": "Organisation and product names",
+        "html": null
+      },
+      "i27": {
+        "en": "Google Scholar, Microsoft Excel, Amazon Web Services",
+        "html": null
+      },
+      "i28": {
+        "en": "Google scholar, Microsoft excel, Amazon web services",
+        "html": null
+      },
+      "i29": {
+        "en": "Statistical and technical terms",
+        "html": null
+      },
+      "i30": {
+        "en": "Tobin's Q, p Values, R&D Investment",
+        "html": null
+      },
+      "i31": {
+        "en": "Tobin's q, P values, R&d investment",
+        "html": null
+      },
+      "i32": {
+        "en": "Non-English terms in a bilingual list",
+        "html": null
+      },
+      "i33": {
+        "en": "企业社会责任 (keep original form)",
+        "html": null
+      },
+      "i34": {
+        "en": "Unpredictable",
+        "html": null
+      },
+      "i35": {
+        "en": "The second row deserves attention in a management or strategy dissertation. If \"Dynamic Capabilities\" is the name of a specific framework you are testing rather than a descriptive phrase, capitalising it is a legitimate disciplinary choice. A blanket converter removes that distinction without asking. This is why the reference builder on this site preserves the title exactly as you type it and only raises a warning when several words look inappropriately capitalised.",
+        "html": "The second row deserves attention in a management or strategy dissertation. If \"Dynamic Capabilities\" is the name of a specific framework you are testing rather than a descriptive phrase, capitalising it is a legitimate disciplinary choice. A blanket converter removes that distinction without asking. This is why the <a href=\"../tools/apa7-citation.html\">reference builder on this site</a> preserves the title exactly as you type it and only raises a warning when several words look inappropriately capitalised."
+      },
+      "i36": {
+        "en": "The safe workflow: fix the record, not the output",
+        "html": null
+      },
+      "i37": {
+        "en": "The durable solution is to correct the title in your reference manager once, so every future export is right. Work in small batches and follow this order.",
+        "html": null
+      },
+      "i38": {
+        "en": "Export a plain-text copy of the list first. It gives you a stable before-state and makes it easy to spot which entries are wrong.",
+        "html": "<strong>Export a plain-text copy of the list first.</strong> It gives you a stable before-state and makes it easy to spot which entries are wrong."
+      },
+      "i39": {
+        "en": "Sort by source type. Journal articles need sentence case; book and journal titles in the container field do not. Mixing them in one bulk operation is how journals get lowercased.",
+        "html": "<strong>Sort by source type.</strong> Journal articles need sentence case; book and journal titles in the container field do not. Mixing them in one bulk operation is how journals get lowercased."
+      },
+      "i40": {
+        "en": "Edit the title field in the manager, not in the Word document. If you fix it only in the manuscript, the next export undoes your work.",
+        "html": "<strong>Edit the title field in the manager</strong>, not in the Word document. If you fix it only in the manuscript, the next export undoes your work."
+      },
+      "i41": {
+        "en": "Lock the exceptions first. Before touching anything else, mark every acronym, proper noun and named construct in the batch. Then convert the rest.",
+        "html": "<strong>Lock the exceptions first.</strong> Before touching anything else, mark every acronym, proper noun and named construct in the batch. Then convert the rest."
+      },
+      "i42": {
+        "en": "Check the first word after each colon. It should be capitalised; converters sometimes miss it.",
+        "html": "<strong>Check the first word after each colon.</strong> It should be capitalised; converters sometimes miss it."
+      },
+      "i43": {
+        "en": "Re-export and run the list through the reference list auditor. It flags likely Title Case and ALL CAPS, and it flags the full-width punctuation that often arrives with Chinese-language records.",
+        "html": "<strong>Re-export and run the list through the <a href=\"../tools/reference-check.html\">reference list auditor</a>.</strong> It flags likely Title Case and ALL CAPS, and it flags the full-width punctuation that often arrives with Chinese-language records."
+      },
+      "i44": {
+        "en": "Zotero and EndNote specifics",
+        "html": null
+      },
+      "i45": {
+        "en": "In Zotero, the title is stored in the Title field and the journal name in Publication Title. Editing the Title field changes the data; the \"case\" toggles in the item pane only change how it is displayed, and behaviour differs by version. If your Zotero output still emits Title Case after the field is corrected, check for a style override and for any post-processing script attached to the export.",
+        "html": "In Zotero, the title is stored in the <em>Title</em> field and the journal name in <em>Publication Title</em>. Editing the Title field changes the data; the \"case\" toggles in the item pane only change how it is displayed, and behaviour differs by version. If your Zotero output still emits Title Case after the field is corrected, check for a style override and for any post-processing script attached to the export."
+      },
+      "i46": {
+        "en": "In EndNote, check both the reference's Title field and the output style's \"Capitalization\" option. Some styles apply a transformation at format time, which means a correctly stored title can still be altered on export. Turn that transformation off for APA 7 rather than compensating for it by hand.",
+        "html": null
+      },
+      "i47": {
+        "en": "If you are migrating from a Chinese database such as CNKI, expect three issues together: Title Case, full-width punctuation, and a journal name that may be stored in Chinese characters. The first two are mechanical. The third is a decision — see how your institution wants Chinese-language sources handled in an English dissertation before you reformat them.",
+        "html": null
+      },
+      "i48": {
+        "en": "A five-minute verification pass",
+        "html": null
+      },
+      "i49": {
+        "en": "Search the exported list for sequences of three or more capitalised words — that is where Title Case survives.",
+        "html": null
+      },
+      "i50": {
+        "en": "Check every acronym for accidental lowercasing: AI, CSR, ROA, SEM, Tobin's Q.",
+        "html": "Check every acronym for accidental lowercasing: <code>AI</code>, <code>CSR</code>, <code>ROA</code>, <code>SEM</code>, <code>Tobin's Q</code>."
+      },
+      "i51": {
+        "en": "Check that journal names and volume numbers are still italic and still in Title Case.",
+        "html": null
+      },
+      "i52": {
+        "en": "Check the word after every colon.",
+        "html": null
+      },
+      "i53": {
+        "en": "Confirm that no Chinese punctuation marks remain in an English entry.",
+        "html": null
+      },
+      "i54": {
+        "en": "For the full rules on author counts, italics and DOIs, read The APA 7 reference list, checked line by line. If one entry still looks wrong after this pass, send it to me — sentence-case disputes are the most common email I expect to receive.",
+        "html": "For the full rules on author counts, italics and DOIs, read <a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a>. If one entry still looks wrong after this pass, <a href=\"../index.html#one-free-thing\">send it to me</a> — sentence-case disputes are the most common email I expect to receive."
+      },
+      "i55": {
+        "en": "Related guides",
+        "html": null
+      },
+      "i56": {
+        "en": "The APA 7 reference list, checked line by line.",
+        "html": "<a href=\"apa7-reference-list.html\">The APA 7 reference list, checked line by line</a>."
+      },
+      "i57": {
+        "en": "APA 7 in-text citations, decided in one page.",
+        "html": "<a href=\"apa7-in-text-citations.html\">APA 7 in-text citations, decided in one page</a>."
+      },
+      "i58": {
+        "en": "APA 6 to APA 7: what actually changed.",
+        "html": "<a href=\"apa6-to-apa7.html\">APA 6 to APA 7: what actually changed</a>."
+      },
+      "i59": {
+        "en": "Rule of thumb: change the stored record, never just the exported document. If the fix disappears on the next export, you fixed the symptom.",
+        "html": null
+      }
+    },
+    "index.html": {
+      "i1": {
+        "en": "For doctoral writers",
+        "html": null
+      },
+      "i2": {
+        "en": "Sort out the reference list before it sorts out you.",
+        "html": null
+      },
+      "i3": {
+        "en": "Doctoral Toolbox is a small collection of free, browser-based tools and plain-English guides for the mechanical parts of academic writing: APA 7 references, reference-list audits, and a literature review workflow you can actually reproduce.",
+        "html": null
+      },
+      "i4": {
+        "en": "No account. No upload. Everything runs locally in your browser, so your unpublished manuscript never leaves your machine.",
+        "html": null
+      },
+      "i5": {
+        "en": "The problem",
+        "html": null
+      },
+      "i6": {
+        "en": "Reference formatting is not the hard part of a doctorate. It is just the part that never ends.",
+        "html": null
+      },
+      "i7": {
+        "en": "Most doctoral candidates do not lose weeks because their argument is weak. They lose them because reference managers emit a slightly different style on every machine, because a supervisor wants sentence case and the database exported Title Case, and because the dissertation template disagrees with the journal you are also submitting to. None of that is intellectual work, but all of it has to be right before anyone reads the argument.",
+        "html": null
+      },
+      "i8": {
+        "en": "This site exists for that narrow, unglamorous gap. Each tool does one mechanical job and shows you exactly what it did, so you stay in control of the scholarly decisions. The guides explain the rule behind the output, because a tool you cannot verify is a tool you cannot defend in a viva.",
+        "html": null
+      },
+      "i9": {
+        "en": "A note on accuracy. These tools implement the common APA 7 patterns for six source types. They are a formatting aid, not a style authority. Always check the current Publication Manual of the American Psychological Association (7th ed.), your institution's dissertation template, and your target journal's author guidelines. Where they conflict, the institution or journal wins.",
+        "html": "<strong data-page-node-id=\"Awb3U6DaqME2STozwtPZK3\">A note on accuracy.</strong> These tools implement the common APA 7 patterns for six source types. They are a formatting aid, not a style authority. Always check the current <em data-page-node-id=\"zhiqeEEX0fIL9gHgt84Q9k\">Publication Manual of the American Psychological Association</em> (7th ed.), your institution's dissertation template, and your target journal's author guidelines. Where they conflict, the institution or journal wins."
+      },
+      "i10": {
+        "en": "Tools",
+        "html": null
+      },
+      "i11": {
+        "en": "Two tools, both local",
+        "html": null
+      },
+      "i12": {
+        "en": "Free tool",
+        "html": null
+      },
+      "i13": {
+        "en": "APA 7 reference builder",
+        "html": null
+      },
+      "i14": {
+        "en": "Turn author names, dates and source details into a correctly structured APA 7 entry for journal articles, books, chapters, web pages, theses and conference papers. Handles initials, the 21-author rule, and DOI normalisation.",
+        "html": null
+      },
+      "i15": {
+        "en": "Free tool",
+        "html": null
+      },
+      "i16": {
+        "en": "Reference list auditor + smart import",
+        "html": null
+      },
+      "i17": {
+        "en": "Flag fourteen recurring APA 7 mistakes line by line, with the reason for each flag. Smart import also rebuilds messy references copied from PDFs, Word files or a reference manager into structured APA 7 entries.",
+        "html": null
+      },
+      "i18": {
+        "en": "New: smart import recovers authors, dates, volumes, pages and DOIs from inconsistent input — including full-width punctuation and missing commas — without rewriting your titles or sending anything to a server.",
+        "html": "New: <a href=\"tools/reference-check.html#smart-import\" data-page-node-id=\"dZl9kPSP0ZyFduai4ns5ZH\">smart import</a> recovers authors, dates, volumes, pages and DOIs from inconsistent input — including full-width punctuation and missing commas — without rewriting your titles or sending anything to a server."
+      },
+      "i19": {
+        "en": "One free thing",
+        "html": null
+      },
+      "i20": {
+        "en": "Got one reference that still won't format? Send it to me.",
+        "html": null
+      },
+      "i21": {
+        "en": "I'm a doctoral researcher who built these tools because I was stuck on the same entries. Paste a single reference into an email and I'll check it against APA 7, tell you exactly what to fix, and send back the submission checklist I use on my own manuscript. Free, no sign-up, no mailing list.",
+        "html": null
+      },
+      "i22": {
+        "en": "One entry, pasted into an email. Please don't send drafts, chapters or participant data. I usually reply within a day.",
+        "html": null
+      },
+      "i23": {
+        "en": "Guides",
+        "html": null
+      },
+      "i24": {
+        "en": "Read the rule, not just the output",
+        "html": null
+      },
+      "i25": {
+        "en": "Guide",
+        "html": null
+      },
+      "i26": {
+        "en": "The APA 7 reference list, checked line by line",
+        "html": null
+      },
+      "i27": {
+        "en": "The four-element model, author rules from one to twenty-plus authors, sentence case, italics, DOIs, and a worked example of a journal article from raw metadata to finished entry.",
+        "html": null
+      },
+      "i28": {
+        "en": "Guide",
+        "html": null
+      },
+      "i29": {
+        "en": "A reproducible literature review workflow for doctoral students",
+        "html": null
+      },
+      "i30": {
+        "en": "A practical seven-stage process from search string to synthesis matrix, with the file naming, audit trail and version decisions that survive a supervisor's questions and a methods chapter.",
+        "html": null
+      },
+      "i31": {
+        "en": "Privacy",
+        "html": null
+      },
+      "i32": {
+        "en": "Your draft stays on your device",
+        "html": null
+      },
+      "i33": {
+        "en": "Both tools are written in plain JavaScript and execute entirely in the browser. There is no server-side component, no analytics script at launch, and no form submission of anything you type. You can confirm this yourself: open the browser's network panel while using a tool, or disconnect from the network entirely and reload the page — the tools keep working.",
+        "html": null
+      },
+      "i34": {
+        "en": "See the privacy policy for what changes if display advertising is added to the site later.",
+        "html": "See the <a href=\"privacy.html\" data-page-node-id=\"n5GfRcFB3rgZk9IHfy0GUN\">privacy policy</a> for what changes if display advertising is added to the site later."
+      }
+    },
+    "privacy.html": {
+      "i1": {
+        "en": "Privacy",
+        "html": null
+      },
+      "i2": {
+        "en": "Privacy policy",
+        "html": null
+      },
+      "i3": {
+        "en": "Short version: the tools run in your browser. We do not receive, store or analyse anything you type into them.",
+        "html": null
+      },
+      "i4": {
+        "en": "Last updated: 10 November 2026. If the site's features change, this page will be updated and the date above will change.",
+        "html": null
+      },
+      "i5": {
+        "en": "1. Who runs this site",
+        "html": null
+      },
+      "i6": {
+        "en": "Doctoral Toolbox is an independent educational project. Contact details are on the contact page. For the purposes of data protection law, the site maintainer is the controller of any personal data processed through the site.",
+        "html": "Doctoral Toolbox is an independent educational project. Contact details are on the <a href=\"contact.html\">contact page</a>. For the purposes of data protection law, the site maintainer is the controller of any personal data processed through the site."
+      },
+      "i7": {
+        "en": "2. Data you type into the tools",
+        "html": null
+      },
+      "i8": {
+        "en": "The APA 7 reference builder and the reference list auditor are JavaScript programs that execute locally in your browser. The text you enter is used only to compute the result shown on your own screen. It is not submitted to a server, not written to a cookie, not saved in local or session storage, and not logged. Reloading the page discards it. There is no account system and no sign-up.",
+        "html": "The <a href=\"tools/apa7-citation.html\">APA 7 reference builder</a> and the <a href=\"tools/reference-check.html\">reference list auditor</a> are JavaScript programs that execute locally in your browser. The text you enter is used only to compute the result shown on your own screen. It is not submitted to a server, not written to a cookie, not saved in local or session storage, and not logged. Reloading the page discards it. There is no account system and no sign-up."
+      },
+      "i9": {
+        "en": "This includes the \"Smart import\" feature on the reference checker page: its parser is another local JavaScript file using deterministic rules. A companion cloud API exists as a separate, non-commercial development prototype, but this website does not call it and no text entered here is transmitted to Azure or to any other service.",
+        "html": null
+      },
+      "i10": {
+        "en": "Because no data leaves your device, no automated decision-making, profiling or AI processing is performed on the content of your manuscript.",
+        "html": null
+      },
+      "i11": {
+        "en": "3. Data collected by hosting",
+        "html": null
+      },
+      "i12": {
+        "en": "The site is served as static files through a content delivery network. Like any web host, that provider may process technical information needed to deliver a page, such as your IP address, browser type, requested URL and timestamp, for security and operational purposes. This is governed by the hosting provider's own privacy notice. We do not receive a per-visitor analytics profile from the site at launch, and we do not run third-party analytics scripts.",
+        "html": null
+      },
+      "i13": {
+        "en": "4. Cookies at launch",
+        "html": null
+      },
+      "i14": {
+        "en": "At launch the site sets no cookies of its own: no analytics cookies, no advertising cookies, no preference cookies. The tools do not need them.",
+        "html": null
+      },
+      "i15": {
+        "en": "5. If advertising is added later",
+        "html": null
+      },
+      "i16": {
+        "en": "The site may introduce display advertising to cover domain and hosting costs. If that happens, third-party advertising providers — typically Google and its advertising partners — may set cookies or use similar technologies to serve ads, measure them, and limit how often you see the same ad. Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this and other websites.",
+        "html": null
+      },
+      "i17": {
+        "en": "You can opt out of personalised advertising at Google Ads Settings, and opt out of third-party vendor cookies at aboutads.info.",
+        "html": "You can opt out of personalised advertising at <a href=\"https://www.google.com/settings/ads\" rel=\"noopener noreferrer\">Google Ads Settings</a>, and opt out of third-party vendor cookies at <a href=\"https://www.aboutads.info/choices/\" rel=\"noopener noreferrer\">aboutads.info</a>."
+      },
+      "i18": {
+        "en": "Where required by the GDPR, the UK GDPR or similar law, a consent mechanism will be presented to visitors in those regions before non-essential cookies are set.",
+        "html": null
+      },
+      "i19": {
+        "en": "Advertising will not be placed inside a tool's input or output area, and adding advertising will not change what the tools do with your text: nothing is transmitted.",
+        "html": null
+      },
+      "i20": {
+        "en": "California residents may exercise rights under the CCPA/CPRA by using the contact details on this site. We do not sell personal information.",
+        "html": "California residents may exercise rights under the CCPA/CPRA by using the <a href=\"contact.html\">contact details</a> on this site. We do not sell personal information."
+      },
+      "i21": {
+        "en": "6. External links",
+        "html": null
+      },
+      "i22": {
+        "en": "The site links to external resources such as style guidance and privacy opt-out pages. Once you follow an external link, that site's own privacy policy applies. We are not responsible for the content or practices of third-party sites.",
+        "html": null
+      },
+      "i23": {
+        "en": "7. Children",
+        "html": null
+      },
+      "i24": {
+        "en": "This site is written for doctoral researchers and is not directed at children under 16. We do not knowingly collect personal data from children.",
+        "html": null
+      },
+      "i25": {
+        "en": "8. Your rights",
+        "html": null
+      },
+      "i26": {
+        "en": "Depending on where you live, you may have the right to access, correct, delete or restrict the processing of personal data, and to lodge a complaint with a supervisory authority. As the site collects no account data and no content data, the fastest route for any question is the contact page.",
+        "html": "Depending on where you live, you may have the right to access, correct, delete or restrict the processing of personal data, and to lodge a complaint with a supervisory authority. As the site collects no account data and no content data, the fastest route for any question is the <a href=\"contact.html\">contact page</a>."
+      },
+      "i27": {
+        "en": "9. Changes to this policy",
+        "html": null
+      },
+      "i28": {
+        "en": "Material changes will be reflected in the \"Last updated\" date above. Introducing analytics or advertising will always be accompanied by an update to this policy before those features go live.",
+        "html": null
+      }
+    },
+    "tools/apa7-citation.html": {
+      "i1": {
+        "en": "Free tool",
+        "html": null
+      },
+      "i2": {
+        "en": "APA 7 reference builder",
+        "html": null
+      },
+      "i3": {
+        "en": "Enter the metadata once and get a structured APA 7 reference entry. The tool handles author initials, the serial comma, the 21-author ellipsis rule, sentence-case warnings and DOI normalisation. It does not silently rewrite your title.",
+        "html": null
+      },
+      "i4": {
+        "en": "Source details",
+        "html": null
+      },
+      "i5": {
+        "en": "Source type",
+        "html": null
+      },
+      "i6": {
+        "en": "Authors - one per line; pasted APA author strings also work",
+        "html": "Authors <span class=\"hint\">- one per line; pasted APA author strings also work</span>"
+      },
+      "i7": {
+        "en": "Year",
+        "html": null
+      },
+      "i8": {
+        "en": "Date - optional",
+        "html": "Date <span class=\"hint\">- optional</span>"
+      },
+      "i9": {
+        "en": "Title - use sentence case",
+        "html": "Title <span class=\"hint\">- use sentence case</span>"
+      },
+      "i10": {
+        "en": "Journal name",
+        "html": null
+      },
+      "i11": {
+        "en": "Volume",
+        "html": null
+      },
+      "i12": {
+        "en": "Issue - optional",
+        "html": "Issue <span class=\"hint\">- optional</span>"
+      },
+      "i13": {
+        "en": "Pages - optional",
+        "html": "Pages <span class=\"hint\">- optional</span>"
+      },
+      "i14": {
+        "en": "DOI - bare, \"doi:\" or full URL",
+        "html": "DOI <span class=\"hint\">- bare, \"doi:\" or full URL</span>"
+      },
+      "i15": {
+        "en": "Edition - e.g. 2nd ed.",
+        "html": "Edition <span class=\"hint\">- e.g. 2nd ed.</span>"
+      },
+      "i16": {
+        "en": "Publisher",
+        "html": null
+      },
+      "i17": {
+        "en": "Editor(s) - e.g. E. E. Editor (Ed.)",
+        "html": "Editor(s) <span class=\"hint\">- e.g. E. E. Editor (Ed.)</span>"
+      },
+      "i18": {
+        "en": "Book title",
+        "html": null
+      },
+      "i19": {
+        "en": "Chapter pages - e.g. 15-30",
+        "html": "Chapter pages <span class=\"hint\">- e.g. 15-30</span>"
+      },
+      "i20": {
+        "en": "Publisher",
+        "html": null
+      },
+      "i21": {
+        "en": "Site name - omit if same as author",
+        "html": "Site name <span class=\"hint\">- omit if same as author</span>"
+      },
+      "i22": {
+        "en": "URL",
+        "html": null
+      },
+      "i23": {
+        "en": "Work type",
+        "html": null
+      },
+      "i24": {
+        "en": "Institution",
+        "html": null
+      },
+      "i25": {
+        "en": "Database / repository",
+        "html": null
+      },
+      "i26": {
+        "en": "Conference name",
+        "html": null
+      },
+      "i27": {
+        "en": "Location",
+        "html": null
+      },
+      "i28": {
+        "en": "Build reference",
+        "html": null
+      },
+      "i29": {
+        "en": "Load example",
+        "html": null
+      },
+      "i30": {
+        "en": "Clear",
+        "html": null
+      },
+      "i31": {
+        "en": "Your reference",
+        "html": null
+      },
+      "i32": {
+        "en": "Italic type is shown as it should appear in a manuscript. Copy the plain-text version into your reference manager.",
+        "html": null
+      },
+      "i33": {
+        "en": "Copy plain text",
+        "html": null
+      },
+      "i34": {
+        "en": "Plain text",
+        "html": null
+      },
+      "i35": {
+        "en": "Points to check",
+        "html": null
+      },
+      "i36": {
+        "en": "Nothing to check yet.",
+        "html": null
+      },
+      "i37": {
+        "en": "Still not sure about an entry? Paste one reference into an email and I'll check it against APA 7 for free — and send you the 67-point submission checklist I use on my own manuscript.",
+        "html": "<strong>Still not sure about an entry?</strong> Paste one reference into an email and I'll check it against APA 7 for free — and send you the 67-point submission checklist I use on my own manuscript."
+      },
+      "i38": {
+        "en": "Send one reference →",
+        "html": "<a href=\"mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check\">Send one reference &rarr;</a>"
+      },
+      "i39": {
+        "en": "How it works",
+        "html": null
+      },
+      "i40": {
+        "en": "What the builder does, and what it deliberately refuses to do",
+        "html": null
+      },
+      "i41": {
+        "en": "APA 7 reference entries follow a four-element structure: author, date, title, and source. The builder assembles those four elements in the right order for the source type you select, because the fourth element is the one that changes most: a journal article needs an italic journal title and volume, a book needs a publisher, a chapter needs an \"In\" clause with editors and page range, and a dissertation needs a bracketed description plus its repository.",
+        "html": "APA 7 reference entries follow a four-element structure: <strong>author</strong>, <strong>date</strong>, <strong>title</strong>, and <strong>source</strong>. The builder assembles those four elements in the right order for the source type you select, because the fourth element is the one that changes most: a journal article needs an italic journal title and volume, a book needs a publisher, a chapter needs an \"In\" clause with editors and page range, and a dissertation needs a bracketed description plus its repository."
+      },
+      "i42": {
+        "en": "Author handling",
+        "html": null
+      },
+      "i43": {
+        "en": "Names entered as \"Smith, John A.\" are reduced to \"Smith, J. A.\"; names entered as \"John A. Smith\" are inverted first. Hyphenated given names such as \"Jean-Luc\" become \"J.-L.\" For a compound surname or a suffix such as \"Jr.\", use the Surname, Given form so the tool does not split the surname. The tool does not attempt to detect nobility particles, particles such as \"van der\", or organisation names with internal commas — enter those carefully and proofread the result.",
+        "html": "Names entered as \"Smith, John A.\" are reduced to \"Smith, J. A.\"; names entered as \"John A. Smith\" are inverted first. Hyphenated given names such as \"Jean-Luc\" become \"J.-L.\" For a compound surname or a suffix such as \"Jr.\", use the <code>Surname, Given</code> form so the tool does not split the surname. The tool does not attempt to detect nobility particles, particles such as \"van der\", or organisation names with internal commas — enter those carefully and proofread the result."
+      },
+      "i44": {
+        "en": "The number of authors changes the punctuation. One author ends with a period. Two authors are joined with , & . Three to twenty authors use a serial comma before the ampersand. With twenty-one or more, APA 7 lists the first nineteen, inserts an ellipsis, and then gives the final author with no ampersand; the builder implements that rule and tells you when it fires.",
+        "html": "The number of authors changes the punctuation. One author ends with a period. Two authors are joined with <code>, &amp; </code>. Three to twenty authors use a serial comma before the ampersand. With twenty-one or more, APA 7 lists the first nineteen, inserts an ellipsis, and then gives the final author with no ampersand; the builder implements that rule and tells you when it fires."
+      },
+      "i45": {
+        "en": "Sentence case is your decision",
+        "html": null
+      },
+      "i46": {
+        "en": "Reference titles take sentence case: capitalise the first word, the first word after a colon, and proper nouns. Converting Title Case automatically sounds easy but fails on acronyms, chemical names, proper nouns and discipline-specific capitalisation (for example \"Dynamic Capabilities\" may be a named theoretical construct in your field). The builder therefore preserves the title exactly as you type it and raises a warning when it detects three or more capitalised words that look like Title Case or ALL CAPS. Export tools and bibliographic databases commonly deliver Title Case; this is the single most common thing to fix after an import.",
+        "html": null
+      },
+      "i47": {
+        "en": "Italics, DOIs and URLs",
+        "html": null
+      },
+      "i48": {
+        "en": "For journal articles, the journal name and the volume number are italicised; the issue number in parentheses is not. For books and dissertations the title is italicised, and for web pages the site name is italicised unless it is identical to the author. A DOI is normalised to https://doi.org/... whether you paste the bare identifier, a doi: prefix, a dx.doi.org link or the final URL. No terminal period is added after a DOI or URL because it tends to be copied as part of the link.",
+        "html": "For journal articles, the journal name and the volume number are italicised; the issue number in parentheses is not. For books and dissertations the title is italicised, and for web pages the site name is italicised unless it is identical to the author. A DOI is normalised to <code>https://doi.org/...</code> whether you paste the bare identifier, a <code>doi:</code> prefix, a <code>dx.doi.org</code> link or the final URL. No terminal period is added after a DOI or URL because it tends to be copied as part of the link."
+      },
+      "i49": {
+        "en": "If a journal article genuinely has no DOI, APA 7 says to end the entry at the page range when the article came from an academic database; do not add the database URL. Add a URL only for a webpage-style source or where your institution explicitly requires it.",
+        "html": null
+      },
+      "i50": {
+        "en": "Privacy and verification",
+        "html": null
+      },
+      "i51": {
+        "en": "The builder is a short JavaScript file with no dependencies and no network calls. You can read it, you can use it offline, and you can test the formatting rules yourself against the manual. If your institution uses a modified house style, treat the output as a starting point rather than a final answer.",
+        "html": null
+      },
+      "i52": {
+        "en": "Worked example",
+        "html": null
+      },
+      "i53": {
+        "en": "Given two authors (Smith, John A. and Lee, B.), year 2024, title Dynamic capabilities and firm performance, journal Journal of Business Research, volume 142, issue 3, pages 45-67, and DOI 10.1016/j.jbusres.2023.114321, the expected output is:",
+        "html": "Given two authors (<code>Smith, John A.</code> and <code>Lee, B.</code>), year 2024, title <code>Dynamic capabilities and firm performance</code>, journal <code>Journal of Business Research</code>, volume 142, issue 3, pages 45-67, and DOI <code>10.1016/j.jbusres.2023.114321</code>, the expected output is:"
+      },
+      "i54": {
+        "en": "In a manuscript the journal name and the \"142\" are italicised, and the DOI is a live link. Use \"Load example\" above to reproduce this directly in the tool.",
+        "html": null
+      },
+      "i55": {
+        "en": "Next step: once your list is assembled, run it through the reference list auditor to catch the mechanical mistakes that survive a formatting pass. The two tools are designed to be used together, and the APA 7 reference list guide explains each rule in full.",
+        "html": "Next step: once your list is assembled, run it through the <a href=\"reference-check.html\">reference list auditor</a> to catch the mechanical mistakes that survive a formatting pass. The two tools are designed to be used together, and the <a href=\"../guides/apa7-reference-list.html\">APA 7 reference list guide</a> explains each rule in full."
+      },
+      "i56": {
+        "en": "Related reading",
+        "html": null
+      },
+      "i57": {
+        "en": "Understand the rules behind the output",
+        "html": null
+      },
+      "i58": {
+        "en": "Guide",
+        "html": null
+      },
+      "i59": {
+        "en": "The APA 7 reference list, checked line by line",
+        "html": null
+      },
+      "i60": {
+        "en": "The four-element model, author rules from one to twenty-plus authors, sentence case, italics and DOI formatting, with a worked example and a pre-submission checklist.",
+        "html": null
+      },
+      "i61": {
+        "en": "Guide",
+        "html": null
+      },
+      "i62": {
+        "en": "A reproducible literature review workflow",
+        "html": null
+      },
+      "i63": {
+        "en": "Seven stages from search string to synthesis matrix, including the search log, exclusion reason codes and version decisions that hold up in a methods chapter.",
+        "html": null
+      }
+    },
+    "tools/reference-check.html": {
+      "i1": {
+        "en": "Free tool",
+        "html": null
+      },
+      "i2": {
+        "en": "Reference list auditor",
+        "html": null
+      },
+      "i3": {
+        "en": "Paste a whole reference list and get a line-by-line audit of fourteen recurring APA 7 mistakes. Every flag comes with the rule behind it, so you can decide whether it applies to your source.",
+        "html": null
+      },
+      "i4": {
+        "en": "Your reference list - one entry per line",
+        "html": "Your reference list <span class=\"hint\">- one entry per line</span>"
+      },
+      "i5": {
+        "en": "Audit references",
+        "html": null
+      },
+      "i6": {
+        "en": "Load a deliberately messy sample",
+        "html": null
+      },
+      "i7": {
+        "en": "Clear",
+        "html": null
+      },
+      "i8": {
+        "en": "Results appear here after you run the audit.",
+        "html": null
+      },
+      "i9": {
+        "en": "One entry still looks wrong? Paste it into an email and I'll check it against APA 7 myself — free, and I'll send back the 67-point submission checklist I use on my own manuscript.",
+        "html": "<strong>One entry still looks wrong?</strong> Paste it into an email and I'll check it against APA 7 myself — free, and I'll send back the 67-point submission checklist I use on my own manuscript."
+      },
+      "i10": {
+        "en": "Send one reference →",
+        "html": "<a href=\"mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check\">Send one reference &rarr;</a>"
+      },
+      "i11": {
+        "en": "Smart import",
+        "html": null
+      },
+      "i12": {
+        "en": "Turn messy references into clean APA 7 entries",
+        "html": null
+      },
+      "i13": {
+        "en": "Copied references rarely arrive in one format. Paste whatever you have — an old reference list, a Zotero export, a supervisor's comments, or a mix of Chinese and English punctuation — and the parser recovers the underlying fields, rebuilds each entry in APA 7, and audits the result.",
+        "html": null
+      },
+      "i14": {
+        "en": "Messy references - one entry per line",
+        "html": "Messy references <span class=\"hint\">- one entry per line</span>"
+      },
+      "i15": {
+        "en": "Parse and rebuild",
+        "html": null
+      },
+      "i16": {
+        "en": "Load messy sample",
+        "html": null
+      },
+      "i17": {
+        "en": "Send rebuilt list to the auditor",
+        "html": null
+      },
+      "i18": {
+        "en": "Rebuilt entries appear here.",
+        "html": null
+      },
+      "i19": {
+        "en": "How the parser works",
+        "html": null
+      },
+      "i20": {
+        "en": "It is a deterministic rule engine, not a language model. It looks for the four APA elements in order — author, date, title, source — then hands the recovered fields to the same formatter used by the reference builder. Because the logic is a set of explicit rules, you can inspect it, predict it, and disagree with it. Nothing is sent to a server, and nothing is stored.",
+        "html": "It is a deterministic rule engine, not a language model. It looks for the four APA elements in order — author, date, title, source — then hands the recovered fields to the same formatter used by the <a href=\"apa7-citation.html\">reference builder</a>. Because the logic is a set of explicit rules, you can inspect it, predict it, and disagree with it. Nothing is sent to a server, and nothing is stored."
+      },
+      "i21": {
+        "en": "What it recovers",
+        "html": null
+      },
+      "i22": {
+        "en": "Messy input",
+        "html": null
+      },
+      "i23": {
+        "en": "Recovered as",
+        "html": null
+      },
+      "i24": {
+        "en": "Smith, J. A. and Lee, B.",
+        "html": "<code>Smith, J. A. and Lee, B.</code>"
+      },
+      "i25": {
+        "en": "Two authors joined with the ampersand",
+        "html": null
+      },
+      "i26": {
+        "en": "doi:10.1016/j.xxx or dx.doi.org/...",
+        "html": "<code>doi:10.1016/j.xxx</code> or <code>dx.doi.org/...</code>"
+      },
+      "i27": {
+        "en": "https://doi.org/10.1016/j.xxx",
+        "html": "<code>https://doi.org/10.1016/j.xxx</code>"
+      },
+      "i28": {
+        "en": "Vol. 142, pp. 45-67",
+        "html": "<code>Vol. 142, pp. 45-67</code>"
+      },
+      "i29": {
+        "en": "Volume 142, page range 45-67, no labels",
+        "html": null
+      },
+      "i30": {
+        "en": "Journal of Management 48(1), 12-30",
+        "html": "<code>Journal of Management 48(1), 12-30</code>"
+      },
+      "i31": {
+        "en": "Volume 48, issue 1, pages 12-30 — even without the comma before the volume",
+        "html": null
+      },
+      "i32": {
+        "en": "American Psychological Association",
+        "html": "<code>American Psychological Association</code>"
+      },
+      "i33": {
+        "en": "A corporate author, kept verbatim instead of being inverted into initials",
+        "html": null
+      },
+      "i34": {
+        "en": "Full-width ，。（）",
+        "html": "Full-width <code>，。（）</code>"
+      },
+      "i35": {
+        "en": "Normalised to ASCII, with a warning that the original was changed",
+        "html": null
+      },
+      "i36": {
+        "en": "(7th ed.) after a title",
+        "html": "<code>(7th ed.)</code> after a title"
+      },
+      "i37": {
+        "en": "An edition field, removed from the title so it is not printed twice",
+        "html": null
+      },
+      "i38": {
+        "en": "What it refuses to guess",
+        "html": null
+      },
+      "i39": {
+        "en": "The parser never rewrites your title into sentence case. Automatic conversion looks attractive and quietly destroys acronyms, proper nouns and named theoretical constructs — \"Structural Equation Modeling\", \"Federal Reserve\", \"Dynamic Capabilities\". Instead it preserves the title exactly and raises a warning when three or more capitalised words suggest Title Case or ALL CAPS. Changing those words is a scholarly decision, and it stays yours.",
+        "html": null
+      },
+      "i40": {
+        "en": "It also does not verify that a DOI resolves, that a journal exists, or that the cited source supports the claim in your text. No formatting tool can do that.",
+        "html": null
+      },
+      "i41": {
+        "en": "Known limits",
+        "html": null
+      },
+      "i42": {
+        "en": "Best results come from one reference per line. A wrapped, multi-line entry will be treated as two entries.",
+        "html": null
+      },
+      "i43": {
+        "en": "Chapter and conference entries with complex \"In ... (Ed.)\" structures often need manual field entry in the builder.",
+        "html": "Chapter and conference entries with complex \"In ... (Ed.)\" structures often need manual field entry in the <a href=\"apa7-citation.html\">builder</a>."
+      },
+      "i44": {
+        "en": "Compound surnames and suffixes should still use the Surname, Given form.",
+        "html": "Compound surnames and suffixes should still use the <code>Surname, Given</code> form."
+      },
+      "i45": {
+        "en": "A confidence score is shown per entry. Read it as \"how many fields were found\", not \"how correct the reference is\".",
+        "html": null
+      },
+      "i46": {
+        "en": "Privacy",
+        "html": null
+      },
+      "i47": {
+        "en": "This feature runs in your browser using the same local JavaScript as the rest of the site. A companion cloud API exists as a separate development prototype, but this page does not call it. You can confirm by watching the browser's network panel, or by disconnecting from the network entirely — smart import keeps working.",
+        "html": null
+      },
+      "i48": {
+        "en": "Workflow: paste → parse and rebuild → check the warnings → send the rebuilt list to the auditor → proofread italics and hanging indents in your manuscript. For the rules behind each flag, read the APA 7 reference list guide.",
+        "html": "Workflow: paste → parse and rebuild → check the warnings → send the rebuilt list to the auditor → proofread italics and hanging indents in your manuscript. For the rules behind each flag, read <a href=\"../guides/apa7-reference-list.html\">the APA 7 reference list guide</a>."
+      },
+      "i49": {
+        "en": "What it checks",
+        "html": null
+      },
+      "i50": {
+        "en": "Fourteen rules, and why each one exists",
+        "html": null
+      },
+      "i51": {
+        "en": "The auditor is a rule-based heuristic, not an AI and not a style authority. It looks for surface patterns that reliably indicate an APA 7 problem. That makes it fast, private and predictable — but it also means it can miss a genuinely wrong entry, and it can occasionally flag a legitimate one. Use it as a proofreading pass before you do the manual check, never instead of it.",
+        "html": null
+      },
+      "i52": {
+        "en": "Errors: almost always wrong",
+        "html": null
+      },
+      "i53": {
+        "en": "Flag",
+        "html": null
+      },
+      "i54": {
+        "en": "Rule",
+        "html": null
+      },
+      "i55": {
+        "en": "doi: prefix or dx.doi.org",
+        "html": "<code>doi:</code> prefix or <code>dx.doi.org</code>"
+      },
+      "i56": {
+        "en": "APA 7 renders every DOI as https://doi.org/10.xxxx/.... Older styles and older versions of reference managers still emit the prefixed form.",
+        "html": "APA 7 renders every DOI as <code>https://doi.org/10.xxxx/...</code>. Older styles and older versions of reference managers still emit the prefixed form."
+      },
+      "i57": {
+        "en": "Authors joined with \"and\"",
+        "html": null
+      },
+      "i58": {
+        "en": "In a reference list the last two authors are joined with &. \"and\" is correct only for narrative in-text citations.",
+        "html": "In a reference list the last two authors are joined with <code>&amp;</code>. \"and\" is correct only for narrative in-text citations."
+      },
+      "i59": {
+        "en": "et al. in the list",
+        "html": "<code>et al.</code> in the list"
+      },
+      "i60": {
+        "en": "Reference lists enumerate up to twenty authors. et al. is an in-text shorthand.",
+        "html": "Reference lists enumerate up to twenty authors. <code>et al.</code> is an in-text shorthand."
+      },
+      "i61": {
+        "en": "Vol. or Volume",
+        "html": "<code>Vol.</code> or <code>Volume</code>"
+      },
+      "i62": {
+        "en": "The volume number follows the journal title directly, in italics, with no label.",
+        "html": null
+      },
+      "i63": {
+        "en": "Missing parenthesised year",
+        "html": null
+      },
+      "i64": {
+        "en": "The date element is mandatory, in parentheses. Use (n.d.) when there is genuinely no date.",
+        "html": "The date element is mandatory, in parentheses. Use <code>(n.d.)</code> when there is genuinely no date."
+      },
+      "i65": {
+        "en": "Full-width punctuation",
+        "html": null
+      },
+      "i66": {
+        "en": "Chinese commas, periods and parentheses break citation parsers and are invisible when scanning by eye. This matters for bilingual theses.",
+        "html": null
+      },
+      "i67": {
+        "en": "Warnings: check the source before changing anything",
+        "html": null
+      },
+      "i68": {
+        "en": "Flag",
+        "html": null
+      },
+      "i69": {
+        "en": "Rule",
+        "html": null
+      },
+      "i70": {
+        "en": "\"Retrieved from\"",
+        "html": null
+      },
+      "i71": {
+        "en": "APA 7 drops it unless the source is designed to change over time and a retrieval date is meaningful, such as an archived dataset or a live statistics page.",
+        "html": null
+      },
+      "i72": {
+        "en": "pp. before pages",
+        "html": "<code>pp.</code> before pages"
+      },
+      "i73": {
+        "en": "Correct for a book chapter, wrong for a journal article. The auditor cannot tell the two apart reliably, so it warns instead of asserting.",
+        "html": null
+      },
+      "i74": {
+        "en": "Title Case or ALL CAPS",
+        "html": null
+      },
+      "i75": {
+        "en": "Reference titles use sentence case. BibTeX exports and database downloads frequently arrive in Title Case.",
+        "html": null
+      },
+      "i76": {
+        "en": "Ampersand without a preceding comma",
+        "html": null
+      },
+      "i77": {
+        "en": "With three or more authors, the serial comma before & is required.",
+        "html": "With three or more authors, the serial comma before <code>&amp;</code> is required."
+      },
+      "i78": {
+        "en": "Double spaces",
+        "html": null
+      },
+      "i79": {
+        "en": "One space after punctuation.",
+        "html": null
+      },
+      "i80": {
+        "en": "Period after a URL",
+        "html": null
+      },
+      "i81": {
+        "en": "A full stop at the end of a link is often copied as part of the URL and breaks it.",
+        "html": null
+      },
+      "i82": {
+        "en": "\"Available from\" / \"Accessed on\"",
+        "html": null
+      },
+      "i83": {
+        "en": "Wording from other styles, most often Vancouver or Harvard variants.",
+        "html": null
+      },
+      "i84": {
+        "en": "No terminal period",
+        "html": null
+      },
+      "i85": {
+        "en": "Entries that do not end with a link should end with a period.",
+        "html": null
+      },
+      "i86": {
+        "en": "What it cannot see",
+        "html": null
+      },
+      "i87": {
+        "en": "Italics are invisible in plain text, so the auditor cannot check whether a journal name or volume is italicised. It cannot verify that a DOI resolves, that a title really is sentence case when proper nouns are involved, that an issue number belongs to that volume, or that the source type you chose matches the source you actually used. It also cannot detect a missing author if the entry still contains a year. These are the items to check manually against the manual and against your own PDFs.",
+        "html": null
+      },
+      "i88": {
+        "en": "A practical audit sequence",
+        "html": null
+      },
+      "i89": {
+        "en": "Export your reference list from your manager as plain text, one entry per line. Do not export the formatted bibliography with hanging indents and blank lines — the auditor treats each non-empty line as one entry.",
+        "html": null
+      },
+      "i90": {
+        "en": "Run the audit and clear the errors first. Most of them come from a single outdated export style, so a global find-and-replace in your manager often fixes many lines at once.",
+        "html": null
+      },
+      "i91": {
+        "en": "Read the warnings against the source. A pp. on a book chapter is correct; a pp. on a journal article is not.",
+        "html": "Read the warnings against the source. A <code>pp.</code> on a book chapter is correct; a <code>pp.</code> on a journal article is not."
+      },
+      "i92": {
+        "en": "Paste the cleaned list back into your manuscript and check italics, hanging indent, alphabetical order and double spacing by eye.",
+        "html": null
+      },
+      "i93": {
+        "en": "Cross-check every in-text citation has a list entry, and every list entry is cited. No formatting tool can do that for you.",
+        "html": null
+      },
+      "i94": {
+        "en": "Building a list from scratch? Use the APA 7 reference builder first, then audit the assembled list. The full reference list guide walks through the four-element model with worked examples.",
+        "html": "Building a list from scratch? Use the <a href=\"apa7-citation.html\">APA 7 reference builder</a> first, then audit the assembled list. The <a href=\"../guides/apa7-reference-list.html\">full reference list guide</a> walks through the four-element model with worked examples."
+      },
+      "i95": {
+        "en": "Privacy",
+        "html": null
+      },
+      "i96": {
+        "en": "The audit runs entirely in your browser. Nothing you paste is transmitted, logged or stored — not in a database, not in local storage, not in a cookie. Reload the page and the text is gone. You can verify this by disconnecting from the network and running the audit again.",
+        "html": null
+      },
+      "i97": {
+        "en": "Related reading",
+        "html": null
+      },
+      "i98": {
+        "en": "Understand the rules behind the output",
+        "html": null
+      },
+      "i99": {
+        "en": "Guide",
+        "html": null
+      },
+      "i100": {
+        "en": "The APA 7 reference list, checked line by line",
+        "html": null
+      },
+      "i101": {
+        "en": "The four-element model, author rules, sentence case, italics, DOI formatting and a pre-submission checklist for the whole list.",
+        "html": null
+      },
+      "i102": {
+        "en": "Guide",
+        "html": null
+      },
+      "i103": {
+        "en": "A reproducible literature review workflow",
+        "html": null
+      },
+      "i104": {
+        "en": "Seven stages from search string to synthesis matrix, with the audit trail that survives a supervisor's questions and a methods chapter.",
+        "html": null
+      }
+    }
+  },
+  "shared": [
+    "APA 7 generator",
+    "About",
+    "Contact",
+    "Free checklist",
+    "Guides",
+    "Home",
+    "Privacy",
+    "Reference checker"
+  ]
+}

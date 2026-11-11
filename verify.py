@@ -390,6 +390,50 @@ def deliverable_check():
                f"built but text check unavailable ({type(exc).__name__})")
 
 
+def i18n_check():
+    """Chinese dictionary must cover every data-i18n marker in every page."""
+    import importlib.util
+    data_js = SITE / "assets" / "js" / "i18n-data.js"
+    zh_py = ROOT / "i18n-zh.py"
+    runtime = SITE / "assets" / "js" / "i18n-runtime.js"
+    if not (data_js.exists() and zh_py.exists() and runtime.exists()):
+        record("Bilingual dictionary", False, "i18n-data.js / i18n-zh.py / i18n-runtime.js missing")
+        return
+    try:
+        spec = importlib.util.spec_from_file_location("i18n_zh_local", zh_py)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+    except Exception as exc:
+        record("Bilingual dictionary", False, f"translation module error: {exc}")
+        return
+
+    total = 0
+    missing = []
+    pages_with_script = 0
+    for page in sorted(SITE.rglob("*.html")):
+        rel = page.relative_to(SITE).as_posix()
+        source = page.read_text(encoding="utf-8")
+        keys = re.findall(r'data-i18n="([^"]+)"', source)
+        if "i18n.js" in source:
+            pages_with_script += 1
+            # Every page must load the local runtime; never a remote one.
+            for src in re.findall(r'<script src="([^"]*i18n[^"]*)"', source):
+                if src.startswith("http"):
+                    missing.append(f"{rel}: remote i18n script")
+                elif not (page.parent / src).resolve().exists():
+                    missing.append(f"{rel}: missing script {src}")
+        have = mod.PAGES.get(rel, {})
+        for key in keys:
+            total += 1
+            if not have.get(key):
+                missing.append(f"{rel}:{key}")
+    ok = not missing and pages_with_script >= 13
+    record("Bilingual dictionary", ok,
+           f"{total} markers across {pages_with_script} pages, "
+           f"{sum(len(v) for v in mod.PAGES.values())} translations" +
+           (": " + ", ".join(missing[:5]) if missing else ""))
+
+
 def prelaunch_check():
     hits = []
     for path in SITE.rglob("*"):
@@ -419,6 +463,7 @@ def main():
     runtime_dependency_check()
     content_checks()
     seo_checks()
+    i18n_check()
     deliverable_check()
     azure_checks()
     placeholder_report()

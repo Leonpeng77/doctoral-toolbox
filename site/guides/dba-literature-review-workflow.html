@@ -29,76 +29,76 @@
   <article>
     <section class="hero">
       <div class="wrap narrow">
-        <p class="eyebrow">Guide &middot; Research process</p>
-        <h1>A reproducible literature review workflow for doctoral students</h1>
-        <p class="lede">A literature review is judged on the argument, but it is defended on the audit trail. This seven-stage workflow is designed so that any search, exclusion or coding decision can be reconstructed months later, when a supervisor or examiner asks why a particular study is missing.</p>
+        <p class="eyebrow" data-i18n="i1">Guide &middot; Research process</p>
+        <h1 data-i18n="i2">A reproducible literature review workflow for doctoral students</h1>
+        <p class="lede" data-i18n="i3">A literature review is judged on the argument, but it is defended on the audit trail. This seven-stage workflow is designed so that any search, exclusion or coding decision can be reconstructed months later, when a supervisor or examiner asks why a particular study is missing.</p>
       </div>
     </section>
 
     <section class="section">
       <div class="wrap narrow">
-        <h2>Why reproducibility matters more than volume</h2>
-        <p>Doctoral candidates often respond to uncertainty by reading more. Reading more is rarely the problem. The failure mode is losing the ability to explain <em>how</em> the corpus was assembled: which database, which exact string, which date, which inclusion rule, and why the 2008 paper was excluded while the 2009 paper was kept. In a DBA or other professional doctorate, where the review usually supports an applied research question, an examiner is entitled to ask whether the search was systematic enough to support the claims being made. A clean, boring audit trail answers that question better than an impressive reading list.</p>
-        <p>The workflow below borrows the discipline of a systematic review without requiring you to register a protocol or produce a PRISMA diagram, unless your institution asks for one. It works in a spreadsheet plus a reference manager, with no specialist software.</p>
+        <h2 data-i18n="i4">Why reproducibility matters more than volume</h2>
+        <p data-i18n="i5">Doctoral candidates often respond to uncertainty by reading more. Reading more is rarely the problem. The failure mode is losing the ability to explain <em>how</em> the corpus was assembled: which database, which exact string, which date, which inclusion rule, and why the 2008 paper was excluded while the 2009 paper was kept. In a DBA or other professional doctorate, where the review usually supports an applied research question, an examiner is entitled to ask whether the search was systematic enough to support the claims being made. A clean, boring audit trail answers that question better than an impressive reading list.</p>
+        <p data-i18n="i6">The workflow below borrows the discipline of a systematic review without requiring you to register a protocol or produce a PRISMA diagram, unless your institution asks for one. It works in a spreadsheet plus a reference manager, with no specialist software.</p>
 
-        <h2>Stage 1: write the question before the search string</h2>
-        <p>Write one sentence stating the construct, the population or context, and the relationship of interest. Then list the synonyms for each concept. Search strings are built from those synonym lists, not from intuition on the day. For a study of dynamic capabilities and financial performance in Chinese firms, the concept buckets might be <em>dynamic capabilities / absorptive capacity / organisational agility</em>, <em>financial performance / firm performance / ROA / Tobin's Q</em>, and <em>China / Chinese firms / emerging markets</em>.</p>
-        <p>Save the question and the synonym list in a file called <code>review-protocol.md</code> inside your project folder. Date it. That single file is what turns a pile of PDFs into a defensible method.</p>
+        <h2 data-i18n="i7">Stage 1: write the question before the search string</h2>
+        <p data-i18n="i8">Write one sentence stating the construct, the population or context, and the relationship of interest. Then list the synonyms for each concept. Search strings are built from those synonym lists, not from intuition on the day. For a study of dynamic capabilities and financial performance in Chinese firms, the concept buckets might be <em>dynamic capabilities / absorptive capacity / organisational agility</em>, <em>financial performance / firm performance / ROA / Tobin's Q</em>, and <em>China / Chinese firms / emerging markets</em>.</p>
+        <p data-i18n="i9">Save the question and the synonym list in a file called <code>review-protocol.md</code> inside your project folder. Date it. That single file is what turns a pile of PDFs into a defensible method.</p>
 
-        <h2>Stage 2: log every search exactly as run</h2>
-        <p>Create a search log with one row per query: date, database, the full string copied verbatim, field restrictions, date limits, language limits, and the number of hits. Copy-paste the string; do not paraphrase it. Databases change their syntax and their coverage, and "a search of Web of Science" is not a method — "TITLE-ABS-KEY(...) AND ... run on 2026-03-14, restricted to 2010-2026, 1,284 records" is.</p>
+        <h2 data-i18n="i10">Stage 2: log every search exactly as run</h2>
+        <p data-i18n="i11">Create a search log with one row per query: date, database, the full string copied verbatim, field restrictions, date limits, language limits, and the number of hits. Copy-paste the string; do not paraphrase it. Databases change their syntax and their coverage, and "a search of Web of Science" is not a method — "TITLE-ABS-KEY(...) AND ... run on 2026-03-14, restricted to 2010-2026, 1,284 records" is.</p>
         <table>
-          <thead><tr><th>Column</th><th>Why it is there</th></tr></thead>
+          <thead><tr><th data-i18n="i12">Column</th><th data-i18n="i13">Why it is there</th></tr></thead>
           <tbody>
-            <tr><td>Date</td><td>Databases are updated; a corpus is a snapshot, not a permanent set.</td></tr>
-            <tr><td>Database + platform</td><td>Web of Science via one institution's subscription differs from another's.</td></tr>
-            <tr><td>Exact string</td><td>Allows the search to be rerun for an updated chapter or a resubmission.</td></tr>
-            <tr><td>Filters</td><td>Language and date restrictions are substantive decisions, not housekeeping.</td></tr>
-            <tr><td>Hits</td><td>The denominator for any later claim about the size of the literature.</td></tr>
+            <tr><td data-i18n="i14">Date</td><td data-i18n="i15">Databases are updated; a corpus is a snapshot, not a permanent set.</td></tr>
+            <tr><td data-i18n="i16">Database + platform</td><td data-i18n="i17">Web of Science via one institution's subscription differs from another's.</td></tr>
+            <tr><td data-i18n="i18">Exact string</td><td data-i18n="i19">Allows the search to be rerun for an updated chapter or a resubmission.</td></tr>
+            <tr><td data-i18n="i20">Filters</td><td data-i18n="i21">Language and date restrictions are substantive decisions, not housekeeping.</td></tr>
+            <tr><td data-i18n="i22">Hits</td><td data-i18n="i23">The denominator for any later claim about the size of the literature.</td></tr>
           </tbody>
         </table>
 
-        <h2>Stage 3: deduplicate once, and record the count</h2>
-        <p>Export to BibTeX or RIS rather than retyping. Deduplicate in your reference manager, note how many records were removed, and keep the raw exports untouched in a <code>/raw</code> folder. Never edit the raw export. If a later stage reveals a bad merge, you need the original file to recover it.</p>
+        <h2 data-i18n="i24">Stage 3: deduplicate once, and record the count</h2>
+        <p data-i18n="i25">Export to BibTeX or RIS rather than retyping. Deduplicate in your reference manager, note how many records were removed, and keep the raw exports untouched in a <code>/raw</code> folder. Never edit the raw export. If a later stage reveals a bad merge, you need the original file to recover it.</p>
 
-        <h2>Stage 4: screen in two passes with a written rule</h2>
-        <p>First pass: title and abstract against inclusion and exclusion criteria written before you start. Second pass: full text. Keep a screening log with one row per record and a reason code for every exclusion. Reason codes should be short and consistent — <code>E1 wrong construct</code>, <code>E2 wrong context</code>, <code>E3 not empirical</code>, <code>E4 inaccessible full text</code>. Free-text explanations feel more thorough but are impossible to summarise in a methods chapter.</p>
-        <p>Record borderline decisions separately rather than silently resolving them. If you are working with a supervisor, this is the list to bring to a meeting, and it is far more productive than asking "am I reading the right things?".</p>
+        <h2 data-i18n="i26">Stage 4: screen in two passes with a written rule</h2>
+        <p data-i18n="i27">First pass: title and abstract against inclusion and exclusion criteria written before you start. Second pass: full text. Keep a screening log with one row per record and a reason code for every exclusion. Reason codes should be short and consistent — <code>E1 wrong construct</code>, <code>E2 wrong context</code>, <code>E3 not empirical</code>, <code>E4 inaccessible full text</code>. Free-text explanations feel more thorough but are impossible to summarise in a methods chapter.</p>
+        <p data-i18n="i28">Record borderline decisions separately rather than silently resolving them. If you are working with a supervisor, this is the list to bring to a meeting, and it is far more productive than asking "am I reading the right things?".</p>
 
-        <h2>Stage 5: build a synthesis matrix, not an annotated bibliography</h2>
-        <p>An annotated bibliography is a list of summaries arranged by author. A synthesis matrix is a table arranged by <em>concept</em>, which is what a literature review chapter actually needs. Columns typically include: citation, theoretical lens, construct definition, sample and context, method, key finding, measured outcome, limitations, and how it relates to your research question. One row per study; one column per concept you will write about.</p>
-        <p>The payoff is structural. When every study's definition of the central construct sits in a single column, the inconsistencies in the literature become visible as a pattern rather than as twelve disconnected paragraphs. That pattern is usually the contribution of your review: not "researchers have studied X", but "researchers mean three different things by X, and the empirical results divide along those definitions".</p>
+        <h2 data-i18n="i29">Stage 5: build a synthesis matrix, not an annotated bibliography</h2>
+        <p data-i18n="i30">An annotated bibliography is a list of summaries arranged by author. A synthesis matrix is a table arranged by <em>concept</em>, which is what a literature review chapter actually needs. Columns typically include: citation, theoretical lens, construct definition, sample and context, method, key finding, measured outcome, limitations, and how it relates to your research question. One row per study; one column per concept you will write about.</p>
+        <p data-i18n="i31">The payoff is structural. When every study's definition of the central construct sits in a single column, the inconsistencies in the literature become visible as a pattern rather than as twelve disconnected paragraphs. That pattern is usually the contribution of your review: not "researchers have studied X", but "researchers mean three different things by X, and the empirical results divide along those definitions".</p>
 
-        <h2>Stage 6: version everything</h2>
-        <p>Keep the protocol, search log, screening log, synthesis matrix and manuscript in one folder under version control, or at minimum in dated snapshots. Use predictable names: <code>2026-03-14_screening-log_v3.csv</code>. When a supervisor asks you to widen the date range in month eight, you can rerun Stage 2, quantify exactly how many new records entered, and update the methods paragraph with real numbers instead of reconstructing the whole process from memory.</p>
+        <h2 data-i18n="i32">Stage 6: version everything</h2>
+        <p data-i18n="i33">Keep the protocol, search log, screening log, synthesis matrix and manuscript in one folder under version control, or at minimum in dated snapshots. Use predictable names: <code>2026-03-14_screening-log_v3.csv</code>. When a supervisor asks you to widen the date range in month eight, you can rerun Stage 2, quantify exactly how many new records entered, and update the methods paragraph with real numbers instead of reconstructing the whole process from memory.</p>
 
-        <h2>Stage 7: make the methods paragraph write itself</h2>
-        <p>If the first six stages are logged, the methods section is a transcription: databases searched, date of last search, exact strings or their location in an appendix, inclusion and exclusion criteria, number of records at each stage, and the coding scheme used in the matrix. Attach the search log as an appendix. This is also where you disclose limitations honestly — a single database, an English-only restriction, or a context restricted to one country.</p>
+        <h2 data-i18n="i34">Stage 7: make the methods paragraph write itself</h2>
+        <p data-i18n="i35">If the first six stages are logged, the methods section is a transcription: databases searched, date of last search, exact strings or their location in an appendix, inclusion and exclusion criteria, number of records at each stage, and the coding scheme used in the matrix. Attach the search log as an appendix. This is also where you disclose limitations honestly — a single database, an English-only restriction, or a context restricted to one country.</p>
 
-        <h2>Common failure modes</h2>
+        <h2 data-i18n="i36">Common failure modes</h2>
         <ul>
-          <li><strong>Search strings that drift.</strong> A slightly different string in week six produces a corpus nobody can reproduce. Always append to the log rather than silently substituting.</li>
-          <li><strong>Reference-manager fields used as a database.</strong> Notes and tags are convenient but hard to export and harder to audit. Keep the structured data in a plain CSV or spreadsheet.</li>
-          <li><strong>No exclusion reasons.</strong> "Not relevant" is not a reason; it is a missing record.</li>
-          <li><strong>Citation formatting left to the end.</strong> Reformatting 200 references the week before submission is where silent errors enter. Run a format audit early and again at the end.</li>
-          <li><strong>AI summaries without the source PDF.</strong> A generated summary is not evidence. Every coded cell in the matrix should trace back to a page number in a PDF you have opened.</li>
+          <li data-i18n="i37"><strong>Search strings that drift.</strong> A slightly different string in week six produces a corpus nobody can reproduce. Always append to the log rather than silently substituting.</li>
+          <li data-i18n="i38"><strong>Reference-manager fields used as a database.</strong> Notes and tags are convenient but hard to export and harder to audit. Keep the structured data in a plain CSV or spreadsheet.</li>
+          <li data-i18n="i39"><strong>No exclusion reasons.</strong> "Not relevant" is not a reason; it is a missing record.</li>
+          <li data-i18n="i40"><strong>Citation formatting left to the end.</strong> Reformatting 200 references the week before submission is where silent errors enter. Run a format audit early and again at the end.</li>
+          <li data-i18n="i41"><strong>AI summaries without the source PDF.</strong> A generated summary is not evidence. Every coded cell in the matrix should trace back to a page number in a PDF you have opened.</li>
         </ul>
 
         <div class="callout">
-          <p>Once the corpus is fixed, the mechanical work begins: check the reference list with the <a href="../tools/reference-check.html">reference list auditor</a> and read <a href="apa7-reference-list.html">the APA 7 reference list guide</a> for the formatting rules behind each flag.</p>
+          <p data-i18n="i42">Once the corpus is fixed, the mechanical work begins: check the reference list with the <a href="../tools/reference-check.html">reference list auditor</a> and read <a href="apa7-reference-list.html">the APA 7 reference list guide</a> for the formatting rules behind each flag.</p>
         </div>
 
-        <h2>Related guides</h2>
+        <h2 data-i18n="i43">Related guides</h2>
         <ul>
-          <li><a href="apa7-reference-list.html">The APA 7 reference list, checked line by line</a>.</li>
-          <li><a href="title-case-problem.html">Why your reference manager keeps exporting Title Case</a> — the most common export defect in a review corpus.</li>
-          <li><a href="apa7-in-text-citations.html">APA 7 in-text citations, decided in one page</a>.</li>
+          <li data-i18n="i44"><a href="apa7-reference-list.html">The APA 7 reference list, checked line by line</a>.</li>
+          <li data-i18n="i45"><a href="title-case-problem.html">Why your reference manager keeps exporting Title Case</a> — the most common export defect in a review corpus.</li>
+          <li data-i18n="i46"><a href="apa7-in-text-citations.html">APA 7 in-text citations, decided in one page</a>.</li>
         </ul>
 
-        <h2>Want the matrix as a fillable file?</h2>
-        <p>I use a 14-column version of this matrix on my own review — with a coding-confidence field and a PDF-page pointer so every claim traces back to a source. Email me and I'll send it, along with the 67-point submission checklist. If one reference is holding you up, paste it in the same message and I'll check it for free.</p>
-        <p><a class="btn" href="mailto:qpengking@gmail.com?subject=Literature%20review%20matrix%20please">Send me the matrix</a></p>
-        <p class="small">No sign-up and no mailing list. Please don't send drafts, chapters or participant data.</p>
+        <h2 data-i18n="i47">Want the matrix as a fillable file?</h2>
+        <p data-i18n="i48">I use a 14-column version of this matrix on my own review — with a coding-confidence field and a PDF-page pointer so every claim traces back to a source. Email me and I'll send it, along with the 67-point submission checklist. If one reference is holding you up, paste it in the same message and I'll check it for free.</p>
+        <p data-i18n="i49"><a class="btn" href="mailto:qpengking@gmail.com?subject=Literature%20review%20matrix%20please">Send me the matrix</a></p>
+        <p class="small" data-i18n="i50">No sign-up and no mailing list. Please don't send drafts, chapters or participant data.</p>
       </div>
     </section>
   </article>
@@ -114,5 +114,7 @@
 var years = document.querySelectorAll('.year');
 for (var y = 0; y < years.length; y++) { years[y].textContent = new Date().getFullYear(); }
 </script>
+<script src="../assets/js/i18n-data.js"></script>
+<script src="../assets/js/i18n.js"></script>
 </body>
 </html>

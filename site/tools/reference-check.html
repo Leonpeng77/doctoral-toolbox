@@ -28,21 +28,21 @@
 <main id="main">
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow">Free tool</p>
-      <h1>Reference list auditor</h1>
-      <p class="lede">Paste a whole reference list and get a line-by-line audit of fourteen recurring APA 7 mistakes. Every flag comes with the rule behind it, so you can decide whether it applies to your source.</p>
+      <p class="eyebrow" data-i18n="i1">Free tool</p>
+      <h1 data-i18n="i2">Reference list auditor</h1>
+      <p class="lede" data-i18n="i3">Paste a whole reference list and get a line-by-line audit of fourteen recurring APA 7 mistakes. Every flag comes with the rule behind it, so you can decide whether it applies to your source.</p>
     </div>
   </section>
 
   <section class="section" style="padding-top:36px">
     <div class="wrap">
       <div class="panel">
-        <label for="refs">Your reference list <span class="hint">- one entry per line</span></label>
+        <label for="refs" data-i18n="i4">Your reference list <span class="hint">- one entry per line</span></label>
         <textarea id="refs" rows="10" placeholder="Smith, J. A., &amp; Lee, B. (2024). Dynamic capabilities and firm performance. Journal of Business Research, 142(3), 45-67. https://doi.org/10.1016/j.jbusres.2023.114321"></textarea>
         <div class="btn-row">
-          <button class="btn" type="button" id="run">Audit references</button>
-          <button class="btn secondary" type="button" id="sample">Load a deliberately messy sample</button>
-          <button class="btn secondary" type="button" id="clear">Clear</button>
+          <button class="btn" type="button" id="run" data-i18n="i5">Audit references</button>
+          <button class="btn secondary" type="button" id="sample" data-i18n="i6">Load a deliberately messy sample</button>
+          <button class="btn secondary" type="button" id="clear" data-i18n="i7">Clear</button>
         </div>
       </div>
 
@@ -52,139 +52,139 @@
         <div class="stat"><b id="stat-warnings">0</b> warnings</div>
       </div>
 
-      <div id="results"><p class="small">Results appear here after you run the audit.</p></div>
+      <div id="results"><p class="small" data-i18n="i8">Results appear here after you run the audit.</p></div>
       <div class="callout" style="margin-top:22px">
-        <p><strong>One entry still looks wrong?</strong> Paste it into an email and I'll check it against APA 7 myself — free, and I'll send back the 67-point submission checklist I use on my own manuscript.</p>
-        <p style="margin-bottom:0"><a href="mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check">Send one reference &rarr;</a></p>
+        <p data-i18n="i9"><strong>One entry still looks wrong?</strong> Paste it into an email and I'll check it against APA 7 myself — free, and I'll send back the 67-point submission checklist I use on my own manuscript.</p>
+        <p style="margin-bottom:0" data-i18n="i10"><a href="mailto:qpengking@gmail.com?subject=One%20APA%207%20reference%20to%20check">Send one reference &rarr;</a></p>
       </div>
     </div>
   </section>
 
   <section class="section" id="smart-import">
     <div class="wrap">
-      <p class="eyebrow">Smart import</p>
-      <h2>Turn messy references into clean APA 7 entries</h2>
-      <p class="lede">Copied references rarely arrive in one format. Paste whatever you have — an old reference list, a Zotero export, a supervisor's comments, or a mix of Chinese and English punctuation — and the parser recovers the underlying fields, rebuilds each entry in APA 7, and audits the result.</p>
+      <p class="eyebrow" data-i18n="i11">Smart import</p>
+      <h2 data-i18n="i12">Turn messy references into clean APA 7 entries</h2>
+      <p class="lede" data-i18n="i13">Copied references rarely arrive in one format. Paste whatever you have — an old reference list, a Zotero export, a supervisor's comments, or a mix of Chinese and English punctuation — and the parser recovers the underlying fields, rebuilds each entry in APA 7, and audits the result.</p>
       <div class="panel">
-        <label for="messy">Messy references <span class="hint">- one entry per line</span></label>
+        <label for="messy" data-i18n="i14">Messy references <span class="hint">- one entry per line</span></label>
         <textarea id="messy" rows="7" placeholder="Paste references copied from a PDF, Word document or reference manager"></textarea>
         <div class="btn-row">
-          <button class="btn" type="button" id="parse-btn">Parse and rebuild</button>
-          <button class="btn secondary" type="button" id="load-messy">Load messy sample</button>
-          <button class="btn secondary" type="button" id="use-clean">Send rebuilt list to the auditor</button>
+          <button class="btn" type="button" id="parse-btn" data-i18n="i15">Parse and rebuild</button>
+          <button class="btn secondary" type="button" id="load-messy" data-i18n="i16">Load messy sample</button>
+          <button class="btn secondary" type="button" id="use-clean" data-i18n="i17">Send rebuilt list to the auditor</button>
         </div>
       </div>
-      <div id="parse-results" aria-live="polite"><p class="small">Rebuilt entries appear here.</p></div>
+      <div id="parse-results" aria-live="polite"><p class="small" data-i18n="i18">Rebuilt entries appear here.</p></div>
     </div>
 
     <div class="wrap narrow" style="margin-top:44px">
-      <h2>How the parser works</h2>
-      <p>It is a deterministic rule engine, not a language model. It looks for the four APA elements in order — author, date, title, source — then hands the recovered fields to the same formatter used by the <a href="apa7-citation.html">reference builder</a>. Because the logic is a set of explicit rules, you can inspect it, predict it, and disagree with it. Nothing is sent to a server, and nothing is stored.</p>
+      <h2 data-i18n="i19">How the parser works</h2>
+      <p data-i18n="i20">It is a deterministic rule engine, not a language model. It looks for the four APA elements in order — author, date, title, source — then hands the recovered fields to the same formatter used by the <a href="apa7-citation.html">reference builder</a>. Because the logic is a set of explicit rules, you can inspect it, predict it, and disagree with it. Nothing is sent to a server, and nothing is stored.</p>
 
-      <h3>What it recovers</h3>
+      <h3 data-i18n="i21">What it recovers</h3>
       <table>
-        <thead><tr><th>Messy input</th><th>Recovered as</th></tr></thead>
+        <thead><tr><th data-i18n="i22">Messy input</th><th data-i18n="i23">Recovered as</th></tr></thead>
         <tbody>
-          <tr><td><code>Smith, J. A. and Lee, B.</code></td><td>Two authors joined with the ampersand</td></tr>
-          <tr><td><code>doi:10.1016/j.xxx</code> or <code>dx.doi.org/...</code></td><td><code>https://doi.org/10.1016/j.xxx</code></td></tr>
-          <tr><td><code>Vol. 142, pp. 45-67</code></td><td>Volume 142, page range 45-67, no labels</td></tr>
-          <tr><td><code>Journal of Management 48(1), 12-30</code></td><td>Volume 48, issue 1, pages 12-30 — even without the comma before the volume</td></tr>
-          <tr><td><code>American Psychological Association</code></td><td>A corporate author, kept verbatim instead of being inverted into initials</td></tr>
-          <tr><td>Full-width <code>，。（）</code></td><td>Normalised to ASCII, with a warning that the original was changed</td></tr>
-          <tr><td><code>(7th ed.)</code> after a title</td><td>An edition field, removed from the title so it is not printed twice</td></tr>
+          <tr><td data-i18n="i24"><code>Smith, J. A. and Lee, B.</code></td><td data-i18n="i25">Two authors joined with the ampersand</td></tr>
+          <tr><td data-i18n="i26"><code>doi:10.1016/j.xxx</code> or <code>dx.doi.org/...</code></td><td data-i18n="i27"><code>https://doi.org/10.1016/j.xxx</code></td></tr>
+          <tr><td data-i18n="i28"><code>Vol. 142, pp. 45-67</code></td><td data-i18n="i29">Volume 142, page range 45-67, no labels</td></tr>
+          <tr><td data-i18n="i30"><code>Journal of Management 48(1), 12-30</code></td><td data-i18n="i31">Volume 48, issue 1, pages 12-30 — even without the comma before the volume</td></tr>
+          <tr><td data-i18n="i32"><code>American Psychological Association</code></td><td data-i18n="i33">A corporate author, kept verbatim instead of being inverted into initials</td></tr>
+          <tr><td data-i18n="i34">Full-width <code>，。（）</code></td><td data-i18n="i35">Normalised to ASCII, with a warning that the original was changed</td></tr>
+          <tr><td data-i18n="i36"><code>(7th ed.)</code> after a title</td><td data-i18n="i37">An edition field, removed from the title so it is not printed twice</td></tr>
         </tbody>
       </table>
 
-      <h3>What it refuses to guess</h3>
-      <p>The parser never rewrites your title into sentence case. Automatic conversion looks attractive and quietly destroys acronyms, proper nouns and named theoretical constructs — "Structural Equation Modeling", "Federal Reserve", "Dynamic Capabilities". Instead it preserves the title exactly and raises a warning when three or more capitalised words suggest Title Case or ALL CAPS. Changing those words is a scholarly decision, and it stays yours.</p>
-      <p>It also does not verify that a DOI resolves, that a journal exists, or that the cited source supports the claim in your text. No formatting tool can do that.</p>
+      <h3 data-i18n="i38">What it refuses to guess</h3>
+      <p data-i18n="i39">The parser never rewrites your title into sentence case. Automatic conversion looks attractive and quietly destroys acronyms, proper nouns and named theoretical constructs — "Structural Equation Modeling", "Federal Reserve", "Dynamic Capabilities". Instead it preserves the title exactly and raises a warning when three or more capitalised words suggest Title Case or ALL CAPS. Changing those words is a scholarly decision, and it stays yours.</p>
+      <p data-i18n="i40">It also does not verify that a DOI resolves, that a journal exists, or that the cited source supports the claim in your text. No formatting tool can do that.</p>
 
-      <h3>Known limits</h3>
+      <h3 data-i18n="i41">Known limits</h3>
       <ul>
-        <li>Best results come from one reference per line. A wrapped, multi-line entry will be treated as two entries.</li>
-        <li>Chapter and conference entries with complex "In ... (Ed.)" structures often need manual field entry in the <a href="apa7-citation.html">builder</a>.</li>
-        <li>Compound surnames and suffixes should still use the <code>Surname, Given</code> form.</li>
-        <li>A confidence score is shown per entry. Read it as "how many fields were found", not "how correct the reference is".</li>
+        <li data-i18n="i42">Best results come from one reference per line. A wrapped, multi-line entry will be treated as two entries.</li>
+        <li data-i18n="i43">Chapter and conference entries with complex "In ... (Ed.)" structures often need manual field entry in the <a href="apa7-citation.html">builder</a>.</li>
+        <li data-i18n="i44">Compound surnames and suffixes should still use the <code>Surname, Given</code> form.</li>
+        <li data-i18n="i45">A confidence score is shown per entry. Read it as "how many fields were found", not "how correct the reference is".</li>
       </ul>
 
-      <h3>Privacy</h3>
-      <p>This feature runs in your browser using the same local JavaScript as the rest of the site. A companion cloud API exists as a separate development prototype, but this page does not call it. You can confirm by watching the browser's network panel, or by disconnecting from the network entirely — smart import keeps working.</p>
+      <h3 data-i18n="i46">Privacy</h3>
+      <p data-i18n="i47">This feature runs in your browser using the same local JavaScript as the rest of the site. A companion cloud API exists as a separate development prototype, but this page does not call it. You can confirm by watching the browser's network panel, or by disconnecting from the network entirely — smart import keeps working.</p>
 
       <div class="callout">
-        <p>Workflow: paste → parse and rebuild → check the warnings → send the rebuilt list to the auditor → proofread italics and hanging indents in your manuscript. For the rules behind each flag, read <a href="../guides/apa7-reference-list.html">the APA 7 reference list guide</a>.</p>
+        <p data-i18n="i48">Workflow: paste → parse and rebuild → check the warnings → send the rebuilt list to the auditor → proofread italics and hanging indents in your manuscript. For the rules behind each flag, read <a href="../guides/apa7-reference-list.html">the APA 7 reference list guide</a>.</p>
       </div>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap narrow">
-      <p class="eyebrow">What it checks</p>
-      <h2>Fourteen rules, and why each one exists</h2>
-      <p>The auditor is a rule-based heuristic, not an AI and not a style authority. It looks for surface patterns that reliably indicate an APA 7 problem. That makes it fast, private and predictable — but it also means it can miss a genuinely wrong entry, and it can occasionally flag a legitimate one. Use it as a proofreading pass before you do the manual check, never instead of it.</p>
+      <p class="eyebrow" data-i18n="i49">What it checks</p>
+      <h2 data-i18n="i50">Fourteen rules, and why each one exists</h2>
+      <p data-i18n="i51">The auditor is a rule-based heuristic, not an AI and not a style authority. It looks for surface patterns that reliably indicate an APA 7 problem. That makes it fast, private and predictable — but it also means it can miss a genuinely wrong entry, and it can occasionally flag a legitimate one. Use it as a proofreading pass before you do the manual check, never instead of it.</p>
 
-      <h3>Errors: almost always wrong</h3>
+      <h3 data-i18n="i52">Errors: almost always wrong</h3>
       <table>
-        <thead><tr><th>Flag</th><th>Rule</th></tr></thead>
+        <thead><tr><th data-i18n="i53">Flag</th><th data-i18n="i54">Rule</th></tr></thead>
         <tbody>
-          <tr><td><code>doi:</code> prefix or <code>dx.doi.org</code></td><td>APA 7 renders every DOI as <code>https://doi.org/10.xxxx/...</code>. Older styles and older versions of reference managers still emit the prefixed form.</td></tr>
-          <tr><td>Authors joined with "and"</td><td>In a reference list the last two authors are joined with <code>&amp;</code>. "and" is correct only for narrative in-text citations.</td></tr>
-          <tr><td><code>et al.</code> in the list</td><td>Reference lists enumerate up to twenty authors. <code>et al.</code> is an in-text shorthand.</td></tr>
-          <tr><td><code>Vol.</code> or <code>Volume</code></td><td>The volume number follows the journal title directly, in italics, with no label.</td></tr>
-          <tr><td>Missing parenthesised year</td><td>The date element is mandatory, in parentheses. Use <code>(n.d.)</code> when there is genuinely no date.</td></tr>
-          <tr><td>Full-width punctuation</td><td>Chinese commas, periods and parentheses break citation parsers and are invisible when scanning by eye. This matters for bilingual theses.</td></tr>
+          <tr><td data-i18n="i55"><code>doi:</code> prefix or <code>dx.doi.org</code></td><td data-i18n="i56">APA 7 renders every DOI as <code>https://doi.org/10.xxxx/...</code>. Older styles and older versions of reference managers still emit the prefixed form.</td></tr>
+          <tr><td data-i18n="i57">Authors joined with "and"</td><td data-i18n="i58">In a reference list the last two authors are joined with <code>&amp;</code>. "and" is correct only for narrative in-text citations.</td></tr>
+          <tr><td data-i18n="i59"><code>et al.</code> in the list</td><td data-i18n="i60">Reference lists enumerate up to twenty authors. <code>et al.</code> is an in-text shorthand.</td></tr>
+          <tr><td data-i18n="i61"><code>Vol.</code> or <code>Volume</code></td><td data-i18n="i62">The volume number follows the journal title directly, in italics, with no label.</td></tr>
+          <tr><td data-i18n="i63">Missing parenthesised year</td><td data-i18n="i64">The date element is mandatory, in parentheses. Use <code>(n.d.)</code> when there is genuinely no date.</td></tr>
+          <tr><td data-i18n="i65">Full-width punctuation</td><td data-i18n="i66">Chinese commas, periods and parentheses break citation parsers and are invisible when scanning by eye. This matters for bilingual theses.</td></tr>
         </tbody>
       </table>
 
-      <h3>Warnings: check the source before changing anything</h3>
+      <h3 data-i18n="i67">Warnings: check the source before changing anything</h3>
       <table>
-        <thead><tr><th>Flag</th><th>Rule</th></tr></thead>
+        <thead><tr><th data-i18n="i68">Flag</th><th data-i18n="i69">Rule</th></tr></thead>
         <tbody>
-          <tr><td>"Retrieved from"</td><td>APA 7 drops it unless the source is designed to change over time and a retrieval date is meaningful, such as an archived dataset or a live statistics page.</td></tr>
-          <tr><td><code>pp.</code> before pages</td><td>Correct for a book chapter, wrong for a journal article. The auditor cannot tell the two apart reliably, so it warns instead of asserting.</td></tr>
-          <tr><td>Title Case or ALL CAPS</td><td>Reference titles use sentence case. BibTeX exports and database downloads frequently arrive in Title Case.</td></tr>
-          <tr><td>Ampersand without a preceding comma</td><td>With three or more authors, the serial comma before <code>&amp;</code> is required.</td></tr>
-          <tr><td>Double spaces</td><td>One space after punctuation.</td></tr>
-          <tr><td>Period after a URL</td><td>A full stop at the end of a link is often copied as part of the URL and breaks it.</td></tr>
-          <tr><td>"Available from" / "Accessed on"</td><td>Wording from other styles, most often Vancouver or Harvard variants.</td></tr>
-          <tr><td>No terminal period</td><td>Entries that do not end with a link should end with a period.</td></tr>
+          <tr><td data-i18n="i70">"Retrieved from"</td><td data-i18n="i71">APA 7 drops it unless the source is designed to change over time and a retrieval date is meaningful, such as an archived dataset or a live statistics page.</td></tr>
+          <tr><td data-i18n="i72"><code>pp.</code> before pages</td><td data-i18n="i73">Correct for a book chapter, wrong for a journal article. The auditor cannot tell the two apart reliably, so it warns instead of asserting.</td></tr>
+          <tr><td data-i18n="i74">Title Case or ALL CAPS</td><td data-i18n="i75">Reference titles use sentence case. BibTeX exports and database downloads frequently arrive in Title Case.</td></tr>
+          <tr><td data-i18n="i76">Ampersand without a preceding comma</td><td data-i18n="i77">With three or more authors, the serial comma before <code>&amp;</code> is required.</td></tr>
+          <tr><td data-i18n="i78">Double spaces</td><td data-i18n="i79">One space after punctuation.</td></tr>
+          <tr><td data-i18n="i80">Period after a URL</td><td data-i18n="i81">A full stop at the end of a link is often copied as part of the URL and breaks it.</td></tr>
+          <tr><td data-i18n="i82">"Available from" / "Accessed on"</td><td data-i18n="i83">Wording from other styles, most often Vancouver or Harvard variants.</td></tr>
+          <tr><td data-i18n="i84">No terminal period</td><td data-i18n="i85">Entries that do not end with a link should end with a period.</td></tr>
         </tbody>
       </table>
 
-      <h3>What it cannot see</h3>
-      <p>Italics are invisible in plain text, so the auditor cannot check whether a journal name or volume is italicised. It cannot verify that a DOI resolves, that a title really is sentence case when proper nouns are involved, that an issue number belongs to that volume, or that the source type you chose matches the source you actually used. It also cannot detect a missing author if the entry still contains a year. These are the items to check manually against the manual and against your own PDFs.</p>
+      <h3 data-i18n="i86">What it cannot see</h3>
+      <p data-i18n="i87">Italics are invisible in plain text, so the auditor cannot check whether a journal name or volume is italicised. It cannot verify that a DOI resolves, that a title really is sentence case when proper nouns are involved, that an issue number belongs to that volume, or that the source type you chose matches the source you actually used. It also cannot detect a missing author if the entry still contains a year. These are the items to check manually against the manual and against your own PDFs.</p>
 
-      <h3>A practical audit sequence</h3>
+      <h3 data-i18n="i88">A practical audit sequence</h3>
       <ol>
-        <li>Export your reference list from your manager as plain text, one entry per line. Do not export the formatted bibliography with hanging indents and blank lines — the auditor treats each non-empty line as one entry.</li>
-        <li>Run the audit and clear the errors first. Most of them come from a single outdated export style, so a global find-and-replace in your manager often fixes many lines at once.</li>
-        <li>Read the warnings against the source. A <code>pp.</code> on a book chapter is correct; a <code>pp.</code> on a journal article is not.</li>
-        <li>Paste the cleaned list back into your manuscript and check italics, hanging indent, alphabetical order and double spacing by eye.</li>
-        <li>Cross-check every in-text citation has a list entry, and every list entry is cited. No formatting tool can do that for you.</li>
+        <li data-i18n="i89">Export your reference list from your manager as plain text, one entry per line. Do not export the formatted bibliography with hanging indents and blank lines — the auditor treats each non-empty line as one entry.</li>
+        <li data-i18n="i90">Run the audit and clear the errors first. Most of them come from a single outdated export style, so a global find-and-replace in your manager often fixes many lines at once.</li>
+        <li data-i18n="i91">Read the warnings against the source. A <code>pp.</code> on a book chapter is correct; a <code>pp.</code> on a journal article is not.</li>
+        <li data-i18n="i92">Paste the cleaned list back into your manuscript and check italics, hanging indent, alphabetical order and double spacing by eye.</li>
+        <li data-i18n="i93">Cross-check every in-text citation has a list entry, and every list entry is cited. No formatting tool can do that for you.</li>
       </ol>
 
       <div class="callout">
-        <p>Building a list from scratch? Use the <a href="apa7-citation.html">APA 7 reference builder</a> first, then audit the assembled list. The <a href="../guides/apa7-reference-list.html">full reference list guide</a> walks through the four-element model with worked examples.</p>
+        <p data-i18n="i94">Building a list from scratch? Use the <a href="apa7-citation.html">APA 7 reference builder</a> first, then audit the assembled list. The <a href="../guides/apa7-reference-list.html">full reference list guide</a> walks through the four-element model with worked examples.</p>
       </div>
 
-      <h3>Privacy</h3>
-      <p>The audit runs entirely in your browser. Nothing you paste is transmitted, logged or stored — not in a database, not in local storage, not in a cookie. Reload the page and the text is gone. You can verify this by disconnecting from the network and running the audit again.</p>
+      <h3 data-i18n="i95">Privacy</h3>
+      <p data-i18n="i96">The audit runs entirely in your browser. Nothing you paste is transmitted, logged or stored — not in a database, not in local storage, not in a cookie. Reload the page and the text is gone. You can verify this by disconnecting from the network and running the audit again.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
-      <p class="eyebrow">Related reading</p>
-      <h2>Understand the rules behind the output</h2>
+      <p class="eyebrow" data-i18n="i97">Related reading</p>
+      <h2 data-i18n="i98">Understand the rules behind the output</h2>
       <div class="grid">
         <a class="card" href="../guides/apa7-reference-list.html">
-          <span class="tag">Guide</span>
-          <h3>The APA 7 reference list, checked line by line</h3>
-          <p>The four-element model, author rules, sentence case, italics, DOI formatting and a pre-submission checklist for the whole list.</p>
+          <span class="tag" data-i18n="i99">Guide</span>
+          <h3 data-i18n="i100">The APA 7 reference list, checked line by line</h3>
+          <p data-i18n="i101">The four-element model, author rules, sentence case, italics, DOI formatting and a pre-submission checklist for the whole list.</p>
         </a>
         <a class="card" href="../guides/dba-literature-review-workflow.html">
-          <span class="tag">Guide</span>
-          <h3>A reproducible literature review workflow</h3>
-          <p>Seven stages from search string to synthesis matrix, with the audit trail that survives a supervisor's questions and a methods chapter.</p>
+          <span class="tag" data-i18n="i102">Guide</span>
+          <h3 data-i18n="i103">A reproducible literature review workflow</h3>
+          <p data-i18n="i104">Seven stages from search string to synthesis matrix, with the audit trail that survives a supervisor's questions and a methods chapter.</p>
         </a>
       </div>
     </div>
@@ -223,27 +223,56 @@
     return node;
   }
 
+  function lang() { return window.DT_I18N ? window.DT_I18N.lang() : 'en'; }
+  function zh(en, cn) { return lang() === 'zh' ? cn : en; }
+
+  /* Map the parser's English warnings to Chinese without touching the
+     parser itself (it is also required by Node tests). */
+  var WARN_KEYS = [
+    ['No author entered.', 'noAuthor'],
+    ['No year entered', 'noYear'],
+    ['No title entered.', 'noTitle'],
+    ['title looks like Title Case', 'titleCase'],
+    ['No DOI supplied.', 'noDoi'],
+    ['Enter a publisher', 'noPublisher'],
+    ['Enter the book title', 'noBookTitle'],
+    ['Enter the full URL', 'noUrl']
+  ];
+  function localiseWarning(message) {
+    if (lang() !== 'zh' || !window.DT_MSGS) { return message; }
+    for (var i = 0; i < WARN_KEYS.length; i++) {
+      if (message.indexOf(WARN_KEYS[i][0]) > -1) {
+        return window.DT_MSGS.get(WARN_KEYS[i][1]);
+      }
+    }
+    return message;
+  }
+
   function run() {
-    var report = window.RefCheck.check(input.value);
+    var report = window.RefCheck.check(input.value, lang());
     document.getElementById('stat-lines').textContent = report.lines;
     document.getElementById('stat-errors').textContent = report.errors;
     document.getElementById('stat-warnings').textContent = report.warnings;
     out.innerHTML = '';
 
     if (!report.lines) {
-      out.appendChild(el('p', 'small', 'Paste at least one reference above.'));
+      out.appendChild(el('p', 'small', zh('Paste at least one reference above.', '请在上方粘贴至少一条参考文献。')));
       return;
     }
     if (report.clean) {
-      out.appendChild(el('p', '', 'No issues found by these ' + report.ruleCount + ' rules. Still check italics, alphabetical order, hanging indent and in-text cross-references manually.'));
+      out.appendChild(el('p', '', zh(
+        'No issues found by these ' + report.ruleCount + ' rules. Still check italics, alphabetical order, hanging indent and in-text cross-references manually.',
+        '这 ' + report.ruleCount + ' 条规则未发现问题。斜体、字母顺序、悬挂缩进和文内交叉引用仍需人工核对。')));
       return;
     }
     report.issues.forEach(function (issue) {
       var box = el('div', 'issue' + (issue.severity === 'error' ? ' error' : ''));
-      box.appendChild(el('strong', '', 'Line ' + issue.line + ': ' + issue.title));
-      box.appendChild(el('span', 'meta', issue.severity === 'error' ? 'Likely error' : 'Worth checking'));
+      box.appendChild(el('strong', '', zh('Line ', '第 ') + issue.line + zh(': ', ' 行：') + issue.title));
+      box.appendChild(el('span', 'meta', zh(
+        issue.severity === 'error' ? 'Likely error' : 'Worth checking',
+        issue.severity === 'error' ? '很可能是错误' : '值得核对')));
       box.appendChild(el('p', '', issue.why));
-      var fix = el('p', '', 'Fix: ');
+      var fix = el('p', '', zh('Fix: ', '改法：'));
       fix.appendChild(el('span', '', issue.fix));
       box.appendChild(fix);
       box.appendChild(el('code', '', issue.excerpt));
@@ -276,7 +305,7 @@
     var items = window.RefParser.parseList(messy.value);
     parseOut.innerHTML = '';
     if (!items.length) {
-      parseOut.appendChild(el('p', 'small', 'Paste at least one reference above.'));
+      parseOut.appendChild(el('p', 'small', zh('Paste at least one reference above.', '请在上方粘贴至少一条参考文献。')));
       lastRebuilt = '';
       return;
     }
@@ -286,7 +315,7 @@
 
     items.forEach(function (parsed, i) {
       var built = window.APA7.formatReference(parsed.fields);
-      var audit = window.RefCheck.check(built.text);
+      var audit = window.RefCheck.check(built.text, lang());
       rebuilt.push(built.text);
       totalWarnings += parsed.warnings.length;
       totalIssues += audit.issues.length;
@@ -294,29 +323,32 @@
       var card = el('div', 'panel');
       card.style.marginTop = '18px';
       card.appendChild(el('p', 'small',
-        'Entry ' + (i + 1) + ' · ' + parsed.fields.type +
-        ' · field completeness ' + Math.round(parsed.confidence * 100) + '%'));
-      card.appendChild(el('p', 'small', 'Original'));
+        zh('Entry ', '第 ') + (i + 1) + ' · ' + parsed.fields.type +
+        zh(' · field completeness ', ' · 字段完整度 ') + Math.round(parsed.confidence * 100) + '%'));
+      card.appendChild(el('p', 'small', zh('Original', '原始输入')));
       card.appendChild(el('div', 'example', parsed.raw));
-      card.appendChild(el('p', 'small', 'Rebuilt in APA 7'));
+      card.appendChild(el('p', 'small', zh('Rebuilt in APA 7', '重建为 APA 7')));
       card.appendChild(el('div', 'output', built.text));
 
       parsed.warnings.forEach(function (w) {
-        card.appendChild(el('div', 'issue', w));
+        card.appendChild(el('div', 'issue', localiseWarning(w)));
       });
       audit.issues.forEach(function (issue) {
         card.appendChild(el('div', 'issue' + (issue.severity === 'error' ? ' error' : ''),
           issue.title + ' — ' + issue.fix));
       });
       if (!parsed.warnings.length && !audit.issues.length) {
-        card.appendChild(el('p', 'small', 'No warnings. Still proofread italics and hanging indent.'));
+        card.appendChild(el('p', 'small', zh('No warnings. Still proofread italics and hanging indent.',
+          '无警告。斜体和悬挂缩进仍需人工核对。')));
       }
       parseOut.appendChild(card);
     });
 
     lastRebuilt = rebuilt.join('\n');
     var summary = el('div', 'stat-row');
-    [['Entries', items.length], ['Parse warnings', totalWarnings], ['Residual issues', totalIssues]]
+    [[zh('Entries', '条目'), items.length],
+     [zh('Parse warnings', '解析警告'), totalWarnings],
+     [zh('Residual issues', '剩余问题'), totalIssues]]
       .forEach(function (pair) {
         var box = el('div', 'stat');
         box.appendChild(el('b', '', String(pair[1])));
@@ -334,7 +366,7 @@
   document.getElementById('use-clean').addEventListener('click', function () {
     if (!lastRebuilt) {
       parseOut.innerHTML = '';
-      parseOut.appendChild(el('p', 'small', 'Parse the references first.'));
+      parseOut.appendChild(el('p', 'small', zh('Parse the references first.', '请先解析参考文献。')));
       return;
     }
     input.value = lastRebuilt;
@@ -344,7 +376,16 @@
 
   var years = document.querySelectorAll('.year');
   for (var y = 0; y < years.length; y++) { years[y].textContent = new Date().getFullYear(); }
+
+  /* Redraw generated results when the visitor switches language. */
+  window.addEventListener('dt:langchange', function () {
+    if (input.value.trim()) { run(); }
+    if (messy.value.trim()) { renderParse(); }
+  });
 })();
 </script>
+<script src="../assets/js/i18n-runtime.js"></script>
+<script src="../assets/js/i18n-data.js"></script>
+<script src="../assets/js/i18n.js"></script>
 </body>
 </html>

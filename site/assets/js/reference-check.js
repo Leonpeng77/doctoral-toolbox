@@ -151,7 +151,26 @@
     }
   ];
 
-  function check(input) {
+  /* Optional lang: 'en' (default) or 'zh'. The rule engine is identical;
+     only the wording of title/fix is localised. Node tests omit lang and
+     therefore keep the original English strings. */
+  var MSG_MAP = {
+    'doi-prefix': 'doiNotUrl',
+    'retrieved-from': 'retrievedFrom',
+    'and-in-authors': 'andAuthors',
+    'et-al-in-list': 'etAlInList',
+    'pp-in-journal': 'ppBeforePages',
+    'vol-word': 'volLabel',
+    'missing-year': 'noYear',
+    'all-caps-title': 'titleCase',
+    'ampersand-no-comma': 'missingComma',
+    'double-space': 'doubleSpace',
+    'fullwidth-punctuation': 'fullWidth',
+    'period-after-url': 'periodAfterUrl',
+    'available-from': 'availableFrom'
+  };
+
+  function check(input, lang) {
     var lines = String(input == null ? '' : input)
       .split(/\r?\n/)
       .map(function (s) { return s.trim(); })
@@ -162,13 +181,18 @@
         var hit = false;
         try { hit = !!rule.test(line); } catch (e) { hit = false; }
         if (hit) {
+          var title = rule.title, fix = rule.fix;
+          if (lang === 'zh' && typeof window !== 'undefined' && window.DT_MSGS) {
+            var m = window.DT_MSGS.rule(MSG_MAP[rule.id]);
+            if (m) { title = m.title; fix = m.fix; }
+          }
           issues.push({
             line: index + 1,
             id: rule.id,
             severity: rule.severity,
-            title: rule.title,
+            title: title,
             why: rule.why,
-            fix: rule.fix,
+            fix: fix,
             excerpt: line.length > 160 ? line.slice(0, 160) + '...' : line
           });
         }

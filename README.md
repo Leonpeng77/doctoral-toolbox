@@ -1,5 +1,17 @@
 # Doctoral Toolbox — 学术工具站启动包
 
+## 中英双语（2026-11-11）
+
+全站 13 个页面可一键切换中英文，右上角 `EN / 中文` 按钮。实测 666 个文本块 100% 有中文译文，含 6 篇指南的全文；内联标签（`<strong>`/`<em>`/`<code>`/`<a>`）全部保留。工具页的动态警告、解析结果和复制提示也随语言切换。
+
+- 零依赖、零网络请求：译文在本地 JS 字典里，不 fetch、不上传
+- 偏好只存访客自己的 `localStorage`，跨页面保持
+- 切换后 `<html lang>` 同步变为 `zh-CN`，便于可访问性与排版
+- 中文译文人工撰写，非机器翻译（见 `site/NOTICE.txt`）
+- 生成器/体检器**不会**因为切到中文就改写你输入的标题——规则引擎两端完全一致
+
+维护流程：`i18n-zh.py` 是译文源文件 → `.buildenv/bin/python i18n_generate.py` 生成 `site/assets/js/i18n-data.js`。新增文案后跑 `python3 i18n_build.py` 提取标记、补齐译文、再生成。实测 `JSDOM_PATH=... node tests/i18n.test.js`（23 项）。
+
 ## 已上线（2026-11-10 实测 200）
 
 **网站在线地址**：`https://doctoral-toolbox.app.workbuddy.host/?sharecode=VXUSWE73DG`

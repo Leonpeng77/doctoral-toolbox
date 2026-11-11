@@ -39,3 +39,11 @@ are referenced for descriptive purposes only. This site is not affiliated
 with, endorsed by, or sponsored by the American Psychological Association.
 The tools implement commonly described formatting patterns; they do not
 reproduce the manual's text.
+
+Bilingual layer
+---------------
+assets/js/i18n.js, i18n-data.js and i18n-runtime.js are first-party code
+written for this site. The Chinese translations are original and written
+for this project, not machine-generated. The chosen language is stored
+only in the visitor's own localStorage; no preference or translation data
+is transmitted or stored on a server.
