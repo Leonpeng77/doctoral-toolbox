@@ -10,8 +10,14 @@
 
 | # | 标题 | 文件 | 实测词数 |
 |---|---|---|---|
-| 1 | The APA 7 reference list, checked line by line | `site/guides/apa7-reference-list.html` | 1066 |
-| 2 | A reproducible literature review workflow for doctoral students | `site/guides/dba-literature-review-workflow.html` | 1098 |
+| 1 | The APA 7 reference list, checked line by line | `site/guides/apa7-reference-list.html` | 1181 |
+| 2 | A reproducible literature review workflow for doctoral students | `site/guides/dba-literature-review-workflow.html` | 1184 |
+| 3 | APA 7 in-text citations, decided in one page | `site/guides/apa7-in-text-citations.html` | 1464 |
+| 4 | APA 6 to APA 7: what actually changed | `site/guides/apa6-to-apa7.html` | 1217 |
+| 5 | Why your reference manager keeps exporting Title Case | `site/guides/title-case-problem.html` | 1118 |
+| 6 | Citing a dissertation or thesis in APA 7 | `site/guides/apa7-dissertations.html` | 1094 |
+
+**进度：12 篇计划中已上线 6 篇。** 全部词数由 `verify.py` 剥离标签后实测。六篇之间已建立互链（每篇 4–6 条出链），236 条站内相对链接零死链。
 
 工具页正文实测：`apa7-citation.html` 923 词、`reference-check.html` 1324 词（含智能导入说明）。词数由 `verify.py` 剥离标签后实测，非估算。
 
@@ -19,7 +25,7 @@
 
 ## 待写 10 篇（按优先级排序）
 
-### 3. APA 7 in-text citations: every rule in one page
+### 3. APA 7 in-text citations: every rule in one page ✅ 已上线
 - **目标词**：`apa 7 in-text citation rules` / `apa 7 multiple authors in text`
 - **意图**：查规则（最高频、常青、易排名）
 - **大纲**：括号式 vs 叙述式；1/2/3+ 作者；`et al.` 从第一次引用起；团体作者缩写规则；同作者同年 a/b；无日期与无页码；直接引用页码；个人通信；多个文献在同一括号内排序
@@ -27,21 +33,21 @@
 - **内链**：→ APA 7 生成器、参考文献列表指南
 - **CTA**：用生成器检查作者串
 
-### 4. APA 7 vs APA 6: what actually changed in your reference list
+### 4. APA 7 vs APA 6: what actually changed in your reference list ✅ 已上线
 - **目标词**：`apa 6 vs apa 7 changes` / `apa 7 publisher location`
 - **意图**：迁移排查
 - **大纲**：出版社地点取消；`Retrieved from` 取消；DOI 统一为 URL；20 位作者规则；`[Doctoral dissertation]` 方括号描述；网页与社交媒体条目；无障碍语言
 - **原创点**：可直接跑的「旧稿迁移 checklist」，配迁移前后对照
 - **内链**：→ 参考文献体检工具（用 `doi:` / `Retrieved from` 规则反查）
 
-### 5. Why your reference manager keeps exporting Title Case (and how to fix it)
+### 5. Why your reference manager keeps exporting Title Case (and how to fix it) ✅ 已上线
 - **目标词**：`zotero title case apa` / `sentence case reference list`
 - **意图**：具体故障排查（长尾、转化好）
 - **大纲**：数据库存储的是 Title Case；保护专有名词的字段；批量转换的风险；逐条人工复核流程；为何自动转换会破坏缩写与理论构念名
 - **原创点**：一份「不可自动小写」的术语清单（SEM、Tobin's Q、Dynamic Capabilities、机构名等）
 - **内链**：→ APA 7 生成器（说明为何工具拒绝自动改写标题）
 
-### 6. How to cite a dissertation, thesis and institutional repository in APA 7
+### 6. How to cite a dissertation, thesis and institutional repository in APA 7 ✅ 已上线
 - **目标词**：`apa 7 cite dissertation` / `apa 7 thesis proquest`
 - **意图**：DBA 学生高相关，竞争低
 - **大纲**：已发表 vs 未发表；方括号描述；机构名；ProQuest / 机构库；博士论文 vs 硕士论文；引用自己未发表的论文

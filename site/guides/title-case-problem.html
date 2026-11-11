@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why your reference manager keeps exporting Title Case | Doctoral Toolbox</title>
+<meta name="description" content="Why Zotero, EndNote and journal databases export article titles in Title Case, why automatic sentence-case conversion damages acronyms and named constructs, and a safe manual workflow to fix a reference list.">
+<link rel="canonical" href="https://doctoral-toolbox.app.workbuddy.host/guides/title-case-problem.html">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../index.html">Doctoral <span>Toolbox</span></a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="../tools/apa7-citation.html">APA 7 generator</a>
+      <a href="../tools/reference-check.html">Reference checker</a>
+      <a href="apa7-reference-list.html">Guides</a>
+      <a href="../free/apa7-checklist.html">Free checklist</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<article>
+  <section class="hero">
+    <div class="wrap narrow">
+      <p class="eyebrow">Guide &middot; Troubleshooting</p>
+      <h1>Why your reference manager keeps exporting Title Case</h1>
+      <p class="lede">You change the style to APA 7, export again, and every article title is still Capitalised Like This. The problem is not the style file. It is the data underneath it — and the fix is not the one most people try.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap narrow">
+      <h2>The database stored capitals, not words</h2>
+      <p>Most bibliographic records arrive from publisher databases with titles already capitalised. Web of Science, Scopus, Crossref and the publisher's own site typically supply the title in title case, because that is how journal tables of contents are typeset. Your reference manager imports that string and stores it as-is. The output style then decides what to do with it.</p>
+      <p>Here is the crucial distinction: <strong>an APA 7 style file changes punctuation, order and italics. It does not reliably change the case of the letters you stored.</strong> Some styles apply a case transformation at export; many do not, and those that do are inconsistent across reference types. So the same library can export one article title in sentence case and the next in Title Case, depending on where each record came from.</p>
+      <p>This is why changing the style again rarely helps. The style is behaving correctly with the data it was given. The capitals are in the record.</p>
+
+      <h2>What APA 7 actually requires</h2>
+      <p>Reference-list titles — article titles, book titles, chapter titles, dissertation titles — use <strong>sentence case</strong>. Capitalise the first word, the first word after a colon, and proper nouns. Everything else is lowercase. Journal names are the exception: they appear in Title Case and are italicised, along with the volume number.</p>
+      <div class="example">Wrong:  Dynamic Capabilities And Firm Performance in Chinese Firms
+Right:  Dynamic capabilities and firm performance in Chinese firms
+
+Wrong:  AI Governance: A Framework For Public Sector Innovation
+Right:  AI governance: A framework for public sector innovation</div>
+      <p>Note the second example. The word after the colon is capitalised because it begins a new clause, but "AI" keeps its capitals because it is an acronym. That interaction is exactly where automatic conversion fails.</p>
+
+      <h2>Why the auto-convert button is dangerous</h2>
+      <p>It is tempting to select the whole reference list and apply "sentence case". Do not. A case converter is a simple algorithm: lowercase everything except the first word and the word after a colon. It has no idea what a proper noun or a named construct is. The damage is silent, because the result still looks plausible.</p>
+      <p>These are the categories it will break, drawn from real doctoral writing:</p>
+      <table>
+        <thead><tr><th>Category</th><th>Keep as written</th><th>Auto-converter output</th></tr></thead>
+        <tbody>
+          <tr><td>Acronyms and initialisms</td><td>AI governance, CSR disclosure, ROA, SEM</td><td>Ai governance, Csr disclosure, Roa, Sem</td></tr>
+          <tr><td>Named theories and constructs</td><td>Dynamic Capabilities, Resource-Based View</td><td>Dynamic capabilities, Resource-based view</td></tr>
+          <tr><td>Proper nouns and places</td><td>Chinese firms, European Union, Tobin's Q</td><td>Chinese firms (ok), European union, Tobin's q</td></tr>
+          <tr><td>Organisation and product names</td><td>Google Scholar, Microsoft Excel, Amazon Web Services</td><td>Google scholar, Microsoft excel, Amazon web services</td></tr>
+          <tr><td>Statistical and technical terms</td><td>Tobin's Q, p Values, R&D Investment</td><td>Tobin's q, P values, R&d investment</td></tr>
+          <tr><td>Non-English terms in a bilingual list</td><td>企业社会责任 (keep original form)</td><td>Unpredictable</td></tr>
+        </tbody>
+      </table>
+      <p>The second row deserves attention in a management or strategy dissertation. If "Dynamic Capabilities" is the name of a specific framework you are testing rather than a descriptive phrase, capitalising it is a legitimate disciplinary choice. A blanket converter removes that distinction without asking. This is why the <a href="../tools/apa7-citation.html">reference builder on this site</a> preserves the title exactly as you type it and only raises a warning when several words look inappropriately capitalised.</p>
+
+      <h2>The safe workflow: fix the record, not the output</h2>
+      <p>The durable solution is to correct the title in your reference manager once, so every future export is right. Work in small batches and follow this order.</p>
+      <ol>
+        <li><strong>Export a plain-text copy of the list first.</strong> It gives you a stable before-state and makes it easy to spot which entries are wrong.</li>
+        <li><strong>Sort by source type.</strong> Journal articles need sentence case; book and journal titles in the container field do not. Mixing them in one bulk operation is how journals get lowercased.</li>
+        <li><strong>Edit the title field in the manager</strong>, not in the Word document. If you fix it only in the manuscript, the next export undoes your work.</li>
+        <li><strong>Lock the exceptions first.</strong> Before touching anything else, mark every acronym, proper noun and named construct in the batch. Then convert the rest.</li>
+        <li><strong>Check the first word after each colon.</strong> It should be capitalised; converters sometimes miss it.</li>
+        <li><strong>Re-export and run the list through the <a href="../tools/reference-check.html">reference list auditor</a>.</strong> It flags likely Title Case and ALL CAPS, and it flags the full-width punctuation that often arrives with Chinese-language records.</li>
+      </ol>
+
+      <h2>Zotero and EndNote specifics</h2>
+      <p>In Zotero, the title is stored in the <em>Title</em> field and the journal name in <em>Publication Title</em>. Editing the Title field changes the data; the "case" toggles in the item pane only change how it is displayed, and behaviour differs by version. If your Zotero output still emits Title Case after the field is corrected, check for a style override and for any post-processing script attached to the export.</p>
+      <p>In EndNote, check both the reference's Title field and the output style's "Capitalization" option. Some styles apply a transformation at format time, which means a correctly stored title can still be altered on export. Turn that transformation off for APA 7 rather than compensating for it by hand.</p>
+      <p>If you are migrating from a Chinese database such as CNKI, expect three issues together: Title Case, full-width punctuation, and a journal name that may be stored in Chinese characters. The first two are mechanical. The third is a decision — see how your institution wants Chinese-language sources handled in an English dissertation before you reformat them.</p>
+
+      <h2>A five-minute verification pass</h2>
+      <ol>
+        <li>Search the exported list for sequences of three or more capitalised words — that is where Title Case survives.</li>
+        <li>Check every acronym for accidental lowercasing: <code>AI</code>, <code>CSR</code>, <code>ROA</code>, <code>SEM</code>, <code>Tobin's Q</code>.</li>
+        <li>Check that journal names and volume numbers are still italic and still in Title Case.</li>
+        <li>Check the word after every colon.</li>
+        <li>Confirm that no Chinese punctuation marks remain in an English entry.</li>
+      </ol>
+      <p>For the full rules on author counts, italics and DOIs, read <a href="apa7-reference-list.html">The APA 7 reference list, checked line by line</a>. If one entry still looks wrong after this pass, <a href="../index.html#one-free-thing">send it to me</a> — sentence-case disputes are the most common email I expect to receive.</p>
+
+        <h2>Related guides</h2>
+  <ul>
+    <li><a href="apa7-reference-list.html">The APA 7 reference list, checked line by line</a>.</li>
+    <li><a href="apa7-in-text-citations.html">APA 7 in-text citations, decided in one page</a>.</li>
+    <li><a href="apa6-to-apa7.html">APA 6 to APA 7: what actually changed</a>.</li>
+  </ul>
+
+<div class="callout">
+        <p>Rule of thumb: change the stored record, never just the exported document. If the fix disappears on the next export, you fixed the symptom.</p>
+      </div>
+    </div>
+  </section>
+</article>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <span>&copy; <span class="year">2026</span> Doctoral Toolbox. Formatting aids, not style authority.</span>
+    <span><a href="../about.html">About</a> &middot; <a href="../contact.html">Contact</a> &middot; <a href="../privacy.html">Privacy</a></span>
+  </div>
+</footer>
+<script>
+var years = document.querySelectorAll('.year');
+for (var y = 0; y < years.length; y++) { years[y].textContent = new Date().getFullYear(); }
+</script>
+</body>
+</html>

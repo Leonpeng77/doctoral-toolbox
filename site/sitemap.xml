@@ -9,4 +9,8 @@
   <url><loc>https://doctoral-toolbox.app.workbuddy.host/about.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
   <url><loc>https://doctoral-toolbox.app.workbuddy.host/contact.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://doctoral-toolbox.app.workbuddy.host/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://doctoral-toolbox.app.workbuddy.host/guides/apa7-in-text-citations.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://doctoral-toolbox.app.workbuddy.host/guides/apa6-to-apa7.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://doctoral-toolbox.app.workbuddy.host/guides/apa7-dissertations.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://doctoral-toolbox.app.workbuddy.host/guides/title-case-problem.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
